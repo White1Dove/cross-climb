@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* CrossClimb Theme Colors */
+  --background: #F1EFE8;
+  --foreground: #1a1a2e;
+  --card: #FFFFFF;
+  --card-foreground: #1a1a2e;
+  --popover: #FFFFFF;
+  --popover-foreground: #1a1a2e;
+  --primary: #4A1B0C;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F1EFE8;
+  --secondary-foreground: #1a1a2e;
+  --muted: #F1EFE8;
+  --muted-foreground: #78716C;
+  --accent: #854F0B;
+  --accent-foreground: #FFFFFF;
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: #E7E3DA;
+  --input: #E7E3DA;
+  --ring: #4A1B0C;
+  --radius: 0.5rem;
+  
+  /* Custom CrossClimb Colors */
+  --teal: #0F6E56;
+  --gold: #854F0B;
+  --masked: #C4BFB6;
+  --cream: #F1EFE8;
+}
+
+@theme inline {
+  --font-sans: 'Lora', Georgia, serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-mono: 'Geist Mono', monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  
+  /* Custom colors */
+  --color-teal: var(--teal);
+  --color-gold: var(--gold);
+  --color-masked: var(--masked);
+  --color-cream: var(--cream);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
