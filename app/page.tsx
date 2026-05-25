@@ -3,7 +3,8 @@ import Link from "next/link";
 import { GameTabs } from "@/components/game-tabs";
 import { LadderCard } from "@/components/ladder-card";
 import { CountdownTimer } from "@/components/countdown-timer";
-import { mockPuzzleData } from "@/data/mock-puzzle";
+import currentCrossclimbPuzzle from "@/data/current-crossclimb.json";
+import crossclimbHistory from "@/data/crossclimb-history.json";
 import { PuzzleData, GameTab } from "@/types/puzzle";
 
 const gameTabs: GameTab[] = [
@@ -16,22 +17,18 @@ const gameTabs: GameTab[] = [
   { name: "Mini Sudoku", slug: "mini-sudoku" },
 ];
 
-const previousPuzzles = [
-  { number: 753, date: "May 23" },
-  { number: 752, date: "May 22" },
-  { number: 751, date: "May 21" },
-  { number: 750, date: "May 20" },
-  { number: 749, date: "May 19" },
-  { number: 748, date: "May 18" },
-  { number: 747, date: "May 17" },
-];
+const currentPuzzle = currentCrossclimbPuzzle as PuzzleData;
+
+const previousPuzzles = crossclimbHistory
+  .filter((p) => p.number !== currentPuzzle.puzzle_number)
+  .slice(0, 7);
 
 interface CrossClimbPageProps {
   puzzle?: PuzzleData;
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const p = mockPuzzleData;
+  const p = currentPuzzle;
   const topWord = p.solution.top_word;
   const bottomWord = p.solution.bottom_word;
 
@@ -59,7 +56,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function CrossClimbPage({ puzzle = mockPuzzleData }: CrossClimbPageProps) {
+export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPageProps) {
   return (
     <div className="min-h-screen bg-[#F1EFE8]">
       {/* Header */}

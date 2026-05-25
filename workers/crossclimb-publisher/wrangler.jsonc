@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "crossclimb-log-publisher",
+  "main": "src/index.js",
+  "compatibility_date": "2026-05-25",
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "GITHUB_OWNER": "White1Dove",
+    "GITHUB_REPO": "cross-climb",
+    "GITHUB_EVENT_TYPE": "crossclimb_log"
+  }
+}
