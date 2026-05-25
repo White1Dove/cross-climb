@@ -1,99 +1,99 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 754,
-  "puzzle_date": "May 24, 2026",
-  "puzzle_label": "Crossclimb #754",
+  "puzzle_number": 755,
+  "puzzle_date": "May 25, 2026",
+  "puzzle_label": "Crossclimb #755",
   "normalized_puzzle": {
     "word_count": 7,
-    "word_length": 6,
+    "word_length": 4,
     "middle_word_count": 5,
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A two-word phrase for what someone who cleaned up after dinner did. Keep in mind: The first word may be at the bottom.",
-        "word": "WASHED",
-        "answer_length": 6
+        "clue": "The top + bottom rows = A two-word phrase for a comfortable chair for two. Keep in mind: The first word may be at the bottom.",
+        "word": "LOVE",
+        "answer_length": 4
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Crushed into a soft form like some potatoes",
-        "word": "MASHED",
-        "answer_length": 6
+        "clue": "Suffer a defeat",
+        "word": "LOSE",
+        "answer_length": 4
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Came together as a single large group",
-        "word": "MASSED",
-        "answer_length": 6
+        "clue": "“Not all those who wander are ___”",
+        "word": "LOST",
+        "answer_length": 4
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Didn't hit the target",
-        "word": "MISSED",
-        "answer_length": 6
+        "clue": "Not all, but close",
+        "word": "MOST",
+        "answer_length": 4
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Peppered with insults, in slang",
-        "word": "DISSED",
-        "answer_length": 6
+        "clue": "Trench dug around a castle",
+        "word": "MOAT",
+        "answer_length": 4
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Spread some gossip",
-        "word": "DISHED",
-        "answer_length": 6
+        "clue": "Option that vegetarians don't order",
+        "word": "MEAT",
+        "answer_length": 4
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A two-word phrase for what someone who cleaned up after dinner did. Keep in mind: The first word may be at the bottom.",
-        "word": "DISHES",
-        "answer_length": 6
+        "clue": "The top + bottom rows = A two-word phrase for a comfortable chair for two. Keep in mind: The first word may be at the bottom.",
+        "word": "SEAT",
+        "answer_length": 4
       }
     ]
   },
   "hints": {
     "no_spoiler_hints": [
       "7 rows",
-      "6 letters each",
+      "4 letters each",
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with W",
+      "Starts with L",
+      "Starts with L",
+      "Starts with L",
       "Starts with M",
       "Starts with M",
       "Starts with M",
-      "Starts with D",
-      "Starts with D",
-      "Starts with D"
+      "Starts with S"
     ]
   },
   "solution": {
-    "top_word": "WASHED",
-    "bottom_word": "DISHES",
+    "top_word": "LOVE",
+    "bottom_word": "SEAT",
     "full_ladder": [
-      "WASHED",
-      "MASHED",
-      "MASSED",
-      "MISSED",
-      "DISSED",
-      "DISHED",
-      "DISHES"
+      "LOVE",
+      "LOSE",
+      "LOST",
+      "MOST",
+      "MOAT",
+      "MEAT",
+      "SEAT"
     ],
     "middle_ladder": [
-      "MASHED",
-      "MASSED",
-      "MISSED",
-      "DISSED",
-      "DISHED"
+      "LOSE",
+      "LOST",
+      "MOST",
+      "MOAT",
+      "MEAT"
     ]
   }
 }
