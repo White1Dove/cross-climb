@@ -4,7 +4,11 @@ import { GameTabs } from "@/components/game-tabs";
 import { LadderCard } from "@/components/ladder-card";
 import { CountdownTimer } from "@/components/countdown-timer";
 import currentCrossclimbPuzzle from "@/data/current-crossclimb.json";
-import crossclimbHistory from "@/data/crossclimb-history.json";
+import {
+  formatCrossclimbLadder,
+  formatShortCrossclimbDate,
+  getRecentCrossclimbAnswers,
+} from "@/lib/crossclimb-history";
 import { PuzzleData, GameTab } from "@/types/puzzle";
 
 const gameTabs: GameTab[] = [
@@ -19,9 +23,7 @@ const gameTabs: GameTab[] = [
 
 const currentPuzzle = currentCrossclimbPuzzle as PuzzleData;
 
-const previousPuzzles = crossclimbHistory
-  .filter((p) => p.number !== currentPuzzle.puzzle_number)
-  .slice(0, 7);
+const recentAnswers = getRecentCrossclimbAnswers(currentPuzzle.puzzle_number, 7);
 
 interface CrossClimbPageProps {
   puzzle?: PuzzleData;
@@ -129,20 +131,30 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
           </p>
         </section>
 
-        {/* Previous Puzzles Section */}
+        {/* Recent Answers Section */}
         <section className="space-y-4">
           <h3 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
-            Previous Crossclimb Answers
+            Recent Crossclimb Answers
           </h3>
-          <div className="space-y-2">
-            {previousPuzzles.map((p) => (
-              <Link
-                key={p.number}
-                href={`/crossclimb/${p.number}`}
-                className="block text-[#854F0B] hover:underline"
+          <div className="space-y-3">
+            {recentAnswers.map((entry) => (
+              <div
+                key={entry.number}
+                className="border-b border-[#E7E3DA] pb-3 last:border-b-0 last:pb-0"
               >
-                #{p.number} — {p.date}
-              </Link>
+                <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+                  <Link
+                    href={`/crossclimb/${entry.number}`}
+                    className="font-medium text-[#854F0B] hover:underline"
+                  >
+                    #{entry.number}
+                  </Link>
+                  <span className="text-sm text-[#78716C]">{formatShortCrossclimbDate(entry.isoDate)}</span>
+                </div>
+                <p className="mt-1 font-[family-name:var(--font-lora)] text-sm leading-relaxed text-[#1a1a2e]">
+                  {formatCrossclimbLadder(entry)}
+                </p>
+              </div>
             ))}
           </div>
           <Link

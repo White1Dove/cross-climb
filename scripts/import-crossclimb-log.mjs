@@ -47,22 +47,20 @@ function formatDisplayDate(value) {
   }).format(date);
 }
 
-function formatShortDate(value) {
+function formatIsoDate(value) {
   const text = String(value || "").trim();
   const isoMatch = text.match(/^(\d{4})-(\d{2})-(\d{2})$/);
-  const date = isoMatch
-    ? new Date(Date.UTC(Number(isoMatch[1]), Number(isoMatch[2]) - 1, Number(isoMatch[3]), 12, 0, 0))
-    : new Date(text);
 
-  if (Number.isNaN(date.getTime())) {
-    return text.replace(/,\s*\d{4}$/, "");
+  if (isoMatch) {
+    return text;
   }
 
-  return new Intl.DateTimeFormat("en-US", {
-    month: "short",
-    day: "numeric",
-    timeZone: "UTC"
-  }).format(date);
+  const date = new Date(`${text} 12:00:00 UTC`);
+  if (Number.isNaN(date.getTime())) {
+    return "";
+  }
+
+  return date.toISOString().slice(0, 10);
 }
 
 function getPuzzleNumber(log) {
@@ -204,15 +202,19 @@ function readHistory() {
 
 function updateHistory(puzzle, sourceDate) {
   const history = readHistory();
+  const fullLadder = puzzle.solution.full_ladder;
   const entry = {
     number: puzzle.puzzle_number,
-    date: formatShortDate(sourceDate || puzzle.puzzle_date)
+    date: formatDisplayDate(sourceDate || puzzle.puzzle_date),
+    isoDate: formatIsoDate(sourceDate || puzzle.puzzle_date),
+    start: fullLadder[0],
+    end: fullLadder.at(-1),
+    ladder: fullLadder
   };
 
   const next = [entry, ...history.filter((item) => Number(item.number) !== Number(entry.number))]
     .filter((item) => Number.isFinite(Number(item.number)) && item.number > 0)
     .sort((a, b) => Number(b.number) - Number(a.number))
-    .slice(0, 30);
 
   fs.writeFileSync(HISTORY_PATH, `${JSON.stringify(next, null, 2)}\n`);
 }
