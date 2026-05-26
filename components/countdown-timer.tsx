@@ -114,7 +114,7 @@ export function CountdownTimer({ currentPuzzleNumber }: CountdownTimerProps) {
             Next puzzle unlocks in <span className="font-semibold tabular-nums">--:--:--</span>
           </p>
           <p className="text-[#78716C] text-xs">
-            Queens #{nextPuzzleNumber}, Pinpoint #{nextPuzzleNumber}, and more also unlock at the same time
+            Pinpoint #{nextPuzzleNumber}, Queens #{nextPuzzleNumber}, and more also unlock at the same time
           </p>
         </div>
       </div>
@@ -136,7 +136,7 @@ export function CountdownTimer({ currentPuzzleNumber }: CountdownTimerProps) {
           </p>
         )}
         <p className="text-[#78716C] text-xs">
-          Queens #{nextPuzzleNumber}, Pinpoint #{nextPuzzleNumber}, and more also unlock at the same time
+          Pinpoint #{nextPuzzleNumber}, Queens #{nextPuzzleNumber}, and more also unlock at the same time
         </p>
       </div>
     </div>

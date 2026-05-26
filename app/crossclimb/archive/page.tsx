@@ -5,18 +5,10 @@ import {
   getCrossclimbHistory,
   groupCrossclimbEntriesByMonth,
 } from "@/lib/crossclimb-history";
-import type { GameTab } from "@/types/puzzle";
+import { getGameTabs } from "@/lib/game-tabs";
 import { ArchiveAccordion } from "./archive-accordion";
 
-const gameTabs: GameTab[] = [
-  { name: "Crossclimb", slug: "crossclimb", active: true },
-  { name: "Queens", slug: "queens" },
-  { name: "Pinpoint", slug: "pinpoint" },
-  { name: "Tango", slug: "tango" },
-  { name: "Zip", slug: "zip" },
-  { name: "Patches", slug: "patches" },
-  { name: "Mini Sudoku", slug: "mini-sudoku" },
-];
+const gameTabs = getGameTabs("crossclimb");
 
 const archiveEntries = getCrossclimbHistory();
 const monthGroups = groupCrossclimbEntriesByMonth(archiveEntries);

@@ -13,7 +13,7 @@ export function GameTabs({ tabs }: GameTabsProps) {
       {tabs.map((tab) => (
         <Link
           key={tab.slug}
-          href={`/${tab.slug}/`}
+          href={tab.href || `/${tab.slug}/`}
           className={`px-3 py-2 text-sm whitespace-nowrap transition-colors relative ${
             tab.active
               ? "text-[#4A1B0C] font-semibold"

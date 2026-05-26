@@ -33,5 +33,6 @@ export interface PuzzleData {
 export interface GameTab {
   name: string;
   slug: string;
+  href?: string;
   active?: boolean;
 }
