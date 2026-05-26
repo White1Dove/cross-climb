@@ -9,17 +9,10 @@ import {
   formatShortCrossclimbDate,
   getRecentCrossclimbAnswers,
 } from "@/lib/crossclimb-history";
-import { PuzzleData, GameTab } from "@/types/puzzle";
+import { getGameTabs } from "@/lib/game-tabs";
+import type { PuzzleData } from "@/types/puzzle";
 
-const gameTabs: GameTab[] = [
-  { name: "Crossclimb", slug: "crossclimb", active: true },
-  { name: "Queens", slug: "queens" },
-  { name: "Pinpoint", slug: "pinpoint" },
-  { name: "Tango", slug: "tango" },
-  { name: "Zip", slug: "zip" },
-  { name: "Patches", slug: "patches" },
-  { name: "Mini Sudoku", slug: "mini-sudoku" },
-];
+const gameTabs = getGameTabs("crossclimb");
 
 const currentPuzzle = currentCrossclimbPuzzle as PuzzleData;
 
@@ -40,12 +33,12 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     description: `Looking for Crossclimb today? See today's LinkedIn Games clues, answer, and full word ladder for puzzle #${p.puzzle_number}. From ${bottomWord} to ${topWord} — each step changes one letter.`,
     alternates: {
-      canonical: 'https://puzzleclues.today',
+      canonical: 'https://puzzleclues.today/',
     },
     openGraph: {
       title: `Crossclimb Today: #${p.puzzle_number} Answer and Clues | Puzzle Clues Today`,
       description: `Today's Crossclimb #${p.puzzle_number} word ladder solution — from ${bottomWord} to ${topWord}. Step-by-step hints with no spoilers.`,
-      url: 'https://puzzleclues.today',
+      url: 'https://puzzleclues.today/',
       siteName: 'Puzzle Clues Today',
       locale: 'en_US',
       type: 'website',
@@ -63,8 +56,8 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
     <div className="min-h-screen bg-[#F1EFE8]">
       {/* Header */}
       <header className="bg-white border-b border-[#E7E3DA]">
-        <div className="max-w-[720px] mx-auto px-4 py-3 flex items-center justify-between">
-          <Link href="/" className="font-[family-name:var(--font-playfair)] text-lg font-bold text-[#1a1a2e]">
+        <div className="mx-auto flex max-w-[900px] flex-wrap items-center justify-start gap-x-10 gap-y-2 px-4 py-3 md:px-8">
+          <Link href="/" className="shrink-0 whitespace-nowrap font-[family-name:var(--font-playfair)] text-lg font-bold text-[#1a1a2e]">
             Puzzle Clues Today
           </Link>
           <GameTabs tabs={gameTabs} />
@@ -85,18 +78,6 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
           <p className="text-[#78716C] text-lg">
             Puzzle #{puzzle.puzzle_number} · {puzzle.puzzle_date}
           </p>
-
-          {/* Quick Info Row */}
-          <div className="flex items-center justify-center gap-3 flex-wrap pt-2">
-            {puzzle.hints.no_spoiler_hints.map((hint, idx) => (
-              <span
-                key={idx}
-                className="inline-flex items-center px-3 py-1.5 rounded-full bg-white border border-[#E7E3DA] text-sm text-[#1a1a2e]"
-              >
-                {hint}
-              </span>
-            ))}
-          </div>
         </section>
 
         {/* SEO: natural keyword placement */}
@@ -120,15 +101,28 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
         </section>
 
         {/* How-to: captures play-intent searches without changing the answer-page focus */}
-        <section className="text-center max-w-prose mx-auto space-y-3">
+        <section className="mx-auto max-w-prose space-y-4">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
             How to play Crossclimb on LinkedIn
           </h2>
-          <p className="text-[#78716C] text-sm leading-relaxed">
-            Crossclimb is a daily word ladder game on LinkedIn. Use the clues to fill in the missing words,
-            then arrange the ladder so each step changes one letter. The top and bottom entries combine into a
-            final clue, and a new puzzle unlocks every day at midnight Pacific Time.
-          </p>
+          <ul className="space-y-3 text-sm leading-relaxed text-[#78716C]">
+            <li>
+              <span className="font-semibold text-[#1a1a2e]">1.</span> Read each clue and fill in the missing
+              words in the ladder.
+            </li>
+            <li>
+              <span className="font-semibold text-[#1a1a2e]">2.</span> Arrange the words so each neighboring
+              rung changes by one letter.
+            </li>
+            <li>
+              <span className="font-semibold text-[#1a1a2e]">3.</span> Use the top and bottom entries together
+              to solve the final phrase clue.
+            </li>
+            <li>
+              <span className="font-semibold text-[#1a1a2e]">4.</span> Check back daily after midnight Pacific
+              Time for the next LinkedIn Crossclimb puzzle.
+            </li>
+          </ul>
         </section>
 
         {/* Recent Answers Section */}
@@ -143,12 +137,9 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
                 className="border-b border-[#E7E3DA] pb-3 last:border-b-0 last:pb-0"
               >
                 <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
-                  <Link
-                    href={`/crossclimb/${entry.number}`}
-                    className="font-medium text-[#854F0B] hover:underline"
-                  >
+                  <span className="font-medium text-[#854F0B]">
                     #{entry.number}
-                  </Link>
+                  </span>
                   <span className="text-sm text-[#78716C]">{formatShortCrossclimbDate(entry.isoDate)}</span>
                 </div>
                 <p className="mt-1 font-[family-name:var(--font-lora)] text-sm leading-relaxed text-[#1a1a2e]">
