@@ -24,7 +24,7 @@ export function LadderCard({ puzzle }: LadderCardProps) {
             row={row}
             hint={puzzle.hints.medium_hints[idx] || `Starts with ${row.word[0]}`}
             revealed={revealed}
-            nextWord={idx < rows.length - 1 ? rows[idx + 1].word : undefined}
+            previousWord={idx > 0 ? rows[idx - 1].word : undefined}
           />
         ))}
       </div>

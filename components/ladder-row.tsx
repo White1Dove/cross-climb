@@ -8,10 +8,10 @@ interface LadderRowProps {
   row: PuzzleRow;
   hint: string;
   revealed: boolean;
-  nextWord?: string;
+  previousWord?: string;
 }
 
-export function LadderRow({ row, hint, revealed, nextWord }: LadderRowProps) {
+export function LadderRow({ row, hint, revealed, previousWord }: LadderRowProps) {
   const [hintOpen, setHintOpen] = useState(false);
 
   const positionLabel = {
@@ -26,12 +26,12 @@ export function LadderRow({ row, hint, revealed, nextWord }: LadderRowProps) {
     bottom: "bg-[#4A1B0C]/10 text-[#4A1B0C]",
   };
 
-  // Find the letter change between current word and next word
+  // Find the letter change from the previous word to the current word.
   const findLetterChange = () => {
-    if (!nextWord || !revealed) return null;
+    if (!previousWord || !revealed) return null;
     for (let i = 0; i < row.word.length; i++) {
-      if (row.word[i] !== nextWord[i]) {
-        return { from: row.word[i], to: nextWord[i], index: i };
+      if (previousWord[i] !== row.word[i]) {
+        return { from: previousWord[i], to: row.word[i], index: i };
       }
     }
     return null;
@@ -69,8 +69,8 @@ export function LadderRow({ row, hint, revealed, nextWord }: LadderRowProps) {
         </span>
 
         <span className="ml-2 min-w-[68px] shrink-0">
-          {/* Letter-change indicator — only when revealed and has next word */}
-          {letterChange && nextWord && (
+          {/* Letter-change indicator — only when revealed and has a previous word */}
+          {letterChange && previousWord && (
             <span className="text-xs text-[#78716C] flex items-center gap-1">
               <span className="font-medium text-[#4A1B0C]">{letterChange.from}</span>
               <span>→</span>
