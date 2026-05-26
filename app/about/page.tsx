@@ -8,7 +8,22 @@ export const metadata: Metadata = {
   description:
     "Learn what Puzzle Clues Today is, how often puzzle clues and answers are updated, and how to contact us with corrections.",
   alternates: {
-    canonical: "https://puzzleclues.today/about",
+    canonical: "https://puzzleclues.today/about/",
+  },
+  openGraph: {
+    title: "About Puzzle Clues Today | Puzzle Clues Today",
+    description:
+      "Learn what Puzzle Clues Today is, how often puzzle clues and answers are updated, and how to contact us with corrections.",
+    url: "https://puzzleclues.today/about/",
+    siteName: "Puzzle Clues Today",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "About Puzzle Clues Today | Puzzle Clues Today",
+    description:
+      "Learn what Puzzle Clues Today is, how often puzzle clues and answers are updated, and how to contact us with corrections.",
   },
 };
 

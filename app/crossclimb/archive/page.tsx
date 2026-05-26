@@ -20,7 +20,22 @@ export const metadata: Metadata = {
   description:
     "Crossclimb answer archive organized by month with puzzle numbers, start words, end words, and complete word ladders.",
   alternates: {
-    canonical: "https://puzzleclues.today/crossclimb/archive",
+    canonical: "https://puzzleclues.today/crossclimb/archive/",
+  },
+  openGraph: {
+    title: "Crossclimb Answer Archive | Puzzle Clues Today",
+    description:
+      "Browse past Crossclimb answers by month with puzzle numbers, start words, end words, and complete word ladders.",
+    url: "https://puzzleclues.today/crossclimb/archive/",
+    siteName: "Puzzle Clues Today",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Crossclimb Answer Archive | Puzzle Clues Today",
+    description:
+      "Browse past Crossclimb answers by month with puzzle numbers, start words, end words, and complete word ladders.",
   },
 };
 
@@ -28,8 +43,8 @@ export default function CrossclimbArchivePage() {
   return (
     <div className="min-h-screen bg-[#F1EFE8]">
       <header className="bg-white border-b border-[#E7E3DA]">
-        <div className="mx-auto flex max-w-[960px] items-center justify-between px-4 py-3">
-          <Link href="/" className="font-[family-name:var(--font-playfair)] text-lg font-bold text-[#1a1a2e]">
+        <div className="mx-auto flex max-w-[900px] flex-wrap items-center justify-start gap-x-10 gap-y-2 px-4 py-3 md:px-8">
+          <Link href="/" className="shrink-0 whitespace-nowrap font-[family-name:var(--font-playfair)] text-lg font-bold text-[#1a1a2e]">
             Puzzle Clues Today
           </Link>
           <GameTabs tabs={gameTabs} />

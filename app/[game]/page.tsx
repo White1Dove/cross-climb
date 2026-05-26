@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: ComingSoonPageProps): Promise
     },
     description: `${game.name} today answers are coming soon to Puzzle Clues Today. Crossclimb answers are live now.`,
     alternates: {
-      canonical: `https://puzzleclues.today/${game.slug}`,
+      canonical: `https://puzzleclues.today/${game.slug}/`,
     },
     robots: {
       index: false,
@@ -50,8 +50,8 @@ export default async function ComingSoonPage({ params }: ComingSoonPageProps) {
   return (
     <div className="min-h-screen bg-[#F1EFE8]">
       <header className="bg-white border-b border-[#E7E3DA]">
-        <div className="max-w-[720px] mx-auto px-4 py-3 flex items-center justify-between">
-          <Link href="/" className="font-[family-name:var(--font-playfair)] text-lg font-bold text-[#1a1a2e]">
+        <div className="mx-auto flex max-w-[900px] flex-wrap items-center justify-start gap-x-10 gap-y-2 px-4 py-3 md:px-8">
+          <Link href="/" className="shrink-0 whitespace-nowrap font-[family-name:var(--font-playfair)] text-lg font-bold text-[#1a1a2e]">
             Puzzle Clues Today
           </Link>
           <GameTabs tabs={gameTabs} />

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { ChevronDown, ChevronRight, ChevronsUp } from "lucide-react";
 import type { CrossclimbHistoryEntry, CrossclimbMonthGroup } from "@/lib/crossclimb-history";
 
@@ -65,9 +64,9 @@ function ArchiveTable({ entries }: { entries: CrossclimbHistoryEntry[] }) {
                   {formatFullCrossclimbDate(entry.isoDate)}
                 </td>
                 <td className="whitespace-nowrap px-4 py-4 text-center text-sm align-middle">
-                  <Link href={`/crossclimb/${entry.number}`} className="font-medium text-[#854F0B] hover:underline">
+                  <span className="font-medium text-[#854F0B]">
                     #{entry.number}
-                  </Link>
+                  </span>
                 </td>
                 <td className="px-4 py-4 text-center align-middle">
                   <span className="inline-flex min-w-[64px] justify-center rounded bg-[#0F6E56]/10 px-2 py-1 font-[family-name:var(--font-lora)] text-sm font-bold text-[#0F6E56]">
@@ -94,9 +93,9 @@ function ArchiveTable({ entries }: { entries: CrossclimbHistoryEntry[] }) {
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <div>
                 <p className="text-sm text-[#78716C]">{formatFullCrossclimbDate(entry.isoDate)}</p>
-                <Link href={`/crossclimb/${entry.number}`} className="font-medium text-[#854F0B] hover:underline">
+                <span className="font-medium text-[#854F0B]">
                   #{entry.number}
-                </Link>
+                </span>
               </div>
               <div className="flex items-center gap-2 font-[family-name:var(--font-lora)] text-sm font-bold">
                 <span className="rounded bg-[#0F6E56]/10 px-2 py-1 text-[#0F6E56]">{entry.start}</span>
