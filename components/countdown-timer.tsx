@@ -10,6 +10,10 @@ type TimeLeft = {
   seconds: number;
 };
 
+type CountdownTimerProps = {
+  currentPuzzleNumber: number;
+};
+
 const getPacificDateParts = (date: Date) => {
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: PACIFIC_TIME_ZONE,
@@ -61,9 +65,10 @@ const getNextPacificMidnight = () => {
   return new Date(targetWallTime - offset);
 };
 
-export function CountdownTimer() {
+export function CountdownTimer({ currentPuzzleNumber }: CountdownTimerProps) {
   const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(null);
   const [unlockTime, setUnlockTime] = useState<string | null>(null);
+  const nextPuzzleNumber = currentPuzzleNumber + 1;
 
   useEffect(() => {
     const calculateTimeLeft = () => {
@@ -109,7 +114,7 @@ export function CountdownTimer() {
             Next puzzle unlocks in <span className="font-semibold tabular-nums">--:--:--</span>
           </p>
           <p className="text-[#78716C] text-xs">
-            Queens #755, Pinpoint #755, and more also unlock at the same time
+            Queens #{nextPuzzleNumber}, Pinpoint #{nextPuzzleNumber}, and more also unlock at the same time
           </p>
         </div>
       </div>
@@ -131,7 +136,7 @@ export function CountdownTimer() {
           </p>
         )}
         <p className="text-[#78716C] text-xs">
-          Queens #755, Pinpoint #755, and more also unlock at the same time
+          Queens #{nextPuzzleNumber}, Pinpoint #{nextPuzzleNumber}, and more also unlock at the same time
         </p>
       </div>
     </div>

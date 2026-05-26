@@ -70,7 +70,7 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
       </header>
 
       {/* Countdown Timer */}
-      <CountdownTimer />
+      <CountdownTimer currentPuzzleNumber={puzzle.puzzle_number} />
 
       <main className="max-w-[720px] mx-auto px-4 py-8 md:py-10 space-y-10">
         {/* Hero Section */}
