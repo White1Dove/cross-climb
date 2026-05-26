@@ -1456,6 +1456,54 @@
     ]
   },
   {
+    "number": 665,
+    "date": "February 24, 2026",
+    "isoDate": "2026-02-24",
+    "start": "THIN",
+    "end": "TALL",
+    "ladder": [
+      "THIN",
+      "CHIN",
+      "COIN",
+      "COIL",
+      "TOIL",
+      "TAIL",
+      "TALL"
+    ]
+  },
+  {
+    "number": 664,
+    "date": "February 23, 2026",
+    "isoDate": "2026-02-23",
+    "start": "ROOF",
+    "end": "TOPS",
+    "ladder": [
+      "ROOF",
+      "ROOT",
+      "BOOT",
+      "BOOS",
+      "BOYS",
+      "TOYS",
+      "TOPS"
+    ]
+  },
+  {
+    "number": 663,
+    "date": "February 22, 2026",
+    "isoDate": "2026-02-22",
+    "start": "SPACE",
+    "end": "WHITE",
+    "ladder": [
+      "SPACE",
+      "SPARE",
+      "SPIRE",
+      "SPINE",
+      "SHINE",
+      "WHINE",
+      "WHITE"
+    ]
+  },
+  {
     "number": 662,
     "date": "Feb 21, 2026",
     "isoDate": "2026-02-21",
@@ -2048,9 +2096,25 @@
     ]
   },
   {
+    "number": 625,
+    "date": "January 15, 2026",
+    "isoDate": "2026-01-15",
+    "start": "TOWER",
+    "end": "WATER",
+    "ladder": [
+      "TOWER",
+      "LOWER",
+      "LONER",
+      "LINER",
+      "LITER",
+      "LATER",
+      "WATER"
+    ]
+  },
+  {
     "number": 624,
-    "date": "Jan 13, 2026",
-    "isoDate": "2026-01-13",
+    "date": "January 14, 2026",
+    "isoDate": "2026-01-14",
     "start": "BETA",
     "end": "TEST",
     "ladder": [
@@ -2065,8 +2129,8 @@
   },
   {
     "number": 623,
-    "date": "Jan 12, 2026",
-    "isoDate": "2026-01-12",
+    "date": "January 13, 2026",
+    "isoDate": "2026-01-13",
     "start": "PLAY",
     "end": "STOP",
     "ladder": [
@@ -2077,6 +2141,4038 @@
       "FLOP",
       "SLOP",
       "STOP"
+    ]
+  },
+  {
+    "number": 622,
+    "date": "January 12, 2026",
+    "isoDate": "2026-01-12",
+    "start": "WEEK",
+    "end": "DAYS",
+    "ladder": [
+      "WEEK",
+      "PEEK",
+      "PERK",
+      "PARK",
+      "PARS",
+      "PAYS",
+      "DAYS"
+    ]
+  },
+  {
+    "number": 621,
+    "date": "January 11, 2026",
+    "isoDate": "2026-01-11",
+    "start": "SMELT",
+    "end": "SHARK",
+    "ladder": [
+      "SMELT",
+      "SMELL",
+      "SHELL",
+      "SHALL",
+      "SHALE",
+      "SHARE",
+      "SHARK"
+    ]
+  },
+  {
+    "number": 620,
+    "date": "January 10, 2026",
+    "isoDate": "2026-01-10",
+    "start": "WINKS",
+    "end": "FORTY",
+    "ladder": [
+      "WINKS",
+      "WONKS",
+      "WORKS",
+      "WORDS",
+      "FORDS",
+      "FORTS",
+      "FORTY"
+    ]
+  },
+  {
+    "number": 618,
+    "date": "January 8, 2026",
+    "isoDate": "2026-01-08",
+    "start": "PRINT",
+    "end": "GOWNS",
+    "ladder": [
+      "PRINT",
+      "PAINT",
+      "PAINS",
+      "PAWNS",
+      "DAWNS",
+      "DOWNS",
+      "GOWNS"
+    ]
+  },
+  {
+    "number": 617,
+    "date": "January 7, 2026",
+    "isoDate": "2026-01-07",
+    "start": "DISK",
+    "end": "SAVE",
+    "ladder": [
+      "DISK",
+      "RISK",
+      "RISE",
+      "ROSE",
+      "ROVE",
+      "RAVE",
+      "SAVE"
+    ]
+  },
+  {
+    "number": 616,
+    "date": "January 6, 2026",
+    "isoDate": "2026-01-06",
+    "start": "MEAT",
+    "end": "CRAB",
+    "ladder": [
+      "MEAT",
+      "BEAT",
+      "BRAT",
+      "BRAG",
+      "DRAG",
+      "CRAG",
+      "CRAB"
+    ]
+  },
+  {
+    "number": 615,
+    "date": "January 5, 2026",
+    "isoDate": "2026-01-05",
+    "start": "CARD",
+    "end": "TIME",
+    "ladder": [
+      "CARD",
+      "CARE",
+      "CAKE",
+      "LAKE",
+      "LIKE",
+      "LIME",
+      "TIME"
+    ]
+  },
+  {
+    "number": 614,
+    "date": "January 4, 2026",
+    "isoDate": "2026-01-04",
+    "start": "SPEED",
+    "end": "THREE",
+    "ladder": [
+      "SPEED",
+      "SPIED",
+      "SHIED",
+      "SHRED",
+      "SHREW",
+      "THREW",
+      "THREE"
+    ]
+  },
+  {
+    "number": 613,
+    "date": "January 3, 2026",
+    "isoDate": "2026-01-03",
+    "start": "CABS",
+    "end": "TAXI",
+    "ladder": [
+      "CABS",
+      "CAPS",
+      "MAPS",
+      "MAGS",
+      "MAGI",
+      "MAXI",
+      "TAXI"
+    ]
+  },
+  {
+    "number": 612,
+    "date": "January 2, 2026",
+    "isoDate": "2026-01-02",
+    "start": "POINT",
+    "end": "CLICK",
+    "ladder": [
+      "POINT",
+      "PAINT",
+      "FAINT",
+      "FLINT",
+      "CLINT",
+      "CLINK",
+      "CLICK"
+    ]
+  },
+  {
+    "number": 611,
+    "date": "January 1, 2026",
+    "isoDate": "2026-01-01",
+    "start": "PICK",
+    "end": "ROLL",
+    "ladder": [
+      "PICK",
+      "TICK",
+      "TACK",
+      "TALK",
+      "TALL",
+      "TOLL",
+      "ROLL"
+    ]
+  },
+  {
+    "number": 610,
+    "date": "December 31, 2025",
+    "isoDate": "2025-12-31",
+    "start": "NEXT",
+    "end": "LAST",
+    "ladder": [
+      "NEXT",
+      "TEXT",
+      "TENT",
+      "PENT",
+      "PANT",
+      "PAST",
+      "LAST"
+    ]
+  },
+  {
+    "number": 609,
+    "date": "December 30, 2025",
+    "isoDate": "2025-12-30",
+    "start": "LADY",
+    "end": "LORD",
+    "ladder": [
+      "LADY",
+      "LADS",
+      "WADS",
+      "WARS",
+      "WARD",
+      "WORD",
+      "LORD"
+    ]
+  },
+  {
+    "number": 608,
+    "date": "December 29, 2025",
+    "isoDate": "2025-12-29",
+    "start": "FAST",
+    "end": "HOLD",
+    "ladder": [
+      "FAST",
+      "MAST",
+      "MOST",
+      "COST",
+      "COLT",
+      "COLD",
+      "HOLD"
+    ]
+  },
+  {
+    "number": 607,
+    "date": "December 28, 2025",
+    "isoDate": "2025-12-28",
+    "start": "EVEN",
+    "end": "ODDS",
+    "ladder": [
+      "EVEN",
+      "EVES",
+      "EYES",
+      "AYES",
+      "ADES",
+      "ODES",
+      "ODDS"
+    ]
+  },
+  {
+    "number": 606,
+    "date": "December 27, 2025",
+    "isoDate": "2025-12-27",
+    "start": "CHIME",
+    "end": "DRUMS",
+    "ladder": [
+      "CHIME",
+      "CHIMP",
+      "CHAMP",
+      "CRAMP",
+      "CRAMS",
+      "DRAMS",
+      "DRUMS"
+    ]
+  },
+  {
+    "number": 605,
+    "date": "December 26, 2025",
+    "isoDate": "2025-12-26",
+    "start": "BEARS",
+    "end": "BLACK",
+    "ladder": [
+      "BEARS",
+      "BEANS",
+      "BRANS",
+      "BRAND",
+      "BLAND",
+      "BLANK",
+      "BLACK"
+    ]
+  },
+  {
+    "number": 604,
+    "date": "December 25, 2025",
+    "isoDate": "2025-12-25",
+    "start": "DECK",
+    "end": "CARD",
+    "ladder": [
+      "DECK",
+      "PECK",
+      "PACK",
+      "PARK",
+      "HARK",
+      "HARD",
+      "CARD"
+    ]
+  },
+  {
+    "number": 603,
+    "date": "December 24, 2025",
+    "isoDate": "2025-12-24",
+    "start": "DOGS",
+    "end": "GOOD",
+    "ladder": [
+      "DOGS",
+      "DONS",
+      "DONE",
+      "GONE",
+      "GONG",
+      "GOOG",
+      "GOOD"
+    ]
+  },
+  {
+    "number": 602,
+    "date": "December 23, 2025",
+    "isoDate": "2025-12-23",
+    "start": "DATA",
+    "end": "FILE",
+    "ladder": [
+      "DATA",
+      "RATA",
+      "RATE",
+      "FATE",
+      "FARE",
+      "FIRE",
+      "FILE"
+    ]
+  },
+  {
+    "number": 601,
+    "date": "December 22, 2025",
+    "isoDate": "2025-12-22",
+    "start": "MIND",
+    "end": "GAME",
+    "ladder": [
+      "MIND",
+      "WIND",
+      "WINE",
+      "WANE",
+      "CANE",
+      "CAME",
+      "GAME"
+    ]
+  },
+  {
+    "number": 600,
+    "date": "December 21, 2025",
+    "isoDate": "2025-12-21",
+    "start": "EASEL",
+    "end": "LATEX",
+    "ladder": [
+      "EASEL",
+      "EASED",
+      "BASED",
+      "BASER",
+      "LASER",
+      "LATER",
+      "LATEX"
+    ]
+  },
+  {
+    "number": 599,
+    "date": "December 20, 2025",
+    "isoDate": "2025-12-20",
+    "start": "COPPER",
+    "end": "PLATED",
+    "ladder": [
+      "COPPER",
+      "COPTER",
+      "COATER",
+      "CRATER",
+      "CRATED",
+      "PRATED",
+      "PLATED"
+    ]
+  },
+  {
+    "number": 598,
+    "date": "December 19, 2025",
+    "isoDate": "2025-12-19",
+    "start": "STATE",
+    "end": "FLAGS",
+    "ladder": [
+      "STATE",
+      "SLATE",
+      "PLATE",
+      "PLANE",
+      "PLANS",
+      "FLANS",
+      "FLAGS"
+    ]
+  },
+  {
+    "number": 597,
+    "date": "December 18, 2025",
+    "isoDate": "2025-12-18",
+    "start": "TAIL",
+    "end": "SPIN",
+    "ladder": [
+      "TAIL",
+      "MAIL",
+      "MAID",
+      "SAID",
+      "SKID",
+      "SKIN",
+      "SPIN"
+    ]
+  },
+  {
+    "number": 596,
+    "date": "December 17, 2025",
+    "isoDate": "2025-12-17",
+    "start": "CHINA",
+    "end": "DOLLS",
+    "ladder": [
+      "CHINA",
+      "CHINS",
+      "COINS",
+      "COILS",
+      "TOILS",
+      "TOLLS",
+      "DOLLS"
+    ]
+  },
+  {
+    "number": 595,
+    "date": "December 16, 2025",
+    "isoDate": "2025-12-16",
+    "start": "LIMA",
+    "end": "BEAN",
+    "ladder": [
+      "LIMA",
+      "LISA",
+      "LIST",
+      "LEST",
+      "BEST",
+      "BEAT",
+      "BEAN"
+    ]
+  },
+  {
+    "number": 594,
+    "date": "December 15, 2025",
+    "isoDate": "2025-12-15",
+    "start": "HUMP",
+    "end": "BACK",
+    "ladder": [
+      "HUMP",
+      "BUMP",
+      "BURP",
+      "BURN",
+      "BARN",
+      "BARK",
+      "BACK"
+    ]
+  },
+  {
+    "number": 593,
+    "date": "December 14, 2025",
+    "isoDate": "2025-12-14",
+    "start": "LOADS",
+    "end": "CARBO",
+    "ladder": [
+      "LOADS",
+      "LORDS",
+      "LARDS",
+      "CARDS",
+      "CARLS",
+      "CARLO",
+      "CARBO"
+    ]
+  },
+  {
+    "number": 592,
+    "date": "December 13, 2025",
+    "isoDate": "2025-12-13",
+    "start": "BANKS",
+    "end": "RIVER",
+    "ladder": [
+      "BANKS",
+      "BANES",
+      "LANES",
+      "LINES",
+      "LIVES",
+      "LIVER",
+      "RIVER"
+    ]
+  },
+  {
+    "number": 591,
+    "date": "December 12, 2025",
+    "isoDate": "2025-12-12",
+    "start": "RING",
+    "end": "SIDE",
+    "ladder": [
+      "RING",
+      "KING",
+      "KIND",
+      "WIND",
+      "WINE",
+      "WIDE",
+      "SIDE"
+    ]
+  },
+  {
+    "number": 590,
+    "date": "December 11, 2025",
+    "isoDate": "2025-12-11",
+    "start": "BOARD",
+    "end": "STORY",
+    "ladder": [
+      "BOARD",
+      "BOARS",
+      "SOARS",
+      "STARS",
+      "STARE",
+      "STORE",
+      "STORY"
+    ]
+  },
+  {
+    "number": 589,
+    "date": "December 10, 2025",
+    "isoDate": "2025-12-10",
+    "start": "TACO",
+    "end": "FISH",
+    "ladder": [
+      "TACO",
+      "TACK",
+      "TICK",
+      "DICK",
+      "DISK",
+      "DISH",
+      "FISH"
+    ]
+  },
+  {
+    "number": 588,
+    "date": "December 9, 2025",
+    "isoDate": "2025-12-09",
+    "start": "CAST",
+    "end": "NEWS",
+    "ladder": [
+      "CAST",
+      "COST",
+      "POST",
+      "PEST",
+      "NEST",
+      "NEWT",
+      "NEWS"
+    ]
+  },
+  {
+    "number": 587,
+    "date": "December 8, 2025",
+    "isoDate": "2025-12-08",
+    "start": "DUMB",
+    "end": "BELL",
+    "ladder": [
+      "DUMB",
+      "DUMP",
+      "PUMP",
+      "PULP",
+      "PULL",
+      "BULL",
+      "BELL"
+    ]
+  },
+  {
+    "number": 586,
+    "date": "December 7, 2025",
+    "isoDate": "2025-12-07",
+    "start": "FISH",
+    "end": "FOWL",
+    "ladder": [
+      "FISH",
+      "FIST",
+      "FAST",
+      "FAIT",
+      "FAIL",
+      "FOIL",
+      "FOWL"
+    ]
+  },
+  {
+    "number": 585,
+    "date": "December 6, 2025",
+    "isoDate": "2025-12-06",
+    "start": "SURE",
+    "end": "FIRE",
+    "ladder": [
+      "SURE",
+      "LURE",
+      "LUTE",
+      "LATE",
+      "FATE",
+      "FARE",
+      "FIRE"
+    ]
+  },
+  {
+    "number": 584,
+    "date": "December 5, 2025",
+    "isoDate": "2025-12-05",
+    "start": "RUSH",
+    "end": "HOUR",
+    "ladder": [
+      "RUSH",
+      "PUSH",
+      "POSH",
+      "POST",
+      "POUT",
+      "POUR",
+      "HOUR"
+    ]
+  },
+  {
+    "number": 583,
+    "date": "December 4, 2025",
+    "isoDate": "2025-12-04",
+    "start": "MOONS",
+    "end": "HONEY",
+    "ladder": [
+      "MOONS",
+      "MOODS",
+      "HOODS",
+      "HOLDS",
+      "HOLES",
+      "HONES",
+      "HONEY"
+    ]
+  },
+  {
+    "number": 582,
+    "date": "December 3, 2025",
+    "isoDate": "2025-12-03",
+    "start": "LIFE",
+    "end": "BOAT",
+    "ladder": [
+      "LIFE",
+      "LIFT",
+      "LIST",
+      "LOST",
+      "MOST",
+      "MOAT",
+      "BOAT"
+    ]
+  },
+  {
+    "number": 581,
+    "date": "December 2, 2025",
+    "isoDate": "2025-12-02",
+    "start": "MEMO",
+    "end": "NOTE",
+    "ladder": [
+      "MEMO",
+      "MEME",
+      "MIME",
+      "MINE",
+      "NINE",
+      "NONE",
+      "NOTE"
+    ]
+  },
+  {
+    "number": 580,
+    "date": "December 1, 2025",
+    "isoDate": "2025-12-01",
+    "start": "DROP",
+    "end": "DRAG",
+    "ladder": [
+      "DROP",
+      "PROP",
+      "PROS",
+      "BROS",
+      "BRAS",
+      "BRAG",
+      "DRAG"
+    ]
+  },
+  {
+    "number": 579,
+    "date": "November 30, 2025",
+    "isoDate": "2025-11-30",
+    "start": "LADDER",
+    "end": "LETTER",
+    "ladder": [
+      "LADDER",
+      "LANDER",
+      "BANDER",
+      "BANTER",
+      "BATTER",
+      "BETTER",
+      "LETTER"
+    ]
+  },
+  {
+    "number": 578,
+    "date": "November 29, 2025",
+    "isoDate": "2025-11-29",
+    "start": "GRASS",
+    "end": "ROOTS",
+    "ladder": [
+      "GRASS",
+      "GRADS",
+      "GOADS",
+      "GOATS",
+      "BOATS",
+      "BOOTS",
+      "ROOTS"
+    ]
+  },
+  {
+    "number": 577,
+    "date": "November 28, 2025",
+    "isoDate": "2025-11-28",
+    "start": "NOSE",
+    "end": "RING",
+    "ladder": [
+      "NOSE",
+      "DOSE",
+      "DONE",
+      "DINE",
+      "SINE",
+      "SING",
+      "RING"
+    ]
+  },
+  {
+    "number": 576,
+    "date": "November 27, 2025",
+    "isoDate": "2025-11-27",
+    "start": "GRAVY",
+    "end": "TRAIN",
+    "ladder": [
+      "GRAVY",
+      "GRAVE",
+      "GRACE",
+      "TRACE",
+      "TRACT",
+      "TRAIT",
+      "TRAIN"
+    ]
+  },
+  {
+    "number": 575,
+    "date": "November 26, 2025",
+    "isoDate": "2025-11-26",
+    "start": "BEAM",
+    "end": "MOON",
+    "ladder": [
+      "BEAM",
+      "BEAN",
+      "MEAN",
+      "MOAN",
+      "LOAN",
+      "LOON",
+      "MOON"
+    ]
+  },
+  {
+    "number": 574,
+    "date": "November 25, 2025",
+    "isoDate": "2025-11-25",
+    "start": "HATE",
+    "end": "LOVE",
+    "ladder": [
+      "HATE",
+      "DATE",
+      "DARE",
+      "CARE",
+      "CORE",
+      "COVE",
+      "LOVE"
+    ]
+  },
+  {
+    "number": 573,
+    "date": "November 24, 2025",
+    "isoDate": "2025-11-24",
+    "start": "TIME",
+    "end": "POST",
+    "ladder": [
+      "TIME",
+      "LIME",
+      "LIFE",
+      "LIFT",
+      "LIST",
+      "LOST",
+      "POST"
+    ]
+  },
+  {
+    "number": 572,
+    "date": "November 23, 2025",
+    "isoDate": "2025-11-23",
+    "start": "LAKE",
+    "end": "SWAN",
+    "ladder": [
+      "LAKE",
+      "LANE",
+      "SANE",
+      "SANG",
+      "SAAG",
+      "SWAG",
+      "SWAN"
+    ]
+  },
+  {
+    "number": 571,
+    "date": "November 22, 2025",
+    "isoDate": "2025-11-22",
+    "start": "EARLY",
+    "end": "BIRDS",
+    "ladder": [
+      "EARLY",
+      "EARLS",
+      "EARNS",
+      "YARNS",
+      "YARDS",
+      "BARDS",
+      "BIRDS"
+    ]
+  },
+  {
+    "number": 570,
+    "date": "November 21, 2025",
+    "isoDate": "2025-11-21",
+    "start": "LEAD",
+    "end": "GOLD",
+    "ladder": [
+      "LEAD",
+      "LEAP",
+      "HEAP",
+      "HELP",
+      "HELD",
+      "HOLD",
+      "GOLD"
+    ]
+  },
+  {
+    "number": 569,
+    "date": "November 20, 2025",
+    "isoDate": "2025-11-20",
+    "start": "DUCT",
+    "end": "TAPE",
+    "ladder": [
+      "DUCT",
+      "DUCK",
+      "TUCK",
+      "TACK",
+      "TALK",
+      "TALE",
+      "TAPE"
+    ]
+  },
+  {
+    "number": 568,
+    "date": "November 19, 2025",
+    "isoDate": "2025-11-19",
+    "start": "STONES",
+    "end": "STICKS",
+    "ladder": [
+      "STONES",
+      "SCONES",
+      "SCORES",
+      "STORES",
+      "STORKS",
+      "STOCKS",
+      "STICKS"
+    ]
+  },
+  {
+    "number": 567,
+    "date": "November 18, 2025",
+    "isoDate": "2025-11-18",
+    "start": "SEWER",
+    "end": "LINES",
+    "ladder": [
+      "SEWER",
+      "NEWER",
+      "NEVER",
+      "LEVER",
+      "LIVER",
+      "LIVES",
+      "LINES"
+    ]
+  },
+  {
+    "number": 566,
+    "date": "November 17, 2025",
+    "isoDate": "2025-11-17",
+    "start": "KILL",
+    "end": "TIME",
+    "ladder": [
+      "KILL",
+      "PILL",
+      "PILE",
+      "FILE",
+      "FIRE",
+      "TIRE",
+      "TIME"
+    ]
+  },
+  {
+    "number": 565,
+    "date": "November 16, 2025",
+    "isoDate": "2025-11-16",
+    "start": "ARES",
+    "end": "MARS",
+    "ladder": [
+      "ARES",
+      "ARTS",
+      "ORTS",
+      "OATS",
+      "EATS",
+      "EARS",
+      "MARS"
+    ]
+  },
+  {
+    "number": 564,
+    "date": "November 15, 2025",
+    "isoDate": "2025-11-15",
+    "start": "JELLY",
+    "end": "BEANS",
+    "ladder": [
+      "JELLY",
+      "BELLY",
+      "BELLS",
+      "DELLS",
+      "DEALS",
+      "DEANS",
+      "BEANS"
+    ]
+  },
+  {
+    "number": 563,
+    "date": "November 14, 2025",
+    "isoDate": "2025-11-14",
+    "start": "HAIR",
+    "end": "LONG",
+    "ladder": [
+      "HAIR",
+      "LAIR",
+      "LAID",
+      "LAND",
+      "LANE",
+      "LONE",
+      "LONG"
+    ]
+  },
+  {
+    "number": 562,
+    "date": "November 13, 2025",
+    "isoDate": "2025-11-13",
+    "start": "GOAL",
+    "end": "POST",
+    "ladder": [
+      "GOAL",
+      "GOAT",
+      "BOAT",
+      "BOLT",
+      "COLT",
+      "COST",
+      "POST"
+    ]
+  },
+  {
+    "number": 561,
+    "date": "November 12, 2025",
+    "isoDate": "2025-11-12",
+    "start": "PASS",
+    "end": "WORD",
+    "ladder": [
+      "PASS",
+      "BASS",
+      "BARS",
+      "CARS",
+      "CARD",
+      "CORD",
+      "WORD"
+    ]
+  },
+  {
+    "number": 560,
+    "date": "November 11, 2025",
+    "isoDate": "2025-11-11",
+    "start": "TOTE",
+    "end": "BAGS",
+    "ladder": [
+      "TOTE",
+      "TONE",
+      "BONE",
+      "BOND",
+      "BAND",
+      "BANS",
+      "BAGS"
+    ]
+  },
+  {
+    "number": 559,
+    "date": "November 10, 2025",
+    "isoDate": "2025-11-10",
+    "start": "BARE",
+    "end": "FOOT",
+    "ladder": [
+      "BARE",
+      "CARE",
+      "CORE",
+      "CORK",
+      "FORK",
+      "FORT",
+      "FOOT"
+    ]
+  },
+  {
+    "number": 558,
+    "date": "November 9, 2025",
+    "isoDate": "2025-11-09",
+    "start": "CLOSE",
+    "end": "SHAVE",
+    "ladder": [
+      "CLOSE",
+      "CHOSE",
+      "WHOSE",
+      "WHOLE",
+      "WHALE",
+      "SHALE",
+      "SHAVE"
+    ]
+  },
+  {
+    "number": 557,
+    "date": "November 8, 2025",
+    "isoDate": "2025-11-08",
+    "start": "WATER",
+    "end": "EARTH",
+    "ladder": [
+      "WATER",
+      "DATER",
+      "DATES",
+      "DARES",
+      "DARTS",
+      "DARTH",
+      "EARTH"
+    ]
+  },
+  {
+    "number": 556,
+    "date": "November 7, 2025",
+    "isoDate": "2025-11-07",
+    "start": "GUIDES",
+    "end": "TRAVEL",
+    "ladder": [
+      "GUIDES",
+      "GLIDES",
+      "GLADES",
+      "GRADES",
+      "GRAVES",
+      "GRAVEL",
+      "TRAVEL"
+    ]
+  },
+  {
+    "number": 555,
+    "date": "November 6, 2025",
+    "isoDate": "2025-11-06",
+    "start": "KICK",
+    "end": "SIDE",
+    "ladder": [
+      "KICK",
+      "NICK",
+      "NICE",
+      "NINE",
+      "WINE",
+      "WIDE",
+      "SIDE"
+    ]
+  },
+  {
+    "number": 554,
+    "date": "November 5, 2025",
+    "isoDate": "2025-11-05",
+    "start": "SIZE",
+    "end": "BITE",
+    "ladder": [
+      "SIZE",
+      "SIRE",
+      "HIRE",
+      "HIDE",
+      "RIDE",
+      "RITE",
+      "BITE"
+    ]
+  },
+  {
+    "number": 553,
+    "date": "November 4, 2025",
+    "isoDate": "2025-11-04",
+    "start": "JURY",
+    "end": "ROOM",
+    "ladder": [
+      "JURY",
+      "BURY",
+      "BURN",
+      "BORN",
+      "BOON",
+      "BOOM",
+      "ROOM"
+    ]
+  },
+  {
+    "number": 552,
+    "date": "November 3, 2025",
+    "isoDate": "2025-11-03",
+    "start": "SIDE",
+    "end": "WALK",
+    "ladder": [
+      "SIDE",
+      "TIDE",
+      "TILE",
+      "TALE",
+      "TALL",
+      "WALL",
+      "WALK"
+    ]
+  },
+  {
+    "number": 551,
+    "date": "November 2, 2025",
+    "isoDate": "2025-11-02",
+    "start": "ALOE",
+    "end": "SKIN",
+    "ladder": [
+      "ALOE",
+      "FLOE",
+      "FLOP",
+      "FLIP",
+      "SLIP",
+      "SKIP",
+      "SKIN"
+    ]
+  },
+  {
+    "number": 550,
+    "date": "November 1, 2025",
+    "isoDate": "2025-11-01",
+    "start": "WHEAT",
+    "end": "BREAD",
+    "ladder": [
+      "WHEAT",
+      "CHEAT",
+      "CLEAT",
+      "BLEAT",
+      "BLEAK",
+      "BREAK",
+      "BREAD"
+    ]
+  },
+  {
+    "number": 549,
+    "date": "October 31, 2025",
+    "isoDate": "2025-10-31",
+    "start": "LEFT",
+    "end": "BANK",
+    "ladder": [
+      "LEFT",
+      "LIFT",
+      "LINT",
+      "LINK",
+      "RINK",
+      "RANK",
+      "BANK"
+    ]
+  },
+  {
+    "number": 548,
+    "date": "October 30, 2025",
+    "isoDate": "2025-10-30",
+    "start": "TRUE",
+    "end": "REAL",
+    "ladder": [
+      "TRUE",
+      "TREE",
+      "TRES",
+      "TEES",
+      "TEAS",
+      "TEAL",
+      "REAL"
+    ]
+  },
+  {
+    "number": 547,
+    "date": "October 29, 2025",
+    "isoDate": "2025-10-29",
+    "start": "POST",
+    "end": "MARK",
+    "ladder": [
+      "POST",
+      "PAST",
+      "PART",
+      "DART",
+      "DARE",
+      "MARE",
+      "MARK"
+    ]
+  },
+  {
+    "number": 546,
+    "date": "October 28, 2025",
+    "isoDate": "2025-10-28",
+    "start": "NOSE",
+    "end": "DIVE",
+    "ladder": [
+      "NOSE",
+      "DOSE",
+      "DOZE",
+      "DAZE",
+      "DANE",
+      "DINE",
+      "DIVE"
+    ]
+  },
+  {
+    "number": 545,
+    "date": "October 27, 2025",
+    "isoDate": "2025-10-27",
+    "start": "BALL",
+    "end": "FOOT",
+    "ladder": [
+      "BALL",
+      "BALD",
+      "BAND",
+      "BOND",
+      "FOND",
+      "FONT",
+      "FOOT"
+    ]
+  },
+  {
+    "number": 544,
+    "date": "October 26, 2025",
+    "isoDate": "2025-10-26",
+    "start": "WASTE",
+    "end": "MAKES",
+    "ladder": [
+      "WASTE",
+      "PASTE",
+      "PASTS",
+      "CASTS",
+      "CASES",
+      "CAKES",
+      "MAKES"
+    ]
+  },
+  {
+    "number": 543,
+    "date": "October 25, 2025",
+    "isoDate": "2025-10-25",
+    "start": "STILL",
+    "end": "STAND",
+    "ladder": [
+      "STILL",
+      "STALL",
+      "STALE",
+      "STARE",
+      "STARK",
+      "STANK",
+      "STAND"
+    ]
+  },
+  {
+    "number": 542,
+    "date": "October 24, 2025",
+    "isoDate": "2025-10-24",
+    "start": "NOOK",
+    "end": "WORM",
+    "ladder": [
+      "NOOK",
+      "ROOK",
+      "ROOT",
+      "FOOT",
+      "FORT",
+      "FORM",
+      "WORM"
+    ]
+  },
+  {
+    "number": 541,
+    "date": "October 23, 2025",
+    "isoDate": "2025-10-23",
+    "start": "SLIP",
+    "end": "KNOT",
+    "ladder": [
+      "SLIP",
+      "SHIP",
+      "SHOP",
+      "SHOW",
+      "SNOW",
+      "KNOW",
+      "KNOT"
+    ]
+  },
+  {
+    "number": 540,
+    "date": "October 22, 2025",
+    "isoDate": "2025-10-22",
+    "start": "DOZEN",
+    "end": "ROSES",
+    "ladder": [
+      "DOZEN",
+      "DOZES",
+      "DOMES",
+      "HOMES",
+      "HOPES",
+      "ROPES",
+      "ROSES"
+    ]
+  },
+  {
+    "number": 539,
+    "date": "October 21, 2025",
+    "isoDate": "2025-10-21",
+    "start": "LAKE",
+    "end": "COMO",
+    "ladder": [
+      "LAKE",
+      "FAKE",
+      "FAME",
+      "SAME",
+      "SOME",
+      "COME",
+      "COMO"
+    ]
+  },
+  {
+    "number": 538,
+    "date": "October 20, 2025",
+    "isoDate": "2025-10-20",
+    "start": "PANS",
+    "end": "POTS",
+    "ladder": [
+      "PANS",
+      "PENS",
+      "PETS",
+      "PATS",
+      "CATS",
+      "COTS",
+      "POTS"
+    ]
+  },
+  {
+    "number": 537,
+    "date": "October 19, 2025",
+    "isoDate": "2025-10-19",
+    "start": "CLING",
+    "end": "STICK",
+    "ladder": [
+      "CLING",
+      "SLING",
+      "STING",
+      "STINK",
+      "SLINK",
+      "SLICK",
+      "STICK"
+    ]
+  },
+  {
+    "number": 536,
+    "date": "October 18, 2025",
+    "isoDate": "2025-10-18",
+    "start": "CLASS",
+    "end": "CLOWN",
+    "ladder": [
+      "CLASS",
+      "GLASS",
+      "GLOSS",
+      "FLOSS",
+      "FLOWS",
+      "FLOWN",
+      "CLOWN"
+    ]
+  },
+  {
+    "number": 535,
+    "date": "October 17, 2025",
+    "isoDate": "2025-10-17",
+    "start": "CURD",
+    "end": "BEAN",
+    "ladder": [
+      "CURD",
+      "CARD",
+      "HARD",
+      "HERD",
+      "HEAD",
+      "BEAD",
+      "BEAN"
+    ]
+  },
+  {
+    "number": 534,
+    "date": "October 16, 2025",
+    "isoDate": "2025-10-16",
+    "start": "DEAL",
+    "end": "PACT",
+    "ladder": [
+      "DEAL",
+      "DEAR",
+      "PEAR",
+      "PEAK",
+      "PECK",
+      "PACK",
+      "PACT"
+    ]
+  },
+  {
+    "number": 533,
+    "date": "October 15, 2025",
+    "isoDate": "2025-10-15",
+    "start": "FIRE",
+    "end": "WOOD",
+    "ladder": [
+      "FIRE",
+      "TIRE",
+      "TORE",
+      "CORE",
+      "CORD",
+      "WORD",
+      "WOOD"
+    ]
+  },
+  {
+    "number": 532,
+    "date": "October 14, 2025",
+    "isoDate": "2025-10-14",
+    "start": "FORE",
+    "end": "FOUR",
+    "ladder": [
+      "FORE",
+      "SORE",
+      "SORT",
+      "PORT",
+      "POUT",
+      "POUR",
+      "FOUR"
+    ]
+  },
+  {
+    "number": 531,
+    "date": "October 13, 2025",
+    "isoDate": "2025-10-13",
+    "start": "BOOK",
+    "end": "CASE",
+    "ladder": [
+      "BOOK",
+      "COOK",
+      "CORK",
+      "CORE",
+      "COKE",
+      "CAKE",
+      "CASE"
+    ]
+  },
+  {
+    "number": 530,
+    "date": "October 12, 2025",
+    "isoDate": "2025-10-12",
+    "start": "PASSED",
+    "end": "MUSTER",
+    "ladder": [
+      "PASSED",
+      "PASTED",
+      "PATTED",
+      "PATTER",
+      "MATTER",
+      "MUTTER",
+      "MUSTER"
+    ]
+  },
+  {
+    "number": 529,
+    "date": "October 11, 2025",
+    "isoDate": "2025-10-11",
+    "start": "STONE",
+    "end": "GRAVE",
+    "ladder": [
+      "STONE",
+      "SHONE",
+      "PHONE",
+      "PRONE",
+      "PROVE",
+      "GROVE",
+      "GRAVE"
+    ]
+  },
+  {
+    "number": 528,
+    "date": "October 10, 2025",
+    "isoDate": "2025-10-10",
+    "start": "SOCK",
+    "end": "WIND",
+    "ladder": [
+      "SOCK",
+      "SICK",
+      "SINK",
+      "SINE",
+      "FINE",
+      "FIND",
+      "WIND"
+    ]
+  },
+  {
+    "number": 527,
+    "date": "October 9, 2025",
+    "isoDate": "2025-10-09",
+    "start": "SPOIL",
+    "end": "SPORT",
+    "ladder": [
+      "SPOIL",
+      "SPOOL",
+      "SPOOK",
+      "SHOOK",
+      "SHOOT",
+      "SHORT",
+      "SPORT"
+    ]
+  },
+  {
+    "number": 526,
+    "date": "October 8, 2025",
+    "isoDate": "2025-10-08",
+    "start": "GAME",
+    "end": "WORD",
+    "ladder": [
+      "GAME",
+      "GAZE",
+      "MAZE",
+      "MARE",
+      "MORE",
+      "WORE",
+      "WORD"
+    ]
+  },
+  {
+    "number": 525,
+    "date": "October 7, 2025",
+    "isoDate": "2025-10-07",
+    "start": "DOOR",
+    "end": "BELL",
+    "ladder": [
+      "DOOR",
+      "POOR",
+      "POOL",
+      "POLL",
+      "PULL",
+      "BULL",
+      "BELL"
+    ]
+  },
+  {
+    "number": 524,
+    "date": "October 6, 2025",
+    "isoDate": "2025-10-06",
+    "start": "ROLE",
+    "end": "PART",
+    "ladder": [
+      "ROLE",
+      "HOLE",
+      "HOPE",
+      "POPE",
+      "PORE",
+      "PORT",
+      "PART"
+    ]
+  },
+  {
+    "number": 523,
+    "date": "October 5, 2025",
+    "isoDate": "2025-10-05",
+    "start": "ROLLER",
+    "end": "SKATER",
+    "ladder": [
+      "ROLLER",
+      "HOLLER",
+      "HELLER",
+      "HEALER",
+      "HEATER",
+      "SEATER",
+      "SKATER"
+    ]
+  },
+  {
+    "number": 522,
+    "date": "October 4, 2025",
+    "isoDate": "2025-10-04",
+    "start": "MASTER",
+    "end": "MINDED",
+    "ladder": [
+      "MASTER",
+      "MATTER",
+      "MATTED",
+      "MASTED",
+      "MISTED",
+      "MINTED",
+      "MINDED"
+    ]
+  },
+  {
+    "number": 521,
+    "date": "October 3, 2025",
+    "isoDate": "2025-10-03",
+    "start": "CRANK",
+    "end": "SHAFT",
+    "ladder": [
+      "CRANK",
+      "PRANK",
+      "PLANK",
+      "PLANT",
+      "SLANT",
+      "SHANT",
+      "SHAFT"
+    ]
+  },
+  {
+    "number": 520,
+    "date": "October 2, 2025",
+    "isoDate": "2025-10-02",
+    "start": "SONG",
+    "end": "BEST",
+    "ladder": [
+      "SONG",
+      "SONS",
+      "TONS",
+      "TENS",
+      "TENT",
+      "TEST",
+      "BEST"
+    ]
+  },
+  {
+    "number": 519,
+    "date": "October 1, 2025",
+    "isoDate": "2025-10-01",
+    "start": "SIZE",
+    "end": "KING",
+    "ladder": [
+      "SIZE",
+      "SITE",
+      "SITS",
+      "SINS",
+      "WINS",
+      "WING",
+      "KING"
+    ]
+  },
+  {
+    "number": 518,
+    "date": "September 30, 2025",
+    "isoDate": "2025-09-30",
+    "start": "LINE",
+    "end": "HAIR",
+    "ladder": [
+      "LINE",
+      "LANE",
+      "LAND",
+      "LAID",
+      "PAID",
+      "PAIR",
+      "HAIR"
+    ]
+  },
+  {
+    "number": 517,
+    "date": "September 29, 2025",
+    "isoDate": "2025-09-29",
+    "start": "WARM",
+    "end": "LUKE",
+    "ladder": [
+      "WARM",
+      "HARM",
+      "HARE",
+      "FARE",
+      "FAKE",
+      "LAKE",
+      "LUKE"
+    ]
+  },
+  {
+    "number": 516,
+    "date": "September 28, 2025",
+    "isoDate": "2025-09-28",
+    "start": "GREEK",
+    "end": "CROSS",
+    "ladder": [
+      "GREEK",
+      "CREEK",
+      "CREAK",
+      "CROAK",
+      "CROCK",
+      "CROCS",
+      "CROSS"
+    ]
+  },
+  {
+    "number": 515,
+    "date": "September 27, 2025",
+    "isoDate": "2025-09-27",
+    "start": "BREAD",
+    "end": "SWEET",
+    "ladder": [
+      "BREAD",
+      "BREED",
+      "BLEED",
+      "BLEEP",
+      "SLEEP",
+      "SWEEP",
+      "SWEET"
+    ]
+  },
+  {
+    "number": 514,
+    "date": "September 26, 2025",
+    "isoDate": "2025-09-26",
+    "start": "TOTTER",
+    "end": "TEETER",
+    "ladder": [
+      "TOTTER",
+      "POTTER",
+      "POSTER",
+      "FOSTER",
+      "FESTER",
+      "TESTER",
+      "TEETER"
+    ]
+  },
+  {
+    "number": 513,
+    "date": "September 25, 2025",
+    "isoDate": "2025-09-25",
+    "start": "TOOTH",
+    "end": "PICKS",
+    "ladder": [
+      "TOOTH",
+      "TOOTS",
+      "LOOTS",
+      "LOOKS",
+      "LOCKS",
+      "LICKS",
+      "PICKS"
+    ]
+  },
+  {
+    "number": 512,
+    "date": "September 24, 2025",
+    "isoDate": "2025-09-24",
+    "start": "GLASS",
+    "end": "PLATE",
+    "ladder": [
+      "GLASS",
+      "CLASS",
+      "CLAPS",
+      "SLAPS",
+      "SLATS",
+      "SLATE",
+      "PLATE"
+    ]
+  },
+  {
+    "number": 511,
+    "date": "September 23, 2025",
+    "isoDate": "2025-09-23",
+    "start": "BELT",
+    "end": "SEAT",
+    "ladder": [
+      "BELT",
+      "BELL",
+      "FELL",
+      "FELT",
+      "MELT",
+      "MEAT",
+      "SEAT"
+    ]
+  },
+  {
+    "number": 510,
+    "date": "September 22, 2025",
+    "isoDate": "2025-09-22",
+    "start": "PASS",
+    "end": "PORT",
+    "ladder": [
+      "PASS",
+      "BASS",
+      "BARS",
+      "BARK",
+      "PARK",
+      "PORK",
+      "PORT"
+    ]
+  },
+  {
+    "number": 509,
+    "date": "September 21, 2025",
+    "isoDate": "2025-09-21",
+    "start": "FISH",
+    "end": "STAR",
+    "ladder": [
+      "FISH",
+      "FIST",
+      "FIAT",
+      "FEAT",
+      "SEAT",
+      "STAT",
+      "STAR"
+    ]
+  },
+  {
+    "number": 508,
+    "date": "September 20, 2025",
+    "isoDate": "2025-09-20",
+    "start": "DARK",
+    "end": "ROOM",
+    "ladder": [
+      "DARK",
+      "BARK",
+      "BACK",
+      "RACK",
+      "ROCK",
+      "ROOK",
+      "ROOM"
+    ]
+  },
+  {
+    "number": 507,
+    "date": "September 19, 2025",
+    "isoDate": "2025-09-19",
+    "start": "HANG",
+    "end": "NAIL",
+    "ladder": [
+      "HANG",
+      "BANG",
+      "BAND",
+      "SAND",
+      "SAID",
+      "SAIL",
+      "NAIL"
+    ]
+  },
+  {
+    "number": 506,
+    "date": "September 18, 2025",
+    "isoDate": "2025-09-18",
+    "start": "GOLD",
+    "end": "MINE",
+    "ladder": [
+      "GOLD",
+      "HOLD",
+      "HOLE",
+      "POLE",
+      "PILE",
+      "PINE",
+      "MINE"
+    ]
+  },
+  {
+    "number": 505,
+    "date": "September 17, 2025",
+    "isoDate": "2025-09-17",
+    "start": "ROUGH",
+    "end": "PATCH",
+    "ladder": [
+      "ROUGH",
+      "COUGH",
+      "COUCH",
+      "POUCH",
+      "PORCH",
+      "PARCH",
+      "PATCH"
+    ]
+  },
+  {
+    "number": 504,
+    "date": "September 16, 2025",
+    "isoDate": "2025-09-16",
+    "start": "HIGH",
+    "end": "WIRE",
+    "ladder": [
+      "HIGH",
+      "SIGH",
+      "SITH",
+      "WITH",
+      "WISH",
+      "WISE",
+      "WIRE"
+    ]
+  },
+  {
+    "number": 503,
+    "date": "September 15, 2025",
+    "isoDate": "2025-09-15",
+    "start": "WIND",
+    "end": "MILL",
+    "ladder": [
+      "WIND",
+      "WING",
+      "SING",
+      "SINE",
+      "MINE",
+      "MILE",
+      "MILL"
+    ]
+  },
+  {
+    "number": 502,
+    "date": "September 14, 2025",
+    "isoDate": "2025-09-14",
+    "start": "WEST",
+    "end": "WILD",
+    "ladder": [
+      "WEST",
+      "BEST",
+      "BELT",
+      "BELL",
+      "BILL",
+      "WILL",
+      "WILD"
+    ]
+  },
+  {
+    "number": 501,
+    "date": "September 13, 2025",
+    "isoDate": "2025-09-13",
+    "start": "SHEEP",
+    "end": "FLOCK",
+    "ladder": [
+      "SHEEP",
+      "CHEEP",
+      "CHEEK",
+      "CHECK",
+      "CHOCK",
+      "CLOCK",
+      "FLOCK"
+    ]
+  },
+  {
+    "number": 500,
+    "date": "September 12, 2025",
+    "isoDate": "2025-09-12",
+    "start": "SHAPE",
+    "end": "SHIFT",
+    "ladder": [
+      "SHAPE",
+      "SHAVE",
+      "SHOVE",
+      "SHORE",
+      "SHORT",
+      "SHIRT",
+      "SHIFT"
+    ]
+  },
+  {
+    "number": 499,
+    "date": "September 11, 2025",
+    "isoDate": "2025-09-11",
+    "start": "BLEND",
+    "end": "SPICE",
+    "ladder": [
+      "BLEND",
+      "BLIND",
+      "BLINK",
+      "SLINK",
+      "SLICK",
+      "SLICE",
+      "SPICE"
+    ]
+  },
+  {
+    "number": 498,
+    "date": "September 10, 2025",
+    "isoDate": "2025-09-10",
+    "start": "SEALING",
+    "end": "CEILING",
+    "ladder": [
+      "SEALING",
+      "SELLING",
+      "TELLING",
+      "TOLLING",
+      "TOILING",
+      "COILING",
+      "CEILING"
+    ]
+  },
+  {
+    "number": 497,
+    "date": "September 9, 2025",
+    "isoDate": "2025-09-09",
+    "start": "FOOT",
+    "end": "REST",
+    "ladder": [
+      "FOOT",
+      "HOOT",
+      "HOST",
+      "MOST",
+      "MUST",
+      "RUST",
+      "REST"
+    ]
+  },
+  {
+    "number": 496,
+    "date": "September 8, 2025",
+    "isoDate": "2025-09-08",
+    "start": "FISH",
+    "end": "BAIT",
+    "ladder": [
+      "FISH",
+      "FIST",
+      "FAST",
+      "PAST",
+      "PART",
+      "BART",
+      "BAIT"
+    ]
+  },
+  {
+    "number": 495,
+    "date": "September 7, 2025",
+    "isoDate": "2025-09-07",
+    "start": "DANCER",
+    "end": "BALLET",
+    "ladder": [
+      "DANCER",
+      "DANKER",
+      "TANKER",
+      "TALKER",
+      "TALLER",
+      "BALLER",
+      "BALLET"
+    ]
+  },
+  {
+    "number": 494,
+    "date": "September 6, 2025",
+    "isoDate": "2025-09-06",
+    "start": "BALLED",
+    "end": "BAWLED",
+    "ladder": [
+      "BALLED",
+      "WALLED",
+      "WAILED",
+      "BAILED",
+      "BOILED",
+      "BOWLED",
+      "BAWLED"
+    ]
+  },
+  {
+    "number": 493,
+    "date": "September 5, 2025",
+    "isoDate": "2025-09-05",
+    "start": "TURNED",
+    "end": "TOSSED",
+    "ladder": [
+      "TURNED",
+      "BURNED",
+      "BURIED",
+      "BUSIED",
+      "BUSSED",
+      "BOSSED",
+      "TOSSED"
+    ]
+  },
+  {
+    "number": 492,
+    "date": "September 4, 2025",
+    "isoDate": "2025-09-04",
+    "start": "LION",
+    "end": "CUBS",
+    "ladder": [
+      "LION",
+      "LOON",
+      "MOON",
+      "MOOS",
+      "MOBS",
+      "COBS",
+      "CUBS"
+    ]
+  },
+  {
+    "number": 491,
+    "date": "September 3, 2025",
+    "isoDate": "2025-09-03",
+    "start": "FILM",
+    "end": "STAR",
+    "ladder": [
+      "FILM",
+      "FILL",
+      "SILL",
+      "SELL",
+      "SEAL",
+      "SEAR",
+      "STAR"
+    ]
+  },
+  {
+    "number": 490,
+    "date": "September 2, 2025",
+    "isoDate": "2025-09-02",
+    "start": "FAIRY",
+    "end": "TALES",
+    "ladder": [
+      "FAIRY",
+      "FAIRS",
+      "FAILS",
+      "MAILS",
+      "MALLS",
+      "MALES",
+      "TALES"
+    ]
+  },
+  {
+    "number": 489,
+    "date": "September 1, 2025",
+    "isoDate": "2025-09-01",
+    "start": "FOOT",
+    "end": "HEEL",
+    "ladder": [
+      "FOOT",
+      "BOOT",
+      "BOAT",
+      "BEAT",
+      "HEAT",
+      "HEAL",
+      "HEEL"
+    ]
+  },
+  {
+    "number": 488,
+    "date": "August 31, 2025",
+    "isoDate": "2025-08-31",
+    "start": "POCKET",
+    "end": "CORNER",
+    "ladder": [
+      "POCKET",
+      "LOCKET",
+      "LOCKER",
+      "LOOKER",
+      "COOKER",
+      "CORKER",
+      "CORNER"
+    ]
+  },
+  {
+    "number": 487,
+    "date": "August 30, 2025",
+    "isoDate": "2025-08-30",
+    "start": "ONLY",
+    "end": "LIVE",
+    "ladder": [
+      "ONLY",
+      "OILY",
+      "LILY",
+      "LILT",
+      "LINT",
+      "LINE",
+      "LIVE"
+    ]
+  },
+  {
+    "number": 486,
+    "date": "August 29, 2025",
+    "isoDate": "2025-08-29",
+    "start": "GOATS",
+    "end": "BILLY",
+    "ladder": [
+      "GOATS",
+      "BOATS",
+      "BOLTS",
+      "BELTS",
+      "BELLS",
+      "BELLY",
+      "BILLY"
+    ]
+  },
+  {
+    "number": 485,
+    "date": "August 28, 2025",
+    "isoDate": "2025-08-28",
+    "start": "LIME",
+    "end": "MOSS",
+    "ladder": [
+      "LIME",
+      "LIFE",
+      "LIFT",
+      "LIST",
+      "MIST",
+      "MOST",
+      "MOSS"
+    ]
+  },
+  {
+    "number": 484,
+    "date": "August 27, 2025",
+    "isoDate": "2025-08-27",
+    "start": "READ",
+    "end": "BOOK",
+    "ladder": [
+      "READ",
+      "REAR",
+      "ROAR",
+      "ROAM",
+      "ROOM",
+      "ROOK",
+      "BOOK"
+    ]
+  },
+  {
+    "number": 483,
+    "date": "August 26, 2025",
+    "isoDate": "2025-08-26",
+    "start": "TUBA",
+    "end": "BASS",
+    "ladder": [
+      "TUBA",
+      "CUBA",
+      "CUBS",
+      "CUTS",
+      "CATS",
+      "BATS",
+      "BASS"
+    ]
+  },
+  {
+    "number": 482,
+    "date": "August 25, 2025",
+    "isoDate": "2025-08-25",
+    "start": "WARS",
+    "end": "STAR",
+    "ladder": [
+      "WARS",
+      "BARS",
+      "BAAS",
+      "BOAS",
+      "BOAR",
+      "SOAR",
+      "STAR"
+    ]
+  },
+  {
+    "number": 481,
+    "date": "August 24, 2025",
+    "isoDate": "2025-08-24",
+    "start": "POSTER",
+    "end": "WANTED",
+    "ladder": [
+      "POSTER",
+      "POTTER",
+      "PATTER",
+      "PATTED",
+      "RATTED",
+      "RANTED",
+      "WANTED"
+    ]
+  },
+  {
+    "number": 480,
+    "date": "August 23, 2025",
+    "isoDate": "2025-08-23",
+    "start": "PARIS",
+    "end": "TOURS",
+    "ladder": [
+      "PARIS",
+      "PARES",
+      "PORES",
+      "PORTS",
+      "POUTS",
+      "POURS",
+      "TOURS"
+    ]
+  },
+  {
+    "number": 479,
+    "date": "August 22, 2025",
+    "isoDate": "2025-08-22",
+    "start": "SHOES",
+    "end": "DRESS",
+    "ladder": [
+      "SHOES",
+      "SHOPS",
+      "CHOPS",
+      "CROPS",
+      "CROSS",
+      "CRESS",
+      "DRESS"
+    ]
+  },
+  {
+    "number": 478,
+    "date": "August 21, 2025",
+    "isoDate": "2025-08-21",
+    "start": "TWICE",
+    "end": "THINK",
+    "ladder": [
+      "TWICE",
+      "TWINE",
+      "SWINE",
+      "SHINE",
+      "SHINS",
+      "THINS",
+      "THINK"
+    ]
+  },
+  {
+    "number": 477,
+    "date": "August 20, 2025",
+    "isoDate": "2025-08-20",
+    "start": "DOVE",
+    "end": "HAWK",
+    "ladder": [
+      "DOVE",
+      "MOVE",
+      "MORE",
+      "MARE",
+      "HARE",
+      "HARK",
+      "HAWK"
+    ]
+  },
+  {
+    "number": 476,
+    "date": "August 19, 2025",
+    "isoDate": "2025-08-19",
+    "start": "BATH",
+    "end": "SOAK",
+    "ladder": [
+      "BATH",
+      "BACH",
+      "BACK",
+      "LACK",
+      "LOCK",
+      "SOCK",
+      "SOAK"
+    ]
+  },
+  {
+    "number": 475,
+    "date": "August 18, 2025",
+    "isoDate": "2025-08-18",
+    "start": "LIMA",
+    "end": "ROME",
+    "ladder": [
+      "LIMA",
+      "LIME",
+      "LINE",
+      "DINE",
+      "DONE",
+      "DOME",
+      "ROME"
+    ]
+  },
+  {
+    "number": 474,
+    "date": "August 17, 2025",
+    "isoDate": "2025-08-17",
+    "start": "MOATS",
+    "end": "WATER",
+    "ladder": [
+      "MOATS",
+      "MOLTS",
+      "MOLES",
+      "MALES",
+      "MATES",
+      "MATER",
+      "WATER"
+    ]
+  },
+  {
+    "number": 473,
+    "date": "August 16, 2025",
+    "isoDate": "2025-08-16",
+    "start": "DOWN",
+    "end": "STAY",
+    "ladder": [
+      "DOWN",
+      "MOWN",
+      "MOAN",
+      "MEAN",
+      "SEAN",
+      "STAN",
+      "STAY"
+    ]
+  },
+  {
+    "number": 472,
+    "date": "August 15, 2025",
+    "isoDate": "2025-08-15",
+    "start": "HERE",
+    "end": "SAME",
+    "ladder": [
+      "HERE",
+      "HIRE",
+      "HIVE",
+      "HAVE",
+      "CAVE",
+      "CAME",
+      "SAME"
+    ]
+  },
+  {
+    "number": 471,
+    "date": "August 14, 2025",
+    "isoDate": "2025-08-14",
+    "start": "EYRE",
+    "end": "JANE",
+    "ladder": [
+      "EYRE",
+      "PYRE",
+      "PORE",
+      "POLE",
+      "PALE",
+      "PANE",
+      "JANE"
+    ]
+  },
+  {
+    "number": 470,
+    "date": "August 13, 2025",
+    "isoDate": "2025-08-13",
+    "start": "DIRT",
+    "end": "SOIL",
+    "ladder": [
+      "DIRT",
+      "DART",
+      "WART",
+      "WAIT",
+      "WAIL",
+      "SAIL",
+      "SOIL"
+    ]
+  },
+  {
+    "number": 469,
+    "date": "August 12, 2025",
+    "isoDate": "2025-08-12",
+    "start": "MART",
+    "end": "MINI",
+    "ladder": [
+      "MART",
+      "MALT",
+      "MALE",
+      "MILE",
+      "MILD",
+      "MIND",
+      "MINI"
+    ]
+  },
+  {
+    "number": 468,
+    "date": "August 11, 2025",
+    "isoDate": "2025-08-11",
+    "start": "LIFE",
+    "end": "HACK",
+    "ladder": [
+      "LIFE",
+      "LICE",
+      "NICE",
+      "NICK",
+      "PICK",
+      "PACK",
+      "HACK"
+    ]
+  },
+  {
+    "number": 467,
+    "date": "August 10, 2025",
+    "isoDate": "2025-08-10",
+    "start": "TRACK",
+    "end": "TRAIN",
+    "ladder": [
+      "TRACK",
+      "TRUCK",
+      "TRUCE",
+      "TRACE",
+      "TRACT",
+      "TRAIT",
+      "TRAIN"
+    ]
+  },
+  {
+    "number": 466,
+    "date": "August 9, 2025",
+    "isoDate": "2025-08-09",
+    "start": "SCARF",
+    "end": "STONE",
+    "ladder": [
+      "SCARF",
+      "SCARE",
+      "SHARE",
+      "SHAVE",
+      "SHOVE",
+      "STOVE",
+      "STONE"
+    ]
+  },
+  {
+    "number": 465,
+    "date": "August 8, 2025",
+    "isoDate": "2025-08-08",
+    "start": "ACHE",
+    "end": "HURT",
+    "ladder": [
+      "ACHE",
+      "ACRE",
+      "AIRE",
+      "HIRE",
+      "HARE",
+      "HART",
+      "HURT"
+    ]
+  },
+  {
+    "number": 464,
+    "date": "August 7, 2025",
+    "isoDate": "2025-08-07",
+    "start": "CARD",
+    "end": "FACE",
+    "ladder": [
+      "CARD",
+      "CARE",
+      "MARE",
+      "MAKE",
+      "RAKE",
+      "RACE",
+      "FACE"
+    ]
+  },
+  {
+    "number": 463,
+    "date": "August 6, 2025",
+    "isoDate": "2025-08-06",
+    "start": "CARD",
+    "end": "FACE",
+    "ladder": [
+      "CARD",
+      "CARE",
+      "MARE",
+      "MAKE",
+      "RAKE",
+      "RACE",
+      "FACE"
+    ]
+  },
+  {
+    "number": 462,
+    "date": "August 5, 2025",
+    "isoDate": "2025-08-05",
+    "start": "DAFT",
+    "end": "PUNK",
+    "ladder": [
+      "DAFT",
+      "RAFT",
+      "RANT",
+      "PANT",
+      "PINT",
+      "PINK",
+      "PUNK"
+    ]
+  },
+  {
+    "number": 461,
+    "date": "August 4, 2025",
+    "isoDate": "2025-08-04",
+    "start": "GOLF",
+    "end": "SHOE",
+    "ladder": [
+      "GOLF",
+      "GOOF",
+      "HOOF",
+      "HOOT",
+      "SOOT",
+      "SHOT",
+      "SHOE"
+    ]
+  },
+  {
+    "number": 460,
+    "date": "August 3, 2025",
+    "isoDate": "2025-08-03",
+    "start": "SCAPE",
+    "end": "GOATS",
+    "ladder": [
+      "SCAPE",
+      "SCARE",
+      "SCARS",
+      "SOARS",
+      "BOARS",
+      "BOATS",
+      "GOATS"
+    ]
+  },
+  {
+    "number": 459,
+    "date": "August 2, 2025",
+    "isoDate": "2025-08-02",
+    "start": "TOOL",
+    "end": "BELT",
+    "ladder": [
+      "TOOL",
+      "COOL",
+      "COAL",
+      "COAT",
+      "BOAT",
+      "BEAT",
+      "BELT"
+    ]
+  },
+  {
+    "number": 458,
+    "date": "August 1, 2025",
+    "isoDate": "2025-08-01",
+    "start": "BASKET",
+    "end": "WICKER",
+    "ladder": [
+      "BASKET",
+      "BASKED",
+      "BACKED",
+      "PACKED",
+      "PICKED",
+      "WICKED",
+      "WICKER"
+    ]
+  },
+  {
+    "number": 457,
+    "date": "July 31, 2025",
+    "isoDate": "2025-07-31",
+    "start": "SLIDE",
+    "end": "SWING",
+    "ladder": [
+      "SLIDE",
+      "SLICE",
+      "SLICK",
+      "STICK",
+      "STINK",
+      "STING",
+      "SWING"
+    ]
+  },
+  {
+    "number": 456,
+    "date": "July 30, 2025",
+    "isoDate": "2025-07-30",
+    "start": "BELL",
+    "end": "TACO",
+    "ladder": [
+      "BELL",
+      "WELL",
+      "WALL",
+      "WALK",
+      "TALK",
+      "TACK",
+      "TACO"
+    ]
+  },
+  {
+    "number": 455,
+    "date": "July 29, 2025",
+    "isoDate": "2025-07-29",
+    "start": "CHOW",
+    "end": "MEIN",
+    "ladder": [
+      "CHOW",
+      "CHOP",
+      "CHIP",
+      "CHIN",
+      "CAIN",
+      "MAIN",
+      "MEIN"
+    ]
+  },
+  {
+    "number": 454,
+    "date": "July 28, 2025",
+    "isoDate": "2025-07-28",
+    "start": "LOTS",
+    "end": "MANY",
+    "ladder": [
+      "LOTS",
+      "COTS",
+      "CATS",
+      "CARS",
+      "MARS",
+      "MARY",
+      "MANY"
+    ]
+  },
+  {
+    "number": 453,
+    "date": "July 27, 2025",
+    "isoDate": "2025-07-27",
+    "start": "POOR",
+    "end": "RICH",
+    "ladder": [
+      "POOR",
+      "BOOR",
+      "BOOK",
+      "ROOK",
+      "ROCK",
+      "RICK",
+      "RICH"
+    ]
+  },
+  {
+    "number": 452,
+    "date": "July 26, 2025",
+    "isoDate": "2025-07-26",
+    "start": "POWER",
+    "end": "CORDS",
+    "ladder": [
+      "POWER",
+      "LOWER",
+      "LOVER",
+      "COVER",
+      "COVES",
+      "CORES",
+      "CORDS"
+    ]
+  },
+  {
+    "number": 451,
+    "date": "July 25, 2025",
+    "isoDate": "2025-07-25",
+    "start": "SLEEP",
+    "end": "DREAM",
+    "ladder": [
+      "SLEEP",
+      "BLEEP",
+      "BLEED",
+      "BREED",
+      "BREAD",
+      "DREAD",
+      "DREAM"
+    ]
+  },
+  {
+    "number": 450,
+    "date": "July 24, 2025",
+    "isoDate": "2025-07-24",
+    "start": "FLOUR",
+    "end": "BREAD",
+    "ladder": [
+      "FLOUR",
+      "FLOOR",
+      "FLOOD",
+      "BLOOD",
+      "BROOD",
+      "BROAD",
+      "BREAD"
+    ]
+  },
+  {
+    "number": 449,
+    "date": "July 23, 2025",
+    "isoDate": "2025-07-23",
+    "start": "POINT",
+    "end": "CLICK",
+    "ladder": [
+      "POINT",
+      "PAINT",
+      "FAINT",
+      "FLINT",
+      "CLINT",
+      "CLINK",
+      "CLICK"
+    ]
+  },
+  {
+    "number": 448,
+    "date": "July 22, 2025",
+    "isoDate": "2025-07-22",
+    "start": "HARD",
+    "end": "WORK",
+    "ladder": [
+      "HARD",
+      "CARD",
+      "CARE",
+      "CORE",
+      "PORE",
+      "PORK",
+      "WORK"
+    ]
+  },
+  {
+    "number": 447,
+    "date": "July 21, 2025",
+    "isoDate": "2025-07-21",
+    "start": "HEAD",
+    "end": "CHEF",
+    "ladder": [
+      "HEAD",
+      "HEED",
+      "TEED",
+      "TEEM",
+      "THEM",
+      "CHEM",
+      "CHEF"
+    ]
+  },
+  {
+    "number": 446,
+    "date": "July 20, 2025",
+    "isoDate": "2025-07-20",
+    "start": "HUNT",
+    "end": "PECK",
+    "ladder": [
+      "HUNT",
+      "PUNT",
+      "PINT",
+      "PINK",
+      "PUNK",
+      "PUCK",
+      "PECK"
+    ]
+  },
+  {
+    "number": 445,
+    "date": "July 19, 2025",
+    "isoDate": "2025-07-19",
+    "start": "PAPER",
+    "end": "TIGER",
+    "ladder": [
+      "PAPER",
+      "CAPER",
+      "CATER",
+      "TATER",
+      "TAMER",
+      "TIMER",
+      "TIGER"
+    ]
+  },
+  {
+    "number": 444,
+    "date": "July 18, 2025",
+    "isoDate": "2025-07-18",
+    "start": "PUNK",
+    "end": "ROCK",
+    "ladder": [
+      "PUNK",
+      "BUNK",
+      "BANK",
+      "BACK",
+      "JACK",
+      "JOCK",
+      "ROCK"
+    ]
+  },
+  {
+    "number": 443,
+    "date": "July 17, 2025",
+    "isoDate": "2025-07-17",
+    "start": "COAST",
+    "end": "GLIDE",
+    "ladder": [
+      "COAST",
+      "BOAST",
+      "BLAST",
+      "BLASE",
+      "BLADE",
+      "GLADE",
+      "GLIDE"
+    ]
+  },
+  {
+    "number": 442,
+    "date": "July 16, 2025",
+    "isoDate": "2025-07-16",
+    "start": "PLUTO",
+    "end": "STARS",
+    "ladder": [
+      "PLUTO",
+      "PLATO",
+      "PLATE",
+      "SLATE",
+      "STATE",
+      "STATS",
+      "STARS"
+    ]
+  },
+  {
+    "number": 441,
+    "date": "July 15, 2025",
+    "isoDate": "2025-07-15",
+    "start": "TIME",
+    "end": "FULL",
+    "ladder": [
+      "TIME",
+      "TILE",
+      "TALE",
+      "TALL",
+      "TELL",
+      "FELL",
+      "FULL"
+    ]
+  },
+  {
+    "number": 440,
+    "date": "July 14, 2025",
+    "isoDate": "2025-07-14",
+    "start": "LEAF",
+    "end": "FOUR",
+    "ladder": [
+      "LEAF",
+      "LEAR",
+      "REAR",
+      "ROAR",
+      "SOAR",
+      "SOUR",
+      "FOUR"
+    ]
+  },
+  {
+    "number": 439,
+    "date": "July 13, 2025",
+    "isoDate": "2025-07-13",
+    "start": "GAWK",
+    "end": "GAZE",
+    "ladder": [
+      "GAWK",
+      "HAWK",
+      "HACK",
+      "RACK",
+      "RACE",
+      "RAZE",
+      "GAZE"
+    ]
+  },
+  {
+    "number": 438,
+    "date": "July 12, 2025",
+    "isoDate": "2025-07-12",
+    "start": "CHOW",
+    "end": "GRUB",
+    "ladder": [
+      "CHOW",
+      "CROW",
+      "CRAW",
+      "CRAM",
+      "GRAM",
+      "GRAB",
+      "GRUB"
+    ]
+  },
+  {
+    "number": 437,
+    "date": "July 11, 2025",
+    "isoDate": "2025-07-11",
+    "start": "ACID",
+    "end": "RAIN",
+    "ladder": [
+      "ACID",
+      "ARID",
+      "GRID",
+      "GRIT",
+      "GAIT",
+      "GAIN",
+      "RAIN"
+    ]
+  },
+  {
+    "number": 436,
+    "date": "July 10, 2025",
+    "isoDate": "2025-07-10",
+    "start": "MUCH",
+    "end": "VERY",
+    "ladder": [
+      "MUCH",
+      "MACH",
+      "MACE",
+      "MARE",
+      "MARY",
+      "VARY",
+      "VERY"
+    ]
+  },
+  {
+    "number": 435,
+    "date": "July 9, 2025",
+    "isoDate": "2025-07-09",
+    "start": "PAPA",
+    "end": "BEAR",
+    "ladder": [
+      "PAPA",
+      "PARA",
+      "PARK",
+      "PERK",
+      "PEAK",
+      "PEAR",
+      "BEAR"
+    ]
+  },
+  {
+    "number": 434,
+    "date": "July 8, 2025",
+    "isoDate": "2025-07-08",
+    "start": "LAMP",
+    "end": "HEAT",
+    "ladder": [
+      "LAMP",
+      "DAMP",
+      "DUMP",
+      "HUMP",
+      "HEMP",
+      "HEAP",
+      "HEAT"
+    ]
+  },
+  {
+    "number": 433,
+    "date": "July 7, 2025",
+    "isoDate": "2025-07-07",
+    "start": "HULL",
+    "end": "KEEL",
+    "ladder": [
+      "HULL",
+      "DULL",
+      "DELL",
+      "DEAL",
+      "REAL",
+      "REEL",
+      "KEEL"
+    ]
+  },
+  {
+    "number": 432,
+    "date": "July 6, 2025",
+    "isoDate": "2025-07-06",
+    "start": "DOCK",
+    "end": "PIER",
+    "ladder": [
+      "DOCK",
+      "HOCK",
+      "HECK",
+      "PECK",
+      "PEEK",
+      "PEER",
+      "PIER"
+    ]
+  },
+  {
+    "number": 431,
+    "date": "July 5, 2025",
+    "isoDate": "2025-07-05",
+    "start": "MOPE",
+    "end": "SULK",
+    "ladder": [
+      "MOPE",
+      "MOLE",
+      "MILE",
+      "MILL",
+      "SILL",
+      "SILK",
+      "SULK"
+    ]
+  },
+  {
+    "number": 430,
+    "date": "July 4, 2025",
+    "isoDate": "2025-07-04",
+    "start": "LISA",
+    "end": "MONA",
+    "ladder": [
+      "LISA",
+      "LIST",
+      "LINT",
+      "LINK",
+      "MINK",
+      "MONK",
+      "MONA"
+    ]
+  },
+  {
+    "number": 429,
+    "date": "July 3, 2025",
+    "isoDate": "2025-07-03",
+    "start": "DRONE",
+    "end": "STING",
+    "ladder": [
+      "DRONE",
+      "CRONE",
+      "CLONE",
+      "CLINE",
+      "CLING",
+      "SLING",
+      "STING"
+    ]
+  },
+  {
+    "number": 428,
+    "date": "July 2, 2025",
+    "isoDate": "2025-07-02",
+    "start": "LETTER",
+    "end": "WRITER",
+    "ladder": [
+      "LETTER",
+      "LATTER",
+      "HATTER",
+      "HALTER",
+      "WALTER",
+      "WAITER",
+      "WRITER"
+    ]
+  },
+  {
+    "number": 427,
+    "date": "July 1, 2025",
+    "isoDate": "2025-07-01",
+    "start": "PLUS",
+    "end": "SIGN",
+    "ladder": [
+      "PLUS",
+      "PIUS",
+      "PITS",
+      "SITS",
+      "SITH",
+      "SIGH",
+      "SIGN"
+    ]
+  },
+  {
+    "number": 426,
+    "date": "June 30, 2025",
+    "isoDate": "2025-06-30",
+    "start": "SMOKE",
+    "end": "STACK",
+    "ladder": [
+      "SMOKE",
+      "STOKE",
+      "STORE",
+      "STARE",
+      "STARK",
+      "STALK",
+      "STACK"
+    ]
+  },
+  {
+    "number": 425,
+    "date": "June 29, 2025",
+    "isoDate": "2025-06-29",
+    "start": "DRESS",
+    "end": "FROCK",
+    "ladder": [
+      "DRESS",
+      "PRESS",
+      "CRESS",
+      "CROSS",
+      "CROCS",
+      "CROCK",
+      "FROCK"
+    ]
+  },
+  {
+    "number": 424,
+    "date": "June 28, 2025",
+    "isoDate": "2025-06-28",
+    "start": "STOCK",
+    "end": "PRICE",
+    "ladder": [
+      "STOCK",
+      "STICK",
+      "SLICK",
+      "CLICK",
+      "CRICK",
+      "PRICK",
+      "PRICE"
+    ]
+  },
+  {
+    "number": 423,
+    "date": "June 27, 2025",
+    "isoDate": "2025-06-27",
+    "start": "TOUCH",
+    "end": "WATCH",
+    "ladder": [
+      "TOUCH",
+      "COUCH",
+      "POUCH",
+      "PORCH",
+      "PARCH",
+      "PATCH",
+      "WATCH"
+    ]
+  },
+  {
+    "number": 422,
+    "date": "June 26, 2025",
+    "isoDate": "2025-06-26",
+    "start": "SPICE",
+    "end": "CLOVE",
+    "ladder": [
+      "SPICE",
+      "SLICE",
+      "SLIME",
+      "CLIME",
+      "CLINE",
+      "CLONE",
+      "CLOVE"
+    ]
+  },
+  {
+    "number": 421,
+    "date": "June 25, 2025",
+    "isoDate": "2025-06-25",
+    "start": "HALO",
+    "end": "HARP",
+    "ladder": [
+      "HALO",
+      "HALT",
+      "MALT",
+      "MART",
+      "CART",
+      "CARP",
+      "HARP"
+    ]
+  },
+  {
+    "number": 420,
+    "date": "June 24, 2025",
+    "isoDate": "2025-06-24",
+    "start": "RACK",
+    "end": "BIKE",
+    "ladder": [
+      "RACK",
+      "PACK",
+      "BACK",
+      "BARK",
+      "BARE",
+      "BAKE",
+      "BIKE"
+    ]
+  },
+  {
+    "number": 419,
+    "date": "June 23, 2025",
+    "isoDate": "2025-06-23",
+    "start": "MASK",
+    "end": "HIDE",
+    "ladder": [
+      "MASK",
+      "MARK",
+      "DARK",
+      "DARE",
+      "DIRE",
+      "HIRE",
+      "HIDE"
+    ]
+  },
+  {
+    "number": 418,
+    "date": "June 22, 2025",
+    "isoDate": "2025-06-22",
+    "start": "FOSTER",
+    "end": "MOTHER",
+    "ladder": [
+      "FOSTER",
+      "FASTER",
+      "FATTER",
+      "FATHER",
+      "BATHER",
+      "BOTHER",
+      "MOTHER"
+    ]
+  },
+  {
+    "number": 417,
+    "date": "June 21, 2025",
+    "isoDate": "2025-06-21",
+    "start": "SLASH",
+    "end": "SLICE",
+    "ladder": [
+      "SLASH",
+      "FLASH",
+      "FLASK",
+      "FLACK",
+      "FLICK",
+      "SLICK",
+      "SLICE"
+    ]
+  },
+  {
+    "number": 416,
+    "date": "June 20, 2025",
+    "isoDate": "2025-06-20",
+    "start": "PRIME",
+    "end": "WHOLE",
+    "ladder": [
+      "PRIME",
+      "CRIME",
+      "CHIME",
+      "CHILE",
+      "WHILE",
+      "WHALE",
+      "WHOLE"
+    ]
+  },
+  {
+    "number": 415,
+    "date": "June 19, 2025",
+    "isoDate": "2025-06-19",
+    "start": "SWAN",
+    "end": "LAKE",
+    "ladder": [
+      "SWAN",
+      "SWAG",
+      "SAAG",
+      "SANG",
+      "SANE",
+      "LANE",
+      "LAKE"
+    ]
+  },
+  {
+    "number": 414,
+    "date": "June 18, 2025",
+    "isoDate": "2025-06-18",
+    "start": "BRAG",
+    "end": "CROW",
+    "ladder": [
+      "BRAG",
+      "CRAG",
+      "DRAG",
+      "DRAW",
+      "DREW",
+      "CREW",
+      "CROW"
+    ]
+  },
+  {
+    "number": 413,
+    "date": "June 17, 2025",
+    "isoDate": "2025-06-17",
+    "start": "BALL",
+    "end": "GOAL",
+    "ladder": [
+      "BALL",
+      "BELL",
+      "BELT",
+      "BEAT",
+      "BOAT",
+      "GOAT",
+      "GOAL"
+    ]
+  },
+  {
+    "number": 412,
+    "date": "June 16, 2025",
+    "isoDate": "2025-06-16",
+    "start": "WICK",
+    "end": "BURN",
+    "ladder": [
+      "WICK",
+      "KICK",
+      "TICK",
+      "TUCK",
+      "TURK",
+      "TURN",
+      "BURN"
+    ]
+  },
+  {
+    "number": 411,
+    "date": "June 15, 2025",
+    "isoDate": "2025-06-15",
+    "start": "BREAD",
+    "end": "CRUST",
+    "ladder": [
+      "BREAD",
+      "BREED",
+      "CREED",
+      "CREEL",
+      "CRUEL",
+      "CRUET",
+      "CRUST"
+    ]
+  },
+  {
+    "number": 410,
+    "date": "June 14, 2025",
+    "isoDate": "2025-06-14",
+    "start": "SOUTH",
+    "end": "NORTH",
+    "ladder": [
+      "SOUTH",
+      "SOOTH",
+      "SOOTS",
+      "SORTS",
+      "FORTS",
+      "FORTH",
+      "NORTH"
+    ]
+  },
+  {
+    "number": 409,
+    "date": "June 13, 2025",
+    "isoDate": "2025-06-13",
+    "start": "GRACE",
+    "end": "POISE",
+    "ladder": [
+      "GRACE",
+      "GRAVE",
+      "GROVE",
+      "PROVE",
+      "PROSE",
+      "PRISE",
+      "POISE"
+    ]
+  },
+  {
+    "number": 408,
+    "date": "June 12, 2025",
+    "isoDate": "2025-06-12",
+    "start": "FLINT",
+    "end": "STONE",
+    "ladder": [
+      "FLINT",
+      "FLING",
+      "SLING",
+      "SWING",
+      "SWINE",
+      "STINE",
+      "STONE"
+    ]
+  },
+  {
+    "number": 407,
+    "date": "June 11, 2025",
+    "isoDate": "2025-06-11",
+    "start": "CALL",
+    "end": "RING",
+    "ladder": [
+      "CALL",
+      "WALL",
+      "WILL",
+      "WILD",
+      "WIND",
+      "WING",
+      "RING"
+    ]
+  },
+  {
+    "number": 406,
+    "date": "June 10, 2025",
+    "isoDate": "2025-06-10",
+    "start": "FUSE",
+    "end": "WELD",
+    "ladder": [
+      "FUSE",
+      "RUSE",
+      "RULE",
+      "RILE",
+      "WILE",
+      "WILD",
+      "WELD"
+    ]
+  },
+  {
+    "number": 404,
+    "date": "June 8, 2025",
+    "isoDate": "2025-06-08",
+    "start": "BRAKE",
+    "end": "DRIVE",
+    "ladder": [
+      "BRAKE",
+      "BRACE",
+      "BRAVE",
+      "GRAVE",
+      "GROVE",
+      "DROVE",
+      "DRIVE"
+    ]
+  },
+  {
+    "number": 403,
+    "date": "June 7, 2025",
+    "isoDate": "2025-06-07",
+    "start": "SHARE",
+    "end": "BLAZE",
+    "ladder": [
+      "SHARE",
+      "SPARE",
+      "SPATE",
+      "SLATE",
+      "SLAKE",
+      "BLAKE",
+      "BLAZE"
+    ]
+  },
+  {
+    "number": 402,
+    "date": "June 6, 2025",
+    "isoDate": "2025-06-06",
+    "start": "STARE",
+    "end": "SCOWL",
+    "ladder": [
+      "STARE",
+      "STARS",
+      "SCARS",
+      "SCATS",
+      "SCOTS",
+      "SCOWS",
+      "SCOWL"
+    ]
+  },
+  {
+    "number": 401,
+    "date": "June 5, 2025",
+    "isoDate": "2025-06-05",
+    "start": "LUNG",
+    "end": "GILL",
+    "ladder": [
+      "LUNG",
+      "MUNG",
+      "MING",
+      "MINE",
+      "MILE",
+      "MILL",
+      "GILL"
+    ]
+  },
+  {
+    "number": 400,
+    "date": "June 4, 2025",
+    "isoDate": "2025-06-04",
+    "start": "DARK",
+    "end": "BODY",
+    "ladder": [
+      "DARK",
+      "PARK",
+      "BARK",
+      "BARE",
+      "BORE",
+      "BODE",
+      "BODY"
+    ]
+  },
+  {
+    "number": 399,
+    "date": "June 3, 2025",
+    "isoDate": "2025-06-03",
+    "start": "WORM",
+    "end": "BOOK",
+    "ladder": [
+      "WORM",
+      "WORD",
+      "WOOD",
+      "FOOD",
+      "FOOT",
+      "BOOT",
+      "BOOK"
+    ]
+  },
+  {
+    "number": 398,
+    "date": "June 2, 2025",
+    "isoDate": "2025-06-02",
+    "start": "FILE",
+    "end": "NAIL",
+    "ladder": [
+      "FILE",
+      "FILM",
+      "FILL",
+      "FALL",
+      "FAIL",
+      "JAIL",
+      "NAIL"
+    ]
+  },
+  {
+    "number": 397,
+    "date": "June 1, 2025",
+    "isoDate": "2025-06-01",
+    "start": "CHUCK",
+    "end": "FLING",
+    "ladder": [
+      "CHUCK",
+      "CLUCK",
+      "CLICK",
+      "CLINK",
+      "CLING",
+      "SLING",
+      "FLING"
+    ]
+  },
+  {
+    "number": 396,
+    "date": "May 31, 2025",
+    "isoDate": "2025-05-31",
+    "start": "SPINE",
+    "end": "THORN",
+    "ladder": [
+      "SPINE",
+      "STINE",
+      "STONE",
+      "SHONE",
+      "SHORE",
+      "SHORN",
+      "THORN"
+    ]
+  },
+  {
+    "number": 395,
+    "date": "May 30, 2025",
+    "isoDate": "2025-05-30",
+    "start": "DIVE",
+    "end": "POOL",
+    "ladder": [
+      "DIVE",
+      "FIVE",
+      "FILE",
+      "FILL",
+      "PILL",
+      "POLL",
+      "POOL"
+    ]
+  },
+  {
+    "number": 394,
+    "date": "May 29, 2025",
+    "isoDate": "2025-05-29",
+    "start": "PAIR",
+    "end": "DUET",
+    "ladder": [
+      "PAIR",
+      "PAIL",
+      "PALL",
+      "PULL",
+      "DULL",
+      "DUEL",
+      "DUET"
+    ]
+  },
+  {
+    "number": 393,
+    "date": "May 28, 2025",
+    "isoDate": "2025-05-28",
+    "start": "HONK",
+    "end": "HORN",
+    "ladder": [
+      "HONK",
+      "HOOK",
+      "COOK",
+      "CORK",
+      "CORN",
+      "TORN",
+      "HORN"
+    ]
+  },
+  {
+    "number": 392,
+    "date": "May 27, 2025",
+    "isoDate": "2025-05-27",
+    "start": "MINT",
+    "end": "DILL",
+    "ladder": [
+      "MINT",
+      "MINK",
+      "MILK",
+      "MILE",
+      "PILE",
+      "PILL",
+      "DILL"
+    ]
+  },
+  {
+    "number": 391,
+    "date": "May 26, 2025",
+    "isoDate": "2025-05-26",
+    "start": "BOOM",
+    "end": "CHAT",
+    "ladder": [
+      "BOOM",
+      "LOOM",
+      "LOOT",
+      "BOOT",
+      "BOAT",
+      "COAT",
+      "CHAT"
+    ]
+  },
+  {
+    "number": 390,
+    "date": "May 25, 2025",
+    "isoDate": "2025-05-25",
+    "start": "FLANK",
+    "end": "CHUCK",
+    "ladder": [
+      "FLANK",
+      "BLANK",
+      "BLACK",
+      "BLOCK",
+      "CLOCK",
+      "CLUCK",
+      "CHUCK"
+    ]
+  },
+  {
+    "number": 389,
+    "date": "May 24, 2025",
+    "isoDate": "2025-05-24",
+    "start": "SNAIL",
+    "end": "SHELL",
+    "ladder": [
+      "SNAIL",
+      "SNARL",
+      "SNARE",
+      "SHARE",
+      "SHALE",
+      "SHALL",
+      "SHELL"
+    ]
+  },
+  {
+    "number": 388,
+    "date": "May 23, 2025",
+    "isoDate": "2025-05-23",
+    "start": "SLACK",
+    "end": "GRACE",
+    "ladder": [
+      "SLACK",
+      "BLACK",
+      "CLACK",
+      "CRACK",
+      "TRACK",
+      "TRACE",
+      "GRACE"
+    ]
+  },
+  {
+    "number": 387,
+    "date": "May 22, 2025",
+    "isoDate": "2025-05-22",
+    "start": "BALL",
+    "end": "GOLF",
+    "ladder": [
+      "BALL",
+      "BILL",
+      "MILL",
+      "MILD",
+      "MOLD",
+      "GOLD",
+      "GOLF"
+    ]
+  },
+  {
+    "number": 386,
+    "date": "May 21, 2025",
+    "isoDate": "2025-05-21",
+    "start": "SAFE",
+    "end": "LOCK",
+    "ladder": [
+      "SAFE",
+      "SANE",
+      "SANK",
+      "SACK",
+      "LACK",
+      "LUCK",
+      "LOCK"
+    ]
+  },
+  {
+    "number": 385,
+    "date": "May 20, 2025",
+    "isoDate": "2025-05-20",
+    "start": "CUBE",
+    "end": "DICE",
+    "ladder": [
+      "CUBE",
+      "CURE",
+      "CORE",
+      "MORE",
+      "MIRE",
+      "DIRE",
+      "DICE"
+    ]
+  },
+  {
+    "number": 384,
+    "date": "May 19, 2025",
+    "isoDate": "2025-05-19",
+    "start": "JUMP",
+    "end": "DIVE",
+    "ladder": [
+      "JUMP",
+      "PUMP",
+      "LUMP",
+      "LIMP",
+      "LIME",
+      "DIME",
+      "DIVE"
+    ]
+  },
+  {
+    "number": 383,
+    "date": "May 18, 2025",
+    "isoDate": "2025-05-18",
+    "start": "JOKER",
+    "end": "CARDS",
+    "ladder": [
+      "JOKER",
+      "POKER",
+      "POKES",
+      "PORES",
+      "CORES",
+      "CARES",
+      "CARDS"
+    ]
+  },
+  {
+    "number": 382,
+    "date": "May 17, 2025",
+    "isoDate": "2025-05-17",
+    "start": "FRAME",
+    "end": "SHAPE",
+    "ladder": [
+      "FRAME",
+      "FLAME",
+      "FLAKE",
+      "SLAKE",
+      "SHAKE",
+      "SHARE",
+      "SHAPE"
+    ]
+  },
+  {
+    "number": 381,
+    "date": "May 16, 2025",
+    "isoDate": "2025-05-16",
+    "start": "CAPE",
+    "end": "HORN",
+    "ladder": [
+      "CAPE",
+      "CANE",
+      "CONE",
+      "CORE",
+      "BORE",
+      "BORN",
+      "HORN"
+    ]
+  },
+  {
+    "number": 380,
+    "date": "May 15, 2025",
+    "isoDate": "2025-05-15",
+    "start": "DOSE",
+    "end": "PILL",
+    "ladder": [
+      "DOSE",
+      "DOPE",
+      "ROPE",
+      "ROLE",
+      "ROLL",
+      "POLL",
+      "PILL"
+    ]
+  },
+  {
+    "number": 379,
+    "date": "May 14, 2025",
+    "isoDate": "2025-05-14",
+    "start": "STIR",
+    "end": "WHIP",
+    "ladder": [
+      "STIR",
+      "STAR",
+      "SEAR",
+      "WEAR",
+      "WEIR",
+      "WHIR",
+      "WHIP"
+    ]
+  },
+  {
+    "number": 378,
+    "date": "May 13, 2025",
+    "isoDate": "2025-05-13",
+    "start": "ZINC",
+    "end": "GOLD",
+    "ladder": [
+      "ZINC",
+      "ZINE",
+      "MINE",
+      "MILE",
+      "MILD",
+      "MOLD",
+      "GOLD"
+    ]
+  },
+  {
+    "number": 377,
+    "date": "May 12, 2025",
+    "isoDate": "2025-05-12",
+    "start": "HOOP",
+    "end": "RING",
+    "ladder": [
+      "HOOP",
+      "HOOD",
+      "FOOD",
+      "FOND",
+      "FIND",
+      "RIND",
+      "RING"
+    ]
+  },
+  {
+    "number": 376,
+    "date": "May 11, 2025",
+    "isoDate": "2025-05-11",
+    "start": "TRACK",
+    "end": "STARS",
+    "ladder": [
+      "TRACK",
+      "CRACK",
+      "CLACK",
+      "SLACK",
+      "STACK",
+      "STARK",
+      "STARS"
+    ]
+  },
+  {
+    "number": 375,
+    "date": "May 10, 2025",
+    "isoDate": "2025-05-10",
+    "start": "SHEEP",
+    "end": "BLEAT",
+    "ladder": [
+      "SHEEP",
+      "CHEEP",
+      "CHEAP",
+      "CHEAT",
+      "CLEAT",
+      "PLEAT",
+      "BLEAT"
+    ]
+  },
+  {
+    "number": 374,
+    "date": "May 9, 2025",
+    "isoDate": "2025-05-09",
+    "start": "DUNE",
+    "end": "SAND",
+    "ladder": [
+      "DUNE",
+      "JUNE",
+      "JUNK",
+      "BUNK",
+      "BANK",
+      "BAND",
+      "SAND"
+    ]
+  },
+  {
+    "number": 373,
+    "date": "May 8, 2025",
+    "isoDate": "2025-05-08",
+    "start": "ROSE",
+    "end": "BUSH",
+    "ladder": [
+      "ROSE",
+      "POSE",
+      "POST",
+      "MOST",
+      "MUST",
+      "BUST",
+      "BUSH"
+    ]
+  },
+  {
+    "number": 372,
+    "date": "May 7, 2025",
+    "isoDate": "2025-05-07",
+    "start": "GRAD",
+    "end": "ALUM",
+    "ladder": [
+      "GRAD",
+      "GOAD",
+      "GLAD",
+      "GLAM",
+      "GLUM",
+      "PLUM",
+      "ALUM"
+    ]
+  },
+  {
+    "number": 371,
+    "date": "May 6, 2025",
+    "isoDate": "2025-05-06",
+    "start": "MATE",
+    "end": "SOUL",
+    "ladder": [
+      "MATE",
+      "MAZE",
+      "MALE",
+      "MALL",
+      "MAUL",
+      "SAUL",
+      "SOUL"
+    ]
+  },
+  {
+    "number": 370,
+    "date": "May 5, 2025",
+    "isoDate": "2025-05-05",
+    "start": "RAGE",
+    "end": "FURY",
+    "ladder": [
+      "RAGE",
+      "CAGE",
+      "CARE",
+      "CARS",
+      "CURS",
+      "FURS",
+      "FURY"
+    ]
+  },
+  {
+    "number": 369,
+    "date": "May 4, 2025",
+    "isoDate": "2025-05-04",
+    "start": "HUMPS",
+    "end": "CAMEL",
+    "ladder": [
+      "HUMPS",
+      "LUMPS",
+      "LAMPS",
+      "CAMPS",
+      "CAMPO",
+      "CAMEO",
+      "CAMEL"
     ]
   }
 ]
