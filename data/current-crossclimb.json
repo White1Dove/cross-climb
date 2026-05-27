@@ -1,99 +1,99 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 756,
-  "puzzle_date": "May 26, 2026",
-  "puzzle_label": "Crossclimb #756",
+  "puzzle_number": 757,
+  "puzzle_date": "May 27, 2026",
+  "puzzle_label": "Crossclimb #757",
   "normalized_puzzle": {
     "word_count": 7,
-    "word_length": 4,
+    "word_length": 5,
     "middle_word_count": 5,
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A two-word phrase for tasks that don't produce much reward. Keep in mind: The first word may be at the bottom.",
-        "word": "BUSY",
-        "answer_length": 4
+        "clue": "The top + bottom rows = Two words: one for a game played in a casino, and the other for what is dealt out to play. Keep in mind: The first word may be at the bottom.",
+        "word": "POKER",
+        "answer_length": 5
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Hide underground, as a dog does with a bone",
-        "word": "BURY",
-        "answer_length": 4
+        "clue": "Jabs with one's finger",
+        "word": "POKES",
+        "answer_length": 5
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Overcook to the point of inedibility",
-        "word": "BURN",
-        "answer_length": 4
+        "clue": "Holes in the skin",
+        "word": "PORES",
+        "answer_length": 5
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Where calves might be raised",
-        "word": "BARN",
-        "answer_length": 4
+        "clue": "Makes someone yawn, possibly by giving an overly long presentation",
+        "word": "BORES",
+        "answer_length": 5
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Sound the alarm",
-        "word": "WARN",
-        "answer_length": 4
+        "clue": "Exposes, as one's emotions or teeth",
+        "word": "BARES",
+        "answer_length": 5
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Threadbare; frayed",
-        "word": "WORN",
-        "answer_length": 4
+        "clue": "Is interested",
+        "word": "CARES",
+        "answer_length": 5
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A two-word phrase for tasks that don't produce much reward. Keep in mind: The first word may be at the bottom.",
-        "word": "WORK",
-        "answer_length": 4
+        "clue": "The top + bottom rows = Two words: one for a game played in a casino, and the other for what is dealt out to play. Keep in mind: The first word may be at the bottom.",
+        "word": "CARDS",
+        "answer_length": 5
       }
     ]
   },
   "hints": {
     "no_spoiler_hints": [
       "7 rows",
-      "4 letters each",
+      "5 letters each",
       "5 middle words"
     ],
     "medium_hints": [
+      "Starts with P",
+      "Starts with P",
+      "Starts with P",
       "Starts with B",
       "Starts with B",
-      "Starts with B",
-      "Starts with B",
-      "Starts with W",
-      "Starts with W",
-      "Starts with W"
+      "Starts with C",
+      "Starts with C"
     ]
   },
   "solution": {
-    "top_word": "BUSY",
-    "bottom_word": "WORK",
+    "top_word": "POKER",
+    "bottom_word": "CARDS",
     "full_ladder": [
-      "BUSY",
-      "BURY",
-      "BURN",
-      "BARN",
-      "WARN",
-      "WORN",
-      "WORK"
+      "POKER",
+      "POKES",
+      "PORES",
+      "BORES",
+      "BARES",
+      "CARES",
+      "CARDS"
     ],
     "middle_ladder": [
-      "BURY",
-      "BURN",
-      "BARN",
-      "WARN",
-      "WORN"
+      "POKES",
+      "PORES",
+      "BORES",
+      "BARES",
+      "CARES"
     ]
   }
 }

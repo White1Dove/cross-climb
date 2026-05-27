@@ -1,5 +1,21 @@
 [
   {
+    "number": 757,
+    "date": "May 27, 2026",
+    "isoDate": "2026-05-27",
+    "start": "POKER",
+    "end": "CARDS",
+    "ladder": [
+      "POKER",
+      "POKES",
+      "PORES",
+      "BORES",
+      "BARES",
+      "CARES",
+      "CARDS"
+    ]
+  },
+  {
     "number": 756,
     "date": "May 26, 2026",
     "isoDate": "2026-05-26",
