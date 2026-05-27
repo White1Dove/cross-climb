@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Lora } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
+
+const googleAnalyticsId = 'G-PY6N82V7TH'
 
 const playfair = Playfair_Display({ 
   subsets: ["latin"],
@@ -64,6 +67,18 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${lora.variable} bg-[#F1EFE8]`}>
       <body className="font-sans antialiased">
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${googleAnalyticsId}');
+          `}
+        </Script>
         {children}
       </body>
     </html>

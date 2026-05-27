@@ -45,8 +45,8 @@ export default function PrivacyPage() {
             Analytics
           </h2>
           <p className="text-base leading-relaxed text-[#625B55]">
-            We may use privacy-focused analytics to understand aggregate page views, traffic sources, device
-            types, and site performance. Analytics data is used to improve pages and prioritize updates.
+            We use Google Analytics to understand aggregate page views, traffic sources, device types, and site
+            performance. Analytics data is used to improve pages and prioritize updates.
           </p>
         </section>
 
