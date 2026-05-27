@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Lora } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
+import Script from 'next/script'
 import './globals.css'
+
+const googleAnalyticsId = 'G-PY6N82V7TH'
 
 const playfair = Playfair_Display({ 
   subsets: ["latin"],
@@ -19,6 +21,7 @@ const lora = Lora({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://puzzleclues.today'),
   title: {
     default: 'Crossclimb Today — Answer, Clues and Full Solution | Puzzle Clues Today',
     template: '%s | Puzzle Clues Today',
@@ -38,11 +41,21 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
-      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
     ],
     apple: '/apple-icon.png',
+  },
+  openGraph: {
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Puzzle Clues Today',
+      },
+    ],
   },
 }
 
@@ -54,8 +67,19 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${lora.variable} bg-[#F1EFE8]`}>
       <body className="font-sans antialiased">
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${googleAnalyticsId}');
+          `}
+        </Script>
         {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
   )

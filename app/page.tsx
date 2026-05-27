@@ -3,6 +3,8 @@ import Link from "next/link";
 import { GameTabs } from "@/components/game-tabs";
 import { LadderCard } from "@/components/ladder-card";
 import { CountdownTimer } from "@/components/countdown-timer";
+import { StructuredData } from "@/components/structured-data";
+import { SiteBrand } from "@/components/site-brand";
 import currentCrossclimbPuzzle from "@/data/current-crossclimb.json";
 import {
   formatCrossclimbLadder,
@@ -10,13 +12,12 @@ import {
   getRecentCrossclimbAnswers,
 } from "@/lib/crossclimb-history";
 import { getGameTabs } from "@/lib/game-tabs";
+import { getHomeStructuredData } from "@/lib/structured-data";
 import type { PuzzleData } from "@/types/puzzle";
 
 const gameTabs = getGameTabs("crossclimb");
 
 const currentPuzzle = currentCrossclimbPuzzle as PuzzleData;
-
-const recentAnswers = getRecentCrossclimbAnswers(currentPuzzle.puzzle_number, 7);
 
 interface CrossClimbPageProps {
   puzzle?: PuzzleData;
@@ -42,48 +43,84 @@ export async function generateMetadata(): Promise<Metadata> {
       siteName: 'Puzzle Clues Today',
       locale: 'en_US',
       type: 'website',
+      images: [
+        {
+          url: 'https://puzzleclues.today/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: 'Puzzle Clues Today',
+        },
+      ],
     },
     twitter: {
-      card: 'summary',
+      card: 'summary_large_image',
       title: `Crossclimb Today: #${p.puzzle_number} Answer and Clues`,
       description: `Today's Crossclimb #${p.puzzle_number} clues and full word ladder solution. From ${bottomWord} to ${topWord}.`,
+      images: ['https://puzzleclues.today/og-image.png'],
     },
   };
 }
 
 export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPageProps) {
+  const recentAnswers = getRecentCrossclimbAnswers(puzzle.puzzle_number, 7);
+
   return (
     <div className="min-h-screen bg-[#F1EFE8]">
+      <StructuredData data={getHomeStructuredData(puzzle)} />
+
       {/* Header */}
       <header className="bg-white border-b border-[#E7E3DA]">
-        <div className="mx-auto flex max-w-[900px] flex-wrap items-center justify-start gap-x-10 gap-y-2 px-4 py-3 md:px-8">
-          <Link href="/" className="shrink-0 whitespace-nowrap font-[family-name:var(--font-playfair)] text-lg font-bold text-[#1a1a2e]">
-            Puzzle Clues Today
-          </Link>
+        <div className="mx-auto flex max-w-[900px] flex-col items-start gap-1 px-4 py-3 sm:flex-row sm:items-center sm:justify-between sm:gap-4 md:px-8">
+          <SiteBrand />
           <GameTabs tabs={gameTabs} />
         </div>
       </header>
 
       {/* Countdown Timer */}
-      <CountdownTimer currentPuzzleNumber={puzzle.puzzle_number} />
+      <CountdownTimer />
 
-      <main className="max-w-[720px] mx-auto px-4 py-8 md:py-10 space-y-10">
+      <main className="max-w-[720px] mx-auto px-4 py-6 md:py-8 space-y-8">
         {/* Hero Section */}
-        <section className="text-center space-y-4">
+        <section className="text-center space-y-3">
           <div>
-            <h1 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-[#1a1a2e]">
-              Crossclimb Today: Answer and Full Solution
+            <h1 className="mx-auto max-w-[330px] font-[family-name:var(--font-playfair)] text-2xl font-bold text-[#1a1a2e] sm:max-w-none sm:text-3xl md:text-4xl">
+              <span className="sm:hidden">
+                Crossclimb Today:
+                <br />
+                Answer and Full Solution
+              </span>
+              <span className="hidden sm:inline">Crossclimb Today: Answer and Full Solution</span>
             </h1>
           </div>
-          <p className="text-[#78716C] text-lg">
+          <p className="text-[#625B55] text-lg">
             Puzzle #{puzzle.puzzle_number} · {puzzle.puzzle_date}
+          </p>
+          <p className="mx-auto max-w-prose text-[15px] leading-relaxed text-[#625B55]">
+            Updated daily after the new puzzle is available. Answers are checked before publication, and
+            corrections can be reported through the contact page.
           </p>
         </section>
 
-        {/* SEO: natural keyword placement */}
-        <section className="text-center max-w-prose mx-auto">
-          <p className="text-[#78716C] text-sm leading-relaxed">
-            Looking for <strong className="text-[#1a1a2e]">Crossclimb today</strong>? Here are today&apos;s
+        {/* The Ladder Card */}
+        <section className="space-y-4">
+          <h2 className="mx-auto max-w-[330px] font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e] text-center sm:max-w-none">
+            <span className="sm:hidden">
+              Today&apos;s Crossclimb Hints
+              <br />
+              and Full Solution
+            </span>
+            <span className="hidden sm:inline">Today&apos;s Crossclimb Hints and Full Solution</span>
+          </h2>
+          <LadderCard puzzle={puzzle} />
+        </section>
+
+        {/* SEO: natural keyword placement after the main answer action */}
+        <section className="mx-auto max-w-prose space-y-3">
+          <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
+            About today&apos;s Crossclimb answer
+          </h2>
+          <p className="text-base leading-relaxed text-[#625B55]">
+            Looking for <strong className="text-[#1a1a2e]">Crossclimb today</strong>? This page has today&apos;s
             clues, answer, and full word ladder for the latest{" "}
             <strong className="text-[#1a1a2e]">LinkedIn Games</strong>{" "}puzzle. Use the hints if you want a
             nudge first, or reveal the full solution when you&apos;re ready to check every rung. Each word is{" "}
@@ -92,20 +129,12 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
           </p>
         </section>
 
-        {/* The Ladder Card */}
-        <section className="space-y-6">
-          <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e] text-center">
-            Today&apos;s Crossclimb Hints and Full Solution
-          </h2>
-          <LadderCard puzzle={puzzle} />
-        </section>
-
         {/* How-to: captures play-intent searches without changing the answer-page focus */}
         <section className="mx-auto max-w-prose space-y-4">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
             How to play Crossclimb on LinkedIn
           </h2>
-          <ul className="space-y-3 text-sm leading-relaxed text-[#78716C]">
+          <ul className="space-y-3 text-base leading-relaxed text-[#625B55]">
             <li>
               <span className="font-semibold text-[#1a1a2e]">1.</span> Read each clue and fill in the missing
               words in the ladder.
@@ -127,9 +156,9 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
 
         {/* Recent Answers Section */}
         <section className="space-y-4">
-          <h3 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
+          <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
             Recent Crossclimb Answers
-          </h3>
+          </h2>
           <div className="space-y-3">
             {recentAnswers.map((entry) => (
               <div
@@ -140,17 +169,17 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
                   <span className="font-medium text-[#854F0B]">
                     #{entry.number}
                   </span>
-                  <span className="text-sm text-[#78716C]">{formatShortCrossclimbDate(entry.isoDate)}</span>
+                  <span className="text-[15px] text-[#625B55]">{formatShortCrossclimbDate(entry.isoDate)}</span>
                 </div>
-                <p className="mt-1 font-[family-name:var(--font-lora)] text-sm leading-relaxed text-[#1a1a2e]">
+                <p className="mt-1 font-[family-name:var(--font-lora)] text-base leading-relaxed text-[#1a1a2e]">
                   {formatCrossclimbLadder(entry)}
                 </p>
               </div>
             ))}
           </div>
           <Link
-            href="/crossclimb/archive"
-            className="inline-block text-[#854F0B] hover:underline text-sm"
+            href="/crossclimb/archive/"
+            className="inline-block text-[#854F0B] hover:underline text-[15px] font-medium"
           >
             View Full Archive →
           </Link>
@@ -161,8 +190,8 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
       <footer className="bg-white border-t border-[#E7E3DA] mt-12">
         <div className="max-w-[720px] mx-auto px-4 py-8 space-y-6">
           {/* Footer Text */}
-          <div className="text-center text-sm text-[#78716C] space-y-3">
-            <p className="text-xs leading-relaxed">
+          <div className="text-center text-[15px] text-[#625B55] space-y-3">
+            <p className="text-[13px] leading-relaxed">
               Puzzle Clues Today is an unofficial fan site. Not affiliated with or endorsed by LinkedIn Corporation. 
               LinkedIn is a registered trademark of LinkedIn Corporation.
             </p>

@@ -50,35 +50,35 @@ function ArchiveTable({ entries }: { entries: CrossclimbHistoryEntry[] }) {
           </colgroup>
           <thead>
             <tr className="border-b border-[#E7E3DA] bg-[#F8F6F0]">
-              <th className="px-4 py-3 text-center text-xs font-semibold uppercase text-[#78716C]">Date</th>
-              <th className="px-4 py-3 text-center text-xs font-semibold uppercase text-[#78716C]">Puzzle</th>
-              <th className="px-4 py-3 text-center text-xs font-semibold uppercase text-[#78716C]">Start</th>
-              <th className="px-4 py-3 text-center text-xs font-semibold uppercase text-[#78716C]">End</th>
-              <th className="px-4 py-3 text-center text-xs font-semibold uppercase text-[#78716C]">Ladder</th>
+              <th className="px-4 py-3 text-center text-[13px] font-semibold uppercase text-[#625B55]">Date</th>
+              <th className="px-4 py-3 text-center text-[13px] font-semibold uppercase text-[#625B55]">Puzzle</th>
+              <th className="px-4 py-3 text-center text-[13px] font-semibold uppercase text-[#625B55]">Start</th>
+              <th className="px-4 py-3 text-center text-[13px] font-semibold uppercase text-[#625B55]">End</th>
+              <th className="px-4 py-3 text-center text-[13px] font-semibold uppercase text-[#625B55]">Ladder</th>
             </tr>
           </thead>
           <tbody>
             {entries.map((entry) => (
               <tr key={entry.number} className="border-b border-[#E7E3DA] last:border-b-0">
-                <td className="whitespace-nowrap px-4 py-4 text-center text-sm text-[#1a1a2e] align-middle">
+                <td className="whitespace-nowrap px-4 py-4 text-center text-[15px] text-[#1a1a2e] align-middle">
                   {formatFullCrossclimbDate(entry.isoDate)}
                 </td>
-                <td className="whitespace-nowrap px-4 py-4 text-center text-sm align-middle">
+                <td className="whitespace-nowrap px-4 py-4 text-center text-[15px] align-middle">
                   <span className="font-medium text-[#854F0B]">
                     #{entry.number}
                   </span>
                 </td>
                 <td className="px-4 py-4 text-center align-middle">
-                  <span className="inline-flex min-w-[64px] justify-center rounded bg-[#0F6E56]/10 px-2 py-1 font-[family-name:var(--font-lora)] text-sm font-bold text-[#0F6E56]">
+                  <span className="inline-flex min-w-[64px] justify-center rounded bg-[#0F6E56]/10 px-2 py-1 font-[family-name:var(--font-lora)] text-[15px] font-bold text-[#0F6E56]">
                     {entry.start}
                   </span>
                 </td>
                 <td className="px-4 py-4 text-center align-middle">
-                  <span className="inline-flex min-w-[64px] justify-center rounded bg-[#4A1B0C]/10 px-2 py-1 font-[family-name:var(--font-lora)] text-sm font-bold text-[#4A1B0C]">
+                  <span className="inline-flex min-w-[64px] justify-center rounded bg-[#4A1B0C]/10 px-2 py-1 font-[family-name:var(--font-lora)] text-[15px] font-bold text-[#4A1B0C]">
                     {entry.end}
                   </span>
                 </td>
-                <td className="px-4 py-4 font-[family-name:var(--font-lora)] text-sm leading-relaxed text-[#1a1a2e] align-middle">
+                <td className="px-4 py-4 font-[family-name:var(--font-lora)] text-[15px] leading-relaxed text-[#1a1a2e] align-middle">
                   {formatCrossclimbLadder(entry)}
                 </td>
               </tr>
@@ -92,18 +92,18 @@ function ArchiveTable({ entries }: { entries: CrossclimbHistoryEntry[] }) {
           <div key={entry.number} className="border-b border-[#E7E3DA] px-4 py-4 last:border-b-0">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <div>
-                <p className="text-sm text-[#78716C]">{formatFullCrossclimbDate(entry.isoDate)}</p>
+                <p className="text-[15px] text-[#625B55]">{formatFullCrossclimbDate(entry.isoDate)}</p>
                 <span className="font-medium text-[#854F0B]">
                   #{entry.number}
                 </span>
               </div>
-              <div className="flex items-center gap-2 font-[family-name:var(--font-lora)] text-sm font-bold">
+              <div className="flex items-center gap-2 font-[family-name:var(--font-lora)] text-[15px] font-bold">
                 <span className="rounded bg-[#0F6E56]/10 px-2 py-1 text-[#0F6E56]">{entry.start}</span>
-                <span className="text-[#78716C]">→</span>
+                <span className="text-[#625B55]">→</span>
                 <span className="rounded bg-[#4A1B0C]/10 px-2 py-1 text-[#4A1B0C]">{entry.end}</span>
               </div>
             </div>
-            <p className="mt-3 font-[family-name:var(--font-lora)] text-sm leading-relaxed text-[#1a1a2e]">
+            <p className="mt-3 font-[family-name:var(--font-lora)] text-base leading-relaxed text-[#1a1a2e]">
               {formatCrossclimbLadder(entry)}
             </p>
           </div>
@@ -137,12 +137,12 @@ export function ArchiveAccordion({ monthGroups }: { monthGroups: CrossclimbMonth
                 }}
               >
                 <span className="flex min-w-0 items-center gap-2">
-                  <ChevronIcon className="h-5 w-5 shrink-0 text-[#78716C]" aria-hidden="true" />
+                  <ChevronIcon className="h-5 w-5 shrink-0 text-[#625B55]" aria-hidden="true" />
                   <span className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
                     <MonthLabel label={group.label} />
                   </span>
                 </span>
-                <span className="shrink-0 rounded bg-[#F1EFE8] px-2 py-1 text-xs font-medium text-[#78716C]">
+                <span className="shrink-0 rounded bg-[#F1EFE8] px-2 py-1 text-[13px] font-medium text-[#625B55]">
                   {group.entries.length} answers
                 </span>
               </summary>

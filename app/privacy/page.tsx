@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { SiteBrand } from "@/components/site-brand";
 
 export const metadata: Metadata = {
   title: {
@@ -21,10 +22,8 @@ export default function PrivacyPage() {
     <div className="min-h-screen bg-[#F1EFE8]">
       <header className="border-b border-[#E7E3DA] bg-white">
         <div className="mx-auto flex max-w-[720px] items-center justify-between px-4 py-3">
-          <Link href="/" className="font-[family-name:var(--font-playfair)] text-lg font-bold text-[#1a1a2e]">
-            Puzzle Clues Today
-          </Link>
-          <Link href="/" className="text-sm text-[#854F0B] hover:underline">
+          <SiteBrand />
+          <Link href="/" className="text-[15px] font-medium text-[#854F0B] hover:underline">
             Crossclimb Today
           </Link>
         </div>
@@ -35,7 +34,7 @@ export default function PrivacyPage() {
           <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#1a1a2e] md:text-4xl">
             Privacy Policy
           </h1>
-          <p className="text-sm leading-relaxed text-[#78716C]">
+          <p className="text-base leading-relaxed text-[#625B55]">
             Puzzle Clues Today is an informational puzzle answer site. We keep the site simple and only collect
             the limited information needed to operate, understand, and improve the website.
           </p>
@@ -45,9 +44,9 @@ export default function PrivacyPage() {
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
             Analytics
           </h2>
-          <p className="text-sm leading-relaxed text-[#78716C]">
-            We may use privacy-focused analytics to understand aggregate page views, traffic sources, device
-            types, and site performance. Analytics data is used to improve pages and prioritize updates.
+          <p className="text-base leading-relaxed text-[#625B55]">
+            We use Google Analytics to understand aggregate page views, traffic sources, device types, and site
+            performance. Analytics data is used to improve pages and prioritize updates.
           </p>
         </section>
 
@@ -55,7 +54,7 @@ export default function PrivacyPage() {
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
             Contact messages
           </h2>
-          <p className="text-sm leading-relaxed text-[#78716C]">
+          <p className="text-base leading-relaxed text-[#625B55]">
             If you contact us, we use the information you provide only to review and respond to your message.
             Do not send sensitive personal information through correction requests.
           </p>
@@ -65,7 +64,7 @@ export default function PrivacyPage() {
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
             External links
           </h2>
-          <p className="text-sm leading-relaxed text-[#78716C]">
+          <p className="text-base leading-relaxed text-[#625B55]">
             The site may link to third-party websites, including LinkedIn Games. Those websites have their own
             privacy practices and policies.
           </p>

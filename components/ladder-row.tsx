@@ -44,7 +44,7 @@ export function LadderRow({ row, hint, revealed, previousWord }: LadderRowProps)
       {/* Line 1: Row number + Position tag + Answer word + Letter-change indicator */}
       <div className="flex items-center gap-3">
         {/* Row number */}
-        <span className="w-6 h-6 flex items-center justify-center rounded-full bg-[#F1EFE8] text-[#78716C] text-sm font-medium shrink-0">
+        <span className="w-6 h-6 flex items-center justify-center rounded-full bg-[#F1EFE8] text-[#625B55] text-sm font-semibold shrink-0">
           {row.index}
         </span>
 
@@ -55,15 +55,12 @@ export function LadderRow({ row, hint, revealed, previousWord }: LadderRowProps)
           {positionLabel[row.position]}
         </span>
 
-        {/* SEO: actual word always in DOM */}
-        <span className="sr-only">{row.word}</span>
-
         {/* Answer word or ?????? */}
         <span
           className={`inline-block w-[7ch] font-[family-name:var(--font-lora)] font-bold tracking-wider text-lg transition-colors duration-[400ms] ease-out ${
             revealed ? "text-[#0F6E56]" : "text-[#C4BFB6]"
           }`}
-          aria-hidden="true"
+          aria-label={revealed ? row.word : "Answer hidden"}
         >
           {revealed ? row.word : "??????"}
         </span>
@@ -71,7 +68,7 @@ export function LadderRow({ row, hint, revealed, previousWord }: LadderRowProps)
         <span className="ml-2 min-w-[68px] shrink-0">
           {/* Letter-change indicator — only when revealed and has a previous word */}
           {letterChange && previousWord && (
-            <span className="text-xs text-[#78716C] flex items-center gap-1">
+            <span className="text-xs text-[#625B55] flex items-center gap-1">
               <span className="font-medium text-[#4A1B0C]">{letterChange.from}</span>
               <span>→</span>
               <span className="font-medium text-[#0F6E56]">{letterChange.to}</span>
@@ -82,7 +79,7 @@ export function LadderRow({ row, hint, revealed, previousWord }: LadderRowProps)
           {!revealed && (
             <button
               onClick={() => setHintOpen(!hintOpen)}
-              className="text-xs text-[#854F0B] hover:text-[#6B3F09] flex items-center gap-0.5 transition-colors shrink-0"
+              className="text-[13px] text-[#854F0B] hover:text-[#6B3F09] flex items-center gap-0.5 transition-colors shrink-0"
               aria-expanded={hintOpen}
             >
               [Hint{" "}
@@ -96,20 +93,20 @@ export function LadderRow({ row, hint, revealed, previousWord }: LadderRowProps)
       </div>
 
       {/* Line 2: Clue text — always visible */}
-      <div className="pl-[calc(1.5rem+0.75rem+64px+0.75rem)]">
-        <p className="text-[#1a1a2e] leading-relaxed text-sm">
+      <div className="pl-0 sm:pl-[calc(1.5rem+0.75rem+64px+0.75rem)]">
+        <p className="text-[#1a1a2e] leading-relaxed text-[15px] md:text-base">
           {row.clue}
         </p>
       </div>
 
       {/* Line 3: Hint content — keep the collapsed row in DOM so reveal/hide does not shift spacing */}
-      <div className="pl-[calc(1.5rem+0.75rem+64px+0.75rem)]">
+      <div className="pl-0 sm:pl-[calc(1.5rem+0.75rem+64px+0.75rem)]">
         <div
           className={`overflow-hidden transition-all duration-200 ${
             !revealed && hintOpen ? "max-h-20 opacity-100" : "max-h-0 opacity-0"
           }`}
         >
-          <p className="text-sm text-[#854F0B] italic">{hint}</p>
+          <p className="text-[15px] text-[#854F0B] italic">{hint}</p>
         </div>
       </div>
     </div>
