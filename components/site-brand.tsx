@@ -9,7 +9,7 @@ export function SiteBrand() {
       aria-label="Puzzle Clues Today home"
     >
       <Image
-        src="/logo.png"
+        src="/android-chrome-192x192.png"
         alt=""
         width={28}
         height={28}
