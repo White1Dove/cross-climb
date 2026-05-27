@@ -10,10 +10,6 @@ type TimeLeft = {
   seconds: number;
 };
 
-type CountdownTimerProps = {
-  currentPuzzleNumber: number;
-};
-
 const getPacificDateParts = (date: Date) => {
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: PACIFIC_TIME_ZONE,
@@ -65,10 +61,9 @@ const getNextPacificMidnight = () => {
   return new Date(targetWallTime - offset);
 };
 
-export function CountdownTimer({ currentPuzzleNumber }: CountdownTimerProps) {
+export function CountdownTimer() {
   const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(null);
   const [unlockTime, setUnlockTime] = useState<string | null>(null);
-  const nextPuzzleNumber = currentPuzzleNumber + 1;
 
   useEffect(() => {
     const calculateTimeLeft = () => {
@@ -110,11 +105,11 @@ export function CountdownTimer({ currentPuzzleNumber }: CountdownTimerProps) {
     return (
       <div className="bg-white border-b border-[#E7E3DA]">
         <div className="max-w-[720px] mx-auto px-4 py-3 text-center space-y-1">
-          <p className="text-[#1a1a2e] text-sm">
+          <p className="text-[#1a1a2e] text-[15px]">
             Next puzzle unlocks in <span className="font-semibold tabular-nums">--:--:--</span>
           </p>
-          <p className="text-[#78716C] text-xs">
-            Pinpoint #{nextPuzzleNumber}, Queens #{nextPuzzleNumber}, and more also unlock at the same time
+          <p className="text-[#625B55] text-[13px]">
+            New Crossclimb puzzles refresh daily at midnight Pacific Time.
           </p>
         </div>
       </div>
@@ -124,20 +119,18 @@ export function CountdownTimer({ currentPuzzleNumber }: CountdownTimerProps) {
   return (
     <div className="bg-white border-b border-[#E7E3DA]">
       <div className="max-w-[720px] mx-auto px-4 py-3 text-center space-y-1">
-        <p className="text-[#1a1a2e] text-sm">
+        <p className="text-[#1a1a2e] text-[15px]">
           Next puzzle unlocks in{" "}
           <span className="font-semibold tabular-nums">
             {formatTime(timeLeft.hours)}:{formatTime(timeLeft.minutes)}:{formatTime(timeLeft.seconds)}
           </span>
         </p>
         {unlockTime && (
-          <p className="text-xs text-[#78716C]">
-            Next puzzle unlocks on {unlockTime}
+          <p className="text-[13px] text-[#625B55]">
+            <span className="sm:hidden">Refreshes at midnight Pacific Time.</span>
+            <span className="hidden sm:inline">Next puzzle unlocks on {unlockTime}</span>
           </p>
         )}
-        <p className="text-[#78716C] text-xs">
-          Pinpoint #{nextPuzzleNumber}, Queens #{nextPuzzleNumber}, and more also unlock at the same time
-        </p>
       </div>
     </div>
   );

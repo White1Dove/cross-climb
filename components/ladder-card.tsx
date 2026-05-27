@@ -13,9 +13,24 @@ export function LadderCard({ puzzle }: LadderCardProps) {
   const [revealed, setRevealed] = useState(false);
 
   const { rows } = puzzle.normalized_puzzle;
+  const revealButtonLabel = revealed ? "Hide All Answers" : "Show All Answers";
+  const revealButtonClassName = `w-full h-auto py-4 text-base font-semibold rounded-lg transition-all duration-[400ms] ease-out ${
+    revealed
+      ? "bg-[#0F6E56] text-white hover:bg-[#0F6E56]"
+      : "bg-[#4A1B0C] hover:bg-[#5C2310] text-white"
+  }`;
+  const toggleRevealed = () => setRevealed((current) => !current);
 
   return (
     <div className="bg-white rounded-lg shadow-sm p-5 md:p-8 space-y-5">
+      <Button
+        onClick={toggleRevealed}
+        aria-pressed={revealed}
+        className={revealButtonClassName}
+      >
+        {revealButtonLabel}
+      </Button>
+
       {/* Ladder rows */}
       <div className="space-y-5">
         {rows.map((row, idx) => (
@@ -32,18 +47,15 @@ export function LadderCard({ puzzle }: LadderCardProps) {
       {/* Reveal button */}
       <div className="pt-4 flex flex-col gap-3">
         <Button
-          onClick={() => setRevealed((current) => !current)}
-          className={`w-full h-auto py-6 text-base font-semibold rounded-lg transition-all duration-[400ms] ease-out ${
-            revealed
-              ? "bg-[#0F6E56] text-white hover:bg-[#0F6E56]"
-              : "bg-[#4A1B0C] hover:bg-[#5C2310] text-white"
-          }`}
+          onClick={toggleRevealed}
+          aria-pressed={revealed}
+          className={revealButtonClassName}
         >
-          {revealed ? "Hide All Answers" : "Show All Answers"}
+          {revealButtonLabel}
         </Button>
         <Button
           asChild
-          className="w-full h-auto py-4 text-sm font-semibold rounded-lg bg-[#0F6E56] hover:bg-[#0D5C48] text-white"
+          className="w-full h-auto py-4 text-[15px] font-semibold rounded-lg bg-[#0F6E56] hover:bg-[#0D5C48] text-white"
         >
           <a
             href="https://www.linkedin.com/games/view/crossclimb/desktop"

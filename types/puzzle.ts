@@ -35,4 +35,6 @@ export interface GameTab {
   slug: string;
   href?: string;
   active?: boolean;
+  status?: "live" | "coming-soon";
+  visibleInNav?: boolean;
 }
