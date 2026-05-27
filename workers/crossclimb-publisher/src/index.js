@@ -144,7 +144,7 @@ async function dispatchGitHubWorkflow(env, log) {
   }
 }
 
-export default {
+const worker = {
   async fetch(request, env) {
     if (request.method === "OPTIONS") {
       return new Response(null, {
@@ -197,3 +197,5 @@ export default {
     }
   }
 };
+
+export default worker;
