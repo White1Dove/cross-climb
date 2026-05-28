@@ -1,99 +1,99 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 757,
-  "puzzle_date": "May 27, 2026",
-  "puzzle_label": "Crossclimb #757",
+  "puzzle_number": 758,
+  "puzzle_date": "May 28, 2026",
+  "puzzle_label": "Crossclimb #758",
   "normalized_puzzle": {
     "word_count": 7,
-    "word_length": 5,
+    "word_length": 4,
     "middle_word_count": 5,
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = Two words: one for a game played in a casino, and the other for what is dealt out to play. Keep in mind: The first word may be at the bottom.",
-        "word": "POKER",
-        "answer_length": 5
+        "clue": "The top + bottom rows = A two-word phrase for unhealthy snacks. Keep in mind: The first word may be at the bottom.",
+        "word": "JUNK",
+        "answer_length": 4
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Jabs with one's finger",
-        "word": "POKES",
-        "answer_length": 5
+        "clue": "Type of bed that has another bed above or below it",
+        "word": "BUNK",
+        "answer_length": 4
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Holes in the skin",
-        "word": "PORES",
-        "answer_length": 5
+        "clue": "Financial institution",
+        "word": "BANK",
+        "answer_length": 4
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Makes someone yawn, possibly by giving an overly long presentation",
-        "word": "BORES",
-        "answer_length": 5
+        "clue": "Musical group that might go on tour",
+        "word": "BAND",
+        "answer_length": 4
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Exposes, as one's emotions or teeth",
-        "word": "BARES",
-        "answer_length": 5
+        "clue": "Very tight connection",
+        "word": "BOND",
+        "answer_length": 4
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Is interested",
-        "word": "CARES",
-        "answer_length": 5
+        "clue": "Pleasant, as memories",
+        "word": "FOND",
+        "answer_length": 4
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = Two words: one for a game played in a casino, and the other for what is dealt out to play. Keep in mind: The first word may be at the bottom.",
-        "word": "CARDS",
-        "answer_length": 5
+        "clue": "The top + bottom rows = A two-word phrase for unhealthy snacks. Keep in mind: The first word may be at the bottom.",
+        "word": "FOOD",
+        "answer_length": 4
       }
     ]
   },
   "hints": {
     "no_spoiler_hints": [
       "7 rows",
-      "5 letters each",
+      "4 letters each",
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with P",
-      "Starts with P",
-      "Starts with P",
+      "Starts with J",
       "Starts with B",
       "Starts with B",
-      "Starts with C",
-      "Starts with C"
+      "Starts with B",
+      "Starts with B",
+      "Starts with F",
+      "Starts with F"
     ]
   },
   "solution": {
-    "top_word": "POKER",
-    "bottom_word": "CARDS",
+    "top_word": "JUNK",
+    "bottom_word": "FOOD",
     "full_ladder": [
-      "POKER",
-      "POKES",
-      "PORES",
-      "BORES",
-      "BARES",
-      "CARES",
-      "CARDS"
+      "JUNK",
+      "BUNK",
+      "BANK",
+      "BAND",
+      "BOND",
+      "FOND",
+      "FOOD"
     ],
     "middle_ladder": [
-      "POKES",
-      "PORES",
-      "BORES",
-      "BARES",
-      "CARES"
+      "BUNK",
+      "BANK",
+      "BAND",
+      "BOND",
+      "FOND"
     ]
   }
 }
