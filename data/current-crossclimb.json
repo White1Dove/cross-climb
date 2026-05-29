@@ -1,9 +1,9 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 758,
-  "puzzle_date": "May 28, 2026",
-  "puzzle_label": "Crossclimb #758",
+  "puzzle_number": 759,
+  "puzzle_date": "May 29, 2026",
+  "puzzle_label": "Crossclimb #759",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
@@ -12,50 +12,50 @@
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A two-word phrase for unhealthy snacks. Keep in mind: The first word may be at the bottom.",
-        "word": "JUNK",
+        "clue": "The top + bottom rows = Two fruits, one is purple and the other is green or brown. Keep in mind: The first word may be at the bottom.",
+        "word": "PLUM",
         "answer_length": 4
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Type of bed that has another bed above or below it",
-        "word": "BUNK",
+        "clue": "Down in the dumps",
+        "word": "GLUM",
         "answer_length": 4
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Financial institution",
-        "word": "BANK",
+        "clue": "Glitz and ____ (alliterative phrase describing a flashy style)",
+        "word": "GLAM",
         "answer_length": 4
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Musical group that might go on tour",
-        "word": "BAND",
+        "clue": "Close with a bang, as a door",
+        "word": "SLAM",
         "answer_length": 4
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Very tight connection",
-        "word": "BOND",
+        "clue": "Line of stitches on clothing",
+        "word": "SEAM",
         "answer_length": 4
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Pleasant, as memories",
-        "word": "FOND",
+        "clue": "Char the surface of something with intense heat",
+        "word": "SEAR",
         "answer_length": 4
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A two-word phrase for unhealthy snacks. Keep in mind: The first word may be at the bottom.",
-        "word": "FOOD",
+        "clue": "The top + bottom rows = Two fruits, one is purple and the other is green or brown. Keep in mind: The first word may be at the bottom.",
+        "word": "PEAR",
         "answer_length": 4
       }
     ]
@@ -67,33 +67,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with J",
-      "Starts with B",
-      "Starts with B",
-      "Starts with B",
-      "Starts with B",
-      "Starts with F",
-      "Starts with F"
+      "Starts with P",
+      "Starts with G",
+      "Starts with G",
+      "Starts with S",
+      "Starts with S",
+      "Starts with S",
+      "Starts with P"
     ]
   },
   "solution": {
-    "top_word": "JUNK",
-    "bottom_word": "FOOD",
+    "top_word": "PLUM",
+    "bottom_word": "PEAR",
     "full_ladder": [
-      "JUNK",
-      "BUNK",
-      "BANK",
-      "BAND",
-      "BOND",
-      "FOND",
-      "FOOD"
+      "PLUM",
+      "GLUM",
+      "GLAM",
+      "SLAM",
+      "SEAM",
+      "SEAR",
+      "PEAR"
     ],
     "middle_ladder": [
-      "BUNK",
-      "BANK",
-      "BAND",
-      "BOND",
-      "FOND"
+      "GLUM",
+      "GLAM",
+      "SLAM",
+      "SEAM",
+      "SEAR"
     ]
   }
 }
