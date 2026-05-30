@@ -1,9 +1,9 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 759,
-  "puzzle_date": "May 29, 2026",
-  "puzzle_label": "Crossclimb #759",
+  "puzzle_number": 760,
+  "puzzle_date": "May 30, 2026",
+  "puzzle_label": "Crossclimb #760",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
@@ -12,50 +12,50 @@
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = Two fruits, one is purple and the other is green or brown. Keep in mind: The first word may be at the bottom.",
-        "word": "PLUM",
+        "clue": "The top + bottom rows = Two-word phrase for a fixed charge, as for shipping a package. Keep in mind: The first word may be on the bottom.",
+        "word": "FLAT",
         "answer_length": 4
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Down in the dumps",
-        "word": "GLUM",
+        "clue": "Move like a moth",
+        "word": "FLIT",
         "answer_length": 4
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Glitz and ____ (alliterative phrase describing a flashy style)",
-        "word": "GLAM",
+        "clue": "___ accompli",
+        "word": "FAIT",
         "answer_length": 4
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Close with a bang, as a door",
-        "word": "SLAM",
+        "clue": "Verifiable piece of information",
+        "word": "FACT",
         "answer_length": 4
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Line of stitches on clothing",
-        "word": "SEAM",
+        "clue": "Turn to look directly at someone",
+        "word": "FACE",
         "answer_length": 4
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Char the surface of something with intense heat",
-        "word": "SEAR",
+        "clue": "Predetermined outcome",
+        "word": "FATE",
         "answer_length": 4
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = Two fruits, one is purple and the other is green or brown. Keep in mind: The first word may be at the bottom.",
-        "word": "PEAR",
+        "clue": "The top + bottom rows = Two-word phrase for a fixed charge, as for shipping a package. Keep in mind: The first word may be on the bottom.",
+        "word": "RATE",
         "answer_length": 4
       }
     ]
@@ -67,33 +67,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with P",
-      "Starts with G",
-      "Starts with G",
-      "Starts with S",
-      "Starts with S",
-      "Starts with S",
-      "Starts with P"
+      "Starts with F",
+      "Starts with F",
+      "Starts with F",
+      "Starts with F",
+      "Starts with F",
+      "Starts with F",
+      "Starts with R"
     ]
   },
   "solution": {
-    "top_word": "PLUM",
-    "bottom_word": "PEAR",
+    "top_word": "FLAT",
+    "bottom_word": "RATE",
     "full_ladder": [
-      "PLUM",
-      "GLUM",
-      "GLAM",
-      "SLAM",
-      "SEAM",
-      "SEAR",
-      "PEAR"
+      "FLAT",
+      "FLIT",
+      "FAIT",
+      "FACT",
+      "FACE",
+      "FATE",
+      "RATE"
     ],
     "middle_ladder": [
-      "GLUM",
-      "GLAM",
-      "SLAM",
-      "SEAM",
-      "SEAR"
+      "FLIT",
+      "FAIT",
+      "FACT",
+      "FACE",
+      "FATE"
     ]
   }
 }
