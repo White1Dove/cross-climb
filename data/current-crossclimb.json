@@ -1,99 +1,99 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 760,
-  "puzzle_date": "May 30, 2026",
-  "puzzle_label": "Crossclimb #760",
+  "puzzle_number": 761,
+  "puzzle_date": "May 31, 2026",
+  "puzzle_label": "Crossclimb #761",
   "normalized_puzzle": {
     "word_count": 7,
-    "word_length": 4,
+    "word_length": 5,
     "middle_word_count": 5,
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = Two-word phrase for a fixed charge, as for shipping a package. Keep in mind: The first word may be on the bottom.",
-        "word": "FLAT",
-        "answer_length": 4
+        "clue": "The top + bottom rows = A two-word phrase for an aerobatic plane's steep, engine-assisted plunges during an airshow. Keep in mind: The first word may be at the bottom.",
+        "word": "POWER",
+        "answer_length": 5
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Move like a moth",
-        "word": "FLIT",
-        "answer_length": 4
+        "clue": "Not as high",
+        "word": "LOWER",
+        "answer_length": 5
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "___ accompli",
-        "word": "FAIT",
-        "answer_length": 4
+        "clue": "Romantic partner",
+        "word": "LOVER",
+        "answer_length": 5
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Verifiable piece of information",
-        "word": "FACT",
-        "answer_length": 4
+        "clue": "Part of a magazine visible on the newsstand",
+        "word": "COVER",
+        "answer_length": 5
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Turn to look directly at someone",
-        "word": "FACE",
-        "answer_length": 4
+        "clue": "Sanctuaries along the seashore",
+        "word": "COVES",
+        "answer_length": 5
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Predetermined outcome",
-        "word": "FATE",
-        "answer_length": 4
+        "clue": "Birds that are the opposite of hawks, symbolically",
+        "word": "DOVES",
+        "answer_length": 5
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = Two-word phrase for a fixed charge, as for shipping a package. Keep in mind: The first word may be on the bottom.",
-        "word": "RATE",
-        "answer_length": 4
+        "clue": "The top + bottom rows = A two-word phrase for an aerobatic plane's steep, engine-assisted plunges during an airshow. Keep in mind: The first word may be at the bottom.",
+        "word": "DIVES",
+        "answer_length": 5
       }
     ]
   },
   "hints": {
     "no_spoiler_hints": [
       "7 rows",
-      "4 letters each",
+      "5 letters each",
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with F",
-      "Starts with F",
-      "Starts with F",
-      "Starts with F",
-      "Starts with F",
-      "Starts with F",
-      "Starts with R"
+      "Starts with P",
+      "Starts with L",
+      "Starts with L",
+      "Starts with C",
+      "Starts with C",
+      "Starts with D",
+      "Starts with D"
     ]
   },
   "solution": {
-    "top_word": "FLAT",
-    "bottom_word": "RATE",
+    "top_word": "POWER",
+    "bottom_word": "DIVES",
     "full_ladder": [
-      "FLAT",
-      "FLIT",
-      "FAIT",
-      "FACT",
-      "FACE",
-      "FATE",
-      "RATE"
+      "POWER",
+      "LOWER",
+      "LOVER",
+      "COVER",
+      "COVES",
+      "DOVES",
+      "DIVES"
     ],
     "middle_ladder": [
-      "FLIT",
-      "FAIT",
-      "FACT",
-      "FACE",
-      "FATE"
+      "LOWER",
+      "LOVER",
+      "COVER",
+      "COVES",
+      "DOVES"
     ]
   }
 }
