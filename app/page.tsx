@@ -6,6 +6,7 @@ import { CountdownTimer } from "@/components/countdown-timer";
 import { StructuredData } from "@/components/structured-data";
 import { SiteBrand } from "@/components/site-brand";
 import currentCrossclimbPuzzle from "@/data/current-crossclimb.json";
+import { getCrossclimbFaqItems } from "@/lib/crossclimb-faq";
 import {
   formatCrossclimbLadder,
   formatShortCrossclimbDate,
@@ -23,6 +24,22 @@ interface CrossClimbPageProps {
   puzzle?: PuzzleData;
 }
 
+function formatPuzzleDateWithWeekday(dateLabel: string) {
+  const parsed = new Date(`${dateLabel} 12:00:00 UTC`);
+
+  if (Number.isNaN(parsed.getTime())) {
+    return dateLabel;
+  }
+
+  return new Intl.DateTimeFormat("en-US", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(parsed);
+}
+
 export async function generateMetadata(): Promise<Metadata> {
   const p = currentPuzzle;
   const topWord = p.solution.top_word;
@@ -30,15 +47,15 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     title: {
-      absolute: `Crossclimb Today — Answer, Clues and Full Solution | Puzzle Clues Today`,
+      absolute: `LinkedIn Crossclimb Answer Today #${p.puzzle_number} (${p.puzzle_date}) | Puzzle Clues Today`,
     },
-    description: `Looking for Crossclimb today? See today's LinkedIn Games clues, answer, and full word ladder for puzzle #${p.puzzle_number}. From ${bottomWord} to ${topWord} — each step changes one letter.`,
+    description: `Looking for Crossclimb today? Get today's LinkedIn Crossclimb answer, clues, and full word ladder for puzzle #${p.puzzle_number}. Today's solution runs from ${topWord} to ${bottomWord}.`,
     alternates: {
       canonical: 'https://puzzleclues.today/',
     },
     openGraph: {
-      title: `Crossclimb Today: #${p.puzzle_number} Answer and Clues | Puzzle Clues Today`,
-      description: `Today's Crossclimb #${p.puzzle_number} word ladder solution — from ${bottomWord} to ${topWord}. Step-by-step hints with no spoilers.`,
+      title: `LinkedIn Crossclimb Answer Today #${p.puzzle_number} | Puzzle Clues Today`,
+      description: `Crossclimb today answer, clues, and word ladder solution from ${topWord} to ${bottomWord}. Step-by-step hints with no spoilers.`,
       url: 'https://puzzleclues.today/',
       siteName: 'Puzzle Clues Today',
       locale: 'en_US',
@@ -54,8 +71,8 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `Crossclimb Today: #${p.puzzle_number} Answer and Clues`,
-      description: `Today's Crossclimb #${p.puzzle_number} clues and full word ladder solution. From ${bottomWord} to ${topWord}.`,
+      title: `LinkedIn Crossclimb Answer Today #${p.puzzle_number}`,
+      description: `Crossclimb today answer, clues, and full word ladder solution. From ${topWord} to ${bottomWord}.`,
       images: ['https://puzzleclues.today/og-image.png'],
     },
   };
@@ -63,6 +80,8 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPageProps) {
   const recentAnswers = getRecentCrossclimbAnswers(puzzle.puzzle_number, 7);
+  const faqItems = getCrossclimbFaqItems(puzzle);
+  const displayDate = formatPuzzleDateWithWeekday(puzzle.puzzle_date);
 
   return (
     <div className="min-h-screen bg-[#F1EFE8]">
@@ -84,16 +103,11 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
         <section className="text-center space-y-3">
           <div>
             <h1 className="mx-auto max-w-[330px] font-[family-name:var(--font-playfair)] text-2xl font-bold text-[#1a1a2e] sm:max-w-none sm:text-3xl md:text-4xl">
-              <span className="sm:hidden">
-                Crossclimb Today:
-                <br />
-                Answer and Full Solution
-              </span>
-              <span className="hidden sm:inline">Crossclimb Today: Answer and Full Solution</span>
+              LinkedIn Crossclimb Answer Today
             </h1>
           </div>
           <p className="text-[#625B55] text-lg">
-            Puzzle #{puzzle.puzzle_number} · {puzzle.puzzle_date}
+            Crossclimb Today #{puzzle.puzzle_number} · {displayDate}
           </p>
           <p className="mx-auto max-w-prose text-[15px] leading-relaxed text-[#625B55]">
             Updated daily after the new puzzle is available. Answers are checked before publication, and
@@ -115,7 +129,7 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
         </section>
 
         {/* SEO: natural keyword placement after the main answer action */}
-        <section className="mx-auto max-w-prose space-y-3">
+        <section className="space-y-3">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
             About today&apos;s Crossclimb answer
           </h2>
@@ -130,7 +144,7 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
         </section>
 
         {/* How-to: captures play-intent searches without changing the answer-page focus */}
-        <section className="mx-auto max-w-prose space-y-4">
+        <section className="space-y-4">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
             How to play Crossclimb on LinkedIn
           </h2>
@@ -157,7 +171,7 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
         {/* Recent Answers Section */}
         <section className="space-y-4">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
-            Recent Crossclimb Answers
+            LinkedIn Crossclimb Answer History
           </h2>
           <div className="space-y-3">
             {recentAnswers.map((entry) => (
@@ -181,8 +195,22 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
             href="/crossclimb/archive/"
             className="inline-block text-[#854F0B] hover:underline text-[15px] font-medium"
           >
-            View Full Archive →
+            View Full LinkedIn Crossclimb Answer Archive →
           </Link>
+        </section>
+
+        <section className="space-y-4">
+          <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
+            Crossclimb Today FAQ
+          </h2>
+          <dl className="space-y-4 text-base leading-relaxed">
+            {faqItems.map((item) => (
+              <div key={item.question} className="space-y-1">
+                <dt className="font-semibold text-[#1a1a2e]">{item.question}</dt>
+                <dd className="text-[#625B55]">{item.answer}</dd>
+              </div>
+            ))}
+          </dl>
         </section>
       </main>
 

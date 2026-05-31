@@ -22,6 +22,7 @@ const lora = Lora({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://puzzleclues.today'),
+  manifest: '/manifest.webmanifest',
   title: {
     default: 'Crossclimb Today — Answer, Clues and Full Solution | Puzzle Clues Today',
     template: '%s | Puzzle Clues Today',
@@ -42,6 +43,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
     ],

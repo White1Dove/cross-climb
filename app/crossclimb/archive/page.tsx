@@ -17,18 +17,18 @@ const archiveEntries = getCrossclimbHistory();
 const monthGroups = groupCrossclimbEntriesByMonth(archiveEntries);
 const newestEntry = archiveEntries[0];
 const oldestEntry = archiveEntries[archiveEntries.length - 1];
-const archiveDescription = `Browse ${archiveEntries.length} past Crossclimb answers from ${oldestEntry.date} through ${newestEntry.date}, organized by month with puzzle numbers and complete word ladders.`;
+const archiveDescription = `Browse ${archiveEntries.length} past LinkedIn Crossclimb answers from ${oldestEntry.date} through ${newestEntry.date}, organized by month with puzzle numbers and complete word ladders.`;
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Crossclimb Answer Archive | Puzzle Clues Today",
+    absolute: "LinkedIn Crossclimb Answer Archive | Puzzle Clues Today",
   },
   description: archiveDescription,
   alternates: {
     canonical: "https://puzzleclues.today/crossclimb/archive/",
   },
   openGraph: {
-    title: "Crossclimb Answer Archive | Puzzle Clues Today",
+    title: "LinkedIn Crossclimb Answer Archive | Puzzle Clues Today",
     description: archiveDescription,
     url: "https://puzzleclues.today/crossclimb/archive/",
     siteName: "Puzzle Clues Today",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Crossclimb Answer Archive | Puzzle Clues Today",
+    title: "LinkedIn Crossclimb Answer Archive | Puzzle Clues Today",
     description: archiveDescription,
     images: ["https://puzzleclues.today/og-image.png"],
   },
@@ -69,10 +69,10 @@ export default function CrossclimbArchivePage() {
             ← Crossclimb Today
           </Link>
           <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#1a1a2e] md:text-4xl">
-            Crossclimb Answer Archive
+            LinkedIn Crossclimb Answer Archive
           </h1>
           <p className="max-w-prose text-base leading-relaxed text-[#625B55]">
-            Browse {archiveEntries.length} past Crossclimb answers from {oldestEntry.date} through{" "}
+            Browse {archiveEntries.length} past LinkedIn Crossclimb answers from {oldestEntry.date} through{" "}
             {newestEntry.date}. Entries are grouped by month with puzzle numbers, start and end words, and the
             complete ladder for each puzzle.
           </p>
@@ -80,7 +80,7 @@ export default function CrossclimbArchivePage() {
 
         <section className="space-y-4">
           <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-bold text-[#1a1a2e]">
-            Crossclimb Answers
+            LinkedIn Crossclimb Answers
           </h2>
 
           <ArchiveAccordion monthGroups={monthGroups} />

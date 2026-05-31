@@ -127,7 +127,7 @@ export function getArchiveStructuredData(entries: CrossclimbHistoryEntry[]) {
         {
           "@type": "ListItem",
           position: 2,
-          name: "Crossclimb Answer Archive",
+          name: "LinkedIn Crossclimb Answer Archive",
           item: archiveUrl,
         },
       ],
@@ -135,8 +135,8 @@ export function getArchiveStructuredData(entries: CrossclimbHistoryEntry[]) {
     compactObject({
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      name: "Crossclimb Answer Archive",
-      description: `Past Crossclimb answers from ${oldest?.date} through ${newest?.date}, grouped by month.`,
+      name: "LinkedIn Crossclimb Answer Archive",
+      description: `Past LinkedIn Crossclimb answers from ${oldest?.date} through ${newest?.date}, grouped by month.`,
       url: archiveUrl,
       inLanguage: "en-US",
       isPartOf: {
@@ -147,7 +147,7 @@ export function getArchiveStructuredData(entries: CrossclimbHistoryEntry[]) {
       },
       mainEntity: {
         "@type": "ItemList",
-        name: "Recent Crossclimb archive entries",
+        name: "LinkedIn Crossclimb archive entries",
         numberOfItems: entries.length,
         itemListElement: entries.slice(0, 30).map((entry, index) => ({
           "@type": "ListItem",
