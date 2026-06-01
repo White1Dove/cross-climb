@@ -1,5 +1,21 @@
 [
   {
+    "number": 762,
+    "date": "June 1, 2026",
+    "isoDate": "2026-06-01",
+    "start": "HALF",
+    "end": "TIME",
+    "ladder": [
+      "HALF",
+      "HALL",
+      "HILL",
+      "FILL",
+      "FILE",
+      "TILE",
+      "TIME"
+    ]
+  },
+  {
     "number": 761,
     "date": "May 31, 2026",
     "isoDate": "2026-05-31",
