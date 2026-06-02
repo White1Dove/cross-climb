@@ -31,6 +31,10 @@ export function getRecentCrossclimbAnswers(currentPuzzleNumber: number, limit = 
     .slice(0, limit);
 }
 
+export function getCrossclimbByNumber(number: number) {
+  return getCrossclimbHistory().find((entry) => entry.number === number);
+}
+
 export function getAvailableArchiveYears() {
   return [...new Set(getCrossclimbHistory().map((entry) => entry.isoDate.slice(0, 4)))]
     .map(Number)

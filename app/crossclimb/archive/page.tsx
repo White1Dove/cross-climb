@@ -65,9 +65,14 @@ export default function CrossclimbArchivePage() {
 
       <main className="mx-auto max-w-[960px] space-y-8 px-4 py-8 md:py-10">
         <section className="space-y-3">
-          <Link href="/" className="text-[15px] font-medium text-[#854F0B] hover:underline">
-            ← Crossclimb Today
-          </Link>
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-[15px] font-medium">
+            <Link href="/" className="text-[#854F0B] hover:underline">
+              ← Crossclimb Today
+            </Link>
+            <Link href="/answers/" className="text-[#854F0B] hover:underline">
+              All LinkedIn Games Answers
+            </Link>
+          </div>
           <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#1a1a2e] md:text-4xl">
             LinkedIn Crossclimb Answer Archive
           </h1>

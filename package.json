@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "import:crossclimb": "node scripts/import-crossclimb-log.mjs",
+    "import:puzzle-log": "node scripts/import-daily-puzzle-log.mjs",
     "lint": "eslint ."
   },
   "dependencies": {

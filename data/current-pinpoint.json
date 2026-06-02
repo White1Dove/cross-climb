@@ -1,0 +1,44 @@
+{
+  "game_id": "pinpoint",
+  "game_name": "Pinpoint",
+  "puzzle_number": 762,
+  "puzzle_date": "June 1, 2026",
+  "puzzle_label": "Pinpoint #762",
+  "normalized_puzzle": {
+    "category": "Names of insects",
+    "clue_count": 5,
+    "clues": [
+      {
+        "index": 1,
+        "text": "Fly"
+      },
+      {
+        "index": 2,
+        "text": "Cricket"
+      },
+      {
+        "index": 3,
+        "text": "June beetle"
+      },
+      {
+        "index": 4,
+        "text": "Praying mantis"
+      },
+      {
+        "index": 5,
+        "text": "Lightning bug"
+      }
+    ]
+  },
+  "hints": {
+    "no_spoiler_hints": [
+      "Today's Pinpoint has 5 clues."
+    ],
+    "medium_hints": [
+      "First clue: Fly"
+    ]
+  },
+  "solution": {
+    "final_answer": "Names of insects"
+  }
+}

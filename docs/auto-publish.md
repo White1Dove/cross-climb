@@ -48,8 +48,8 @@ Extension test:
 
 1. Reload the unpacked extension in `chrome://extensions`.
 2. Open the extension options page and save the publish settings.
-3. Open a LinkedIn Crossclimb page.
+3. Open a supported LinkedIn Games page, currently Crossclimb or Pinpoint.
 4. Let the extension save a valid solved log, or use the popup's Publish Current Log button.
-5. Watch GitHub Actions for `Publish Crossclimb Log`.
+5. Watch GitHub Actions for `Publish Daily Puzzle Log`.
 
 If the workflow commits new `data/*.json`, it deploys Cloudflare Pages in the same run.

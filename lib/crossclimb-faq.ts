@@ -12,20 +12,16 @@ export function getCrossclimbFaqItems(puzzle: PuzzleData): CrossclimbFaqItem[] {
 
   return [
     {
-      question: "What is the Crossclimb today answer?",
+      question: "What is today's LinkedIn Crossclimb answer?",
       answer: `Today's Crossclimb answer for puzzle #${puzzle.puzzle_number} is the full ladder ${ladder}. The ladder runs from ${topWord} to ${bottomWord}, with one letter changing at each step.`,
     },
     {
-      question: "Where can I find Crossclimb answers today?",
-      answer: "This page is updated daily with the latest Crossclimb clues, hints, and full solution. It also links to recent answers and the LinkedIn Crossclimb answer archive for older puzzles.",
+      question: "What are today's Crossclimb start and end words?",
+      answer: `Today's Crossclimb puzzle starts at ${topWord} and ends at ${bottomWord}. The full ladder connects those words by changing one letter at each step: ${ladder}.`,
     },
     {
-      question: "When does Crossclimb today update?",
-      answer: "New Crossclimb puzzles refresh daily at midnight Pacific Time. This page is updated after the new LinkedIn Games puzzle is available and checked.",
-    },
-    {
-      question: "Is Crossclimb the same as cross climb?",
-      answer: "Players sometimes search for cross climb today, but the LinkedIn Games puzzle name is Crossclimb. This page covers the daily Crossclimb puzzle answer and clues.",
+      question: "Where can I find previous LinkedIn Crossclimb answers?",
+      answer: "Use the LinkedIn Crossclimb Answer History section on this page or open the full archive for older puzzle numbers and word ladders.",
     },
   ];
 }

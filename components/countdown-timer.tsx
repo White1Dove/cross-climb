@@ -10,6 +10,10 @@ type TimeLeft = {
   seconds: number;
 };
 
+type CountdownTimerProps = {
+  puzzleName?: string;
+};
+
 const getPacificDateParts = (date: Date) => {
   const parts = new Intl.DateTimeFormat("en-US", {
     timeZone: PACIFIC_TIME_ZONE,
@@ -61,9 +65,11 @@ const getNextPacificMidnight = () => {
   return new Date(targetWallTime - offset);
 };
 
-export function CountdownTimer() {
+export function CountdownTimer({ puzzleName }: CountdownTimerProps) {
   const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(null);
   const [unlockTime, setUnlockTime] = useState<string | null>(null);
+  const loadingPuzzleName = puzzleName ?? "Crossclimb";
+  const unlockPrefix = puzzleName ? `Next ${puzzleName} puzzle unlocks on` : "Next puzzle unlocks on";
 
   useEffect(() => {
     const calculateTimeLeft = () => {
@@ -109,7 +115,7 @@ export function CountdownTimer() {
             Next puzzle unlocks in <span className="font-semibold tabular-nums">--:--:--</span>
           </p>
           <p className="text-[#625B55] text-[13px]">
-            New Crossclimb puzzles refresh daily at midnight Pacific Time.
+            New {loadingPuzzleName} puzzles refresh daily at midnight Pacific Time.
           </p>
         </div>
       </div>
@@ -128,7 +134,9 @@ export function CountdownTimer() {
         {unlockTime && (
           <p className="text-[13px] text-[#625B55]">
             <span className="sm:hidden">Refreshes at midnight Pacific Time.</span>
-            <span className="hidden sm:inline">Next puzzle unlocks on {unlockTime}</span>
+            <span className="hidden sm:inline">
+              {unlockPrefix} {unlockTime}
+            </span>
           </p>
         )}
       </div>

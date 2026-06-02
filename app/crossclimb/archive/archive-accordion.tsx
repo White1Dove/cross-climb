@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { ChevronDown, ChevronRight, ChevronsUp } from "lucide-react";
 import type { CrossclimbHistoryEntry, CrossclimbMonthGroup } from "@/lib/crossclimb-history";
+import { getCrossclimbAnswerPath } from "@/lib/routes";
 
 function toUtcDate(isoDate: string) {
   return new Date(`${isoDate}T12:00:00Z`);
@@ -64,9 +66,9 @@ function ArchiveTable({ entries }: { entries: CrossclimbHistoryEntry[] }) {
                   {formatFullCrossclimbDate(entry.isoDate)}
                 </td>
                 <td className="whitespace-nowrap px-4 py-4 text-center text-[15px] align-middle">
-                  <span className="font-medium text-[#854F0B]">
+                  <Link href={getCrossclimbAnswerPath(entry.number)} className="font-medium text-[#854F0B] hover:underline">
                     #{entry.number}
-                  </span>
+                  </Link>
                 </td>
                 <td className="px-4 py-4 text-center align-middle">
                   <span className="inline-flex min-w-[64px] justify-center rounded bg-[#0F6E56]/10 px-2 py-1 font-[family-name:var(--font-lora)] text-[15px] font-bold text-[#0F6E56]">
@@ -93,9 +95,9 @@ function ArchiveTable({ entries }: { entries: CrossclimbHistoryEntry[] }) {
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <div>
                 <p className="text-[15px] text-[#625B55]">{formatFullCrossclimbDate(entry.isoDate)}</p>
-                <span className="font-medium text-[#854F0B]">
+                <Link href={getCrossclimbAnswerPath(entry.number)} className="font-medium text-[#854F0B] hover:underline">
                   #{entry.number}
-                </span>
+                </Link>
               </div>
               <div className="flex items-center gap-2 font-[family-name:var(--font-lora)] text-[15px] font-bold">
                 <span className="rounded bg-[#0F6E56]/10 px-2 py-1 text-[#0F6E56]">{entry.start}</span>

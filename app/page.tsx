@@ -13,6 +13,7 @@ import {
   getRecentCrossclimbAnswers,
 } from "@/lib/crossclimb-history";
 import { getGameTabs } from "@/lib/game-tabs";
+import { getCrossclimbAnswerPath } from "@/lib/routes";
 import { getHomeStructuredData } from "@/lib/structured-data";
 import type { PuzzleData } from "@/types/puzzle";
 
@@ -180,9 +181,9 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
                 className="border-b border-[#E7E3DA] pb-3 last:border-b-0 last:pb-0"
               >
                 <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
-                  <span className="font-medium text-[#854F0B]">
+                  <Link href={getCrossclimbAnswerPath(entry.number)} className="font-medium text-[#854F0B] hover:underline">
                     #{entry.number}
-                  </span>
+                  </Link>
                   <span className="text-[15px] text-[#625B55]">{formatShortCrossclimbDate(entry.isoDate)}</span>
                 </div>
                 <p className="mt-1 font-[family-name:var(--font-lora)] text-base leading-relaxed text-[#1a1a2e]">
@@ -193,7 +194,7 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
           </div>
           <Link
             href="/crossclimb/archive/"
-            className="inline-block text-[#854F0B] hover:underline text-[15px] font-medium"
+            className="inline-flex h-auto w-full items-center justify-center rounded-lg bg-[#4A1B0C] py-4 text-base font-semibold text-white transition-all duration-[400ms] ease-out hover:bg-[#5C2310]"
           >
             View Full LinkedIn Crossclimb Answer Archive →
           </Link>
@@ -201,7 +202,7 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
 
         <section className="space-y-4">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
-            Crossclimb Today FAQ
+            Crossclimb Today Questions
           </h2>
           <dl className="space-y-4 text-base leading-relaxed">
             {faqItems.map((item) => (

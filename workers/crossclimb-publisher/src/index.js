@@ -35,6 +35,8 @@ function getLog(body) {
 }
 
 function compactLogForDispatch(log) {
+  const gameId = log.game_id || "";
+
   return {
     schema_version: log.schema_version || "",
     source: log.source || "",
@@ -54,12 +56,16 @@ function compactLogForDispatch(log) {
     answer_fingerprint: log.answer_fingerprint || "",
     puzzle_fingerprint: log.puzzle_fingerprint || "",
     raw_puzzle: {
+      answer: log.raw_puzzle?.answer || "",
+      clues: Array.isArray(log.raw_puzzle?.clues) ? log.raw_puzzle.clues : [],
       final_clue: log.raw_puzzle?.final_clue || log.normalized_puzzle?.final_clue || "",
       solved_text: log.raw_puzzle?.solved_text || ""
     },
     normalized_puzzle: {
       issue_number: log.normalized_puzzle?.issue_number || log.puzzle_number || "",
       label: log.normalized_puzzle?.label || log.puzzle_label || "",
+      category: gameId === "pinpoint" ? log.normalized_puzzle?.category || log.solution?.final_answer || "" : "",
+      clue_count: gameId === "pinpoint" ? log.normalized_puzzle?.clue_count || 0 : 0,
       final_clue: log.normalized_puzzle?.final_clue || log.raw_puzzle?.final_clue || "",
       word_count: log.normalized_puzzle?.word_count || 0,
       middle_word_count: log.normalized_puzzle?.middle_word_count || 0,
@@ -89,8 +95,8 @@ function validateLog(log) {
     return "Request body must be a log object or { log }.";
   }
 
-  if (log.game_id !== "crossclimb") {
-    return "Only crossclimb logs can be published by this endpoint.";
+  if (!["crossclimb", "pinpoint"].includes(log.game_id)) {
+    return "Only crossclimb and pinpoint logs can be published by this endpoint.";
   }
 
   if (log.status === "conflict") {
@@ -104,6 +110,18 @@ function validateLog(log) {
   const puzzleNumber = log.puzzle_number || log.normalized_puzzle?.issue_number;
   if (!puzzleNumber) {
     return "Log is missing puzzle_number.";
+  }
+
+  if (log.game_id === "pinpoint") {
+    const clues = Array.isArray(log.normalized_puzzle?.clues) ? log.normalized_puzzle.clues : [];
+    const finalAnswer = log.solution?.final_answer || log.normalized_puzzle?.category;
+    if (!finalAnswer) {
+      return "Pinpoint log is missing final_answer.";
+    }
+    if (clues.length === 0) {
+      return "Pinpoint log is missing normalized clues.";
+    }
+    return "";
   }
 
   const rows = Array.isArray(log.normalized_puzzle?.rows) ? log.normalized_puzzle.rows : [];
@@ -189,6 +207,7 @@ const worker = {
       return jsonResponse({
         ok: true,
         dispatched: true,
+        game_id: log.game_id,
         puzzle_number: log.puzzle_number || log.normalized_puzzle?.issue_number,
         puzzle_date: log.puzzle_date || ""
       });

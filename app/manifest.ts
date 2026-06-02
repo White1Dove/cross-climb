@@ -6,7 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Puzzle Clues Today",
     short_name: "Puzzle Clues",
-    description: "Daily LinkedIn Crossclimb answers, clues, hints, and full word ladder solutions.",
+    description: "Daily LinkedIn puzzle answers, clues, hints, and solution checks.",
     start_url: "/",
     scope: "/",
     display: "standalone",

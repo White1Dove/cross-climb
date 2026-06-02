@@ -30,6 +30,42 @@ export interface PuzzleData {
   };
 }
 
+export interface PinpointClue {
+  index: number;
+  text: string;
+}
+
+export interface PinpointData {
+  game_id: string;
+  game_name: string;
+  puzzle_number: number;
+  puzzle_date: string;
+  puzzle_label: string;
+  normalized_puzzle: {
+    category: string;
+    clue_count: number;
+    clues: PinpointClue[];
+  };
+  hints: {
+    no_spoiler_hints: string[];
+    medium_hints: string[];
+  };
+  solution: {
+    final_answer: string;
+  };
+  analysis?: {
+    category_type?: string;
+    summary?: string;
+    connection_to_answer?: string;
+    detailed_explanation?: string;
+    clue_notes?: Array<{
+      clue: string;
+      role: string;
+      connection: string;
+    }>;
+  };
+}
+
 export interface GameTab {
   name: string;
   slug: string;
@@ -37,4 +73,5 @@ export interface GameTab {
   active?: boolean;
   status?: "live" | "coming-soon";
   visibleInNav?: boolean;
+  children?: GameTab[];
 }

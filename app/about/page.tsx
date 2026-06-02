@@ -57,9 +57,9 @@ export default function AboutPage() {
             What we update
           </h2>
           <p className="text-[#625B55] text-base leading-relaxed">
-            The site currently focuses on Crossclimb Today. Each daily page includes the puzzle number, date,
-            spoiler-light clues, the full word ladder solution, and links to recent answers. More daily puzzle
-            pages may be added over time, including other word, logic, and mini puzzle formats.
+            The site currently focuses on Crossclimb Today and Pinpoint Today. Daily pages include the puzzle
+            number, date, spoiler-light clues, and answer checks. More daily puzzle pages may be added over time,
+            including other word, logic, and mini puzzle formats.
           </p>
         </section>
 

@@ -1,5 +1,7 @@
 import type { CrossclimbHistoryEntry } from "@/lib/crossclimb-history";
-import type { PuzzleData } from "@/types/puzzle";
+import type { PinpointHistoryEntry } from "@/lib/pinpoint-history";
+import { getCrossclimbAnswerPath, getPinpointAnswerPath } from "@/lib/routes";
+import type { PinpointData, PuzzleData } from "@/types/puzzle";
 
 const baseUrl = "https://puzzleclues.today";
 const organizationId = `${baseUrl}/#organization`;
@@ -160,6 +162,282 @@ export function getArchiveStructuredData(entries: CrossclimbHistoryEntry[]) {
           },
         })),
       },
+    }),
+  ];
+}
+
+export function getCrossclimbDetailStructuredData(entry: CrossclimbHistoryEntry) {
+  const pageUrl = `${baseUrl}${getCrossclimbAnswerPath(entry.number)}`;
+
+  return [
+    ...baseStructuredData(),
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Crossclimb Today",
+          item: `${baseUrl}/`,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "LinkedIn Crossclimb Answer Archive",
+          item: `${baseUrl}/crossclimb/archive/`,
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: `Crossclimb #${entry.number}`,
+          item: pageUrl,
+        },
+      ],
+    },
+    compactObject({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: `LinkedIn Crossclimb #${entry.number} Answer`,
+      description: `${entry.date} LinkedIn Crossclimb answer and full word ladder.`,
+      datePublished: entry.isoDate,
+      dateModified: entry.isoDate,
+      inLanguage: "en-US",
+      author: {
+        "@id": organizationId,
+      },
+      publisher: {
+        "@id": organizationId,
+      },
+      mainEntityOfPage: pageUrl,
+      articleBody: `The full Crossclimb ladder is ${entry.ladder.join(" \u2192 ")}.`,
+    }),
+  ];
+}
+
+export function getPinpointArchiveStructuredData(entries: PinpointHistoryEntry[]) {
+  const newest = entries[0];
+  const oldest = entries[entries.length - 1];
+  const archiveUrl = `${baseUrl}/pinpoint/archive/`;
+
+  return [
+    ...baseStructuredData(),
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Pinpoint Today",
+          item: `${baseUrl}/pinpoint/`,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "LinkedIn Pinpoint Answer Archive",
+          item: archiveUrl,
+        },
+      ],
+    },
+    compactObject({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "LinkedIn Pinpoint Answer Archive",
+      description: `Past LinkedIn Pinpoint answers from ${oldest?.date} through ${newest?.date}, grouped by month.`,
+      url: archiveUrl,
+      inLanguage: "en-US",
+      isPartOf: {
+        "@id": websiteId,
+      },
+      publisher: {
+        "@id": organizationId,
+      },
+      mainEntity: {
+        "@type": "ItemList",
+        name: "LinkedIn Pinpoint archive entries",
+        numberOfItems: entries.length,
+        itemListElement: entries.slice(0, 30).map((entry, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          item: {
+            "@type": "CreativeWork",
+            name: `Pinpoint #${entry.number} Answer`,
+            datePublished: entry.isoDate,
+            description: `${entry.date}: ${entry.answer}`,
+            url: `${baseUrl}${getPinpointAnswerPath(entry.number)}`,
+          },
+        })),
+      },
+    }),
+  ];
+}
+
+export function getPinpointDetailStructuredData(entry: PinpointHistoryEntry) {
+  const pageUrl = `${baseUrl}${getPinpointAnswerPath(entry.number)}`;
+
+  return [
+    ...baseStructuredData(),
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Pinpoint Today",
+          item: `${baseUrl}/pinpoint/`,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "LinkedIn Pinpoint Answer Archive",
+          item: `${baseUrl}/pinpoint/archive/`,
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: `Pinpoint #${entry.number}`,
+          item: pageUrl,
+        },
+      ],
+    },
+    compactObject({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: `LinkedIn Pinpoint #${entry.number} Answer`,
+      description: `${entry.date} LinkedIn Pinpoint answer and clue list.`,
+      datePublished: entry.isoDate,
+      dateModified: entry.isoDate,
+      inLanguage: "en-US",
+      author: {
+        "@id": organizationId,
+      },
+      publisher: {
+        "@id": organizationId,
+      },
+      mainEntityOfPage: pageUrl,
+      articleBody: `The Pinpoint category answer is ${entry.answer}. The clues are ${entry.clues.join(", ")}.`,
+    }),
+  ];
+}
+
+export function getAnswersStructuredData(
+  crossclimbEntries: CrossclimbHistoryEntry[],
+  pinpointEntries: PinpointHistoryEntry[],
+) {
+  const pageUrl = `${baseUrl}/answers/`;
+  const itemListElement = [
+    ...crossclimbEntries.slice(0, 15).map((entry) => ({
+      name: `Crossclimb #${entry.number}`,
+      url: `${baseUrl}${getCrossclimbAnswerPath(entry.number)}`,
+      description: entry.ladder.join(" \u2192 "),
+    })),
+    ...pinpointEntries.slice(0, 15).map((entry) => ({
+      name: `Pinpoint #${entry.number}`,
+      url: `${baseUrl}${getPinpointAnswerPath(entry.number)}`,
+      description: entry.answer,
+    })),
+  ];
+
+  return [
+    ...baseStructuredData(),
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "LinkedIn Games Answers",
+          item: pageUrl,
+        },
+      ],
+    },
+    compactObject({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "LinkedIn Games Answers",
+      description: "Daily LinkedIn Games answers grouped by puzzle, including Crossclimb and Pinpoint.",
+      url: pageUrl,
+      inLanguage: "en-US",
+      isPartOf: {
+        "@id": websiteId,
+      },
+      publisher: {
+        "@id": organizationId,
+      },
+      mainEntity: {
+        "@type": "ItemList",
+        name: "LinkedIn Games answer links",
+        numberOfItems: itemListElement.length,
+        itemListElement: itemListElement.map((item, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          item: {
+            "@type": "CreativeWork",
+            ...item,
+          },
+        })),
+      },
+    }),
+  ];
+}
+
+export function getPinpointStructuredData(puzzle: PinpointData) {
+  const datePublished = toIsoDate(puzzle.puzzle_date);
+  const pinpointUrl = `${baseUrl}/pinpoint/`;
+
+  return [
+    ...baseStructuredData(),
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Pinpoint Today",
+          item: pinpointUrl,
+        },
+      ],
+    },
+    compactObject({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: `Pinpoint Today #${puzzle.puzzle_number} Answer and Clues`,
+      description: `Daily Pinpoint clues and category answer for puzzle #${puzzle.puzzle_number}.`,
+      datePublished,
+      dateModified: datePublished,
+      inLanguage: "en-US",
+      author: {
+        "@id": organizationId,
+      },
+      publisher: {
+        "@id": organizationId,
+      },
+      mainEntityOfPage: pinpointUrl,
+      about: [
+        {
+          "@type": "Thing",
+          name: "Pinpoint",
+        },
+        {
+          "@type": "Thing",
+          name: "LinkedIn Games",
+        },
+      ],
+      mainEntity: {
+        "@type": "ItemList",
+        name: `Pinpoint #${puzzle.puzzle_number} clues`,
+        numberOfItems: puzzle.normalized_puzzle.clue_count,
+        itemListElement: puzzle.normalized_puzzle.clues.map((clue) => ({
+          "@type": "ListItem",
+          position: clue.index,
+          name: clue.text,
+        })),
+      },
+      articleBody: `The Pinpoint category answer is ${puzzle.solution.final_answer}.`,
     }),
   ];
 }
