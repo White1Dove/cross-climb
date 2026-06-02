@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 762,
-  "puzzle_date": "June 1, 2026",
-  "puzzle_label": "Pinpoint #762",
+  "puzzle_number": 763,
+  "puzzle_date": "June 2, 2026",
+  "puzzle_label": "Pinpoint #763",
   "normalized_puzzle": {
-    "category": "Names of insects",
+    "category": "Things that are black",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Fly"
+        "text": "Crows"
       },
       {
         "index": 2,
-        "text": "Cricket"
+        "text": "Ebony"
       },
       {
         "index": 3,
-        "text": "June beetle"
+        "text": "Ripe olives"
       },
       {
         "index": 4,
-        "text": "Praying mantis"
+        "text": "Charcoal"
       },
       {
         "index": 5,
-        "text": "Lightning bug"
+        "text": "Asphalt"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Fly"
+      "First clue: Crows"
     ]
   },
   "solution": {
-    "final_answer": "Names of insects"
+    "final_answer": "Things that are black"
   }
 }
