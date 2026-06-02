@@ -23,6 +23,9 @@ function formatCrossclimbLadder(entry: CrossclimbHistoryEntry) {
   return entry.ladder.join(" \u2192 ");
 }
 
+const viewAnswerLinkClass =
+  "inline-flex items-center justify-center rounded-md border border-[#854F0B]/45 bg-white px-3 py-2 text-[13px] font-semibold text-[#854F0B] transition-colors hover:border-[#854F0B] hover:bg-[#F8F6F0]";
+
 function MonthLabel({ label }: { label: string }) {
   const match = label.match(/^(.+) (\d{4})$/);
 
@@ -49,6 +52,7 @@ function ArchiveTable({ entries }: { entries: CrossclimbHistoryEntry[] }) {
             <col className="w-[120px]" />
             <col className="w-[120px]" />
             <col />
+            <col className="w-[130px]" />
           </colgroup>
           <thead>
             <tr className="border-b border-[#E7E3DA] bg-[#F8F6F0]">
@@ -57,6 +61,7 @@ function ArchiveTable({ entries }: { entries: CrossclimbHistoryEntry[] }) {
               <th className="px-4 py-3 text-center text-[13px] font-semibold uppercase text-[#625B55]">Start</th>
               <th className="px-4 py-3 text-center text-[13px] font-semibold uppercase text-[#625B55]">End</th>
               <th className="px-4 py-3 text-center text-[13px] font-semibold uppercase text-[#625B55]">Ladder</th>
+              <th className="px-4 py-3 text-center text-[13px] font-semibold uppercase text-[#625B55]">Action</th>
             </tr>
           </thead>
           <tbody>
@@ -83,6 +88,11 @@ function ArchiveTable({ entries }: { entries: CrossclimbHistoryEntry[] }) {
                 <td className="px-4 py-4 font-[family-name:var(--font-lora)] text-[15px] leading-relaxed text-[#1a1a2e] align-middle">
                   {formatCrossclimbLadder(entry)}
                 </td>
+                <td className="whitespace-nowrap px-4 py-4 text-center align-middle">
+                  <Link href={getCrossclimbAnswerPath(entry.number)} className={viewAnswerLinkClass}>
+                    View answer
+                  </Link>
+                </td>
               </tr>
             ))}
           </tbody>
@@ -108,6 +118,9 @@ function ArchiveTable({ entries }: { entries: CrossclimbHistoryEntry[] }) {
             <p className="mt-3 font-[family-name:var(--font-lora)] text-base leading-relaxed text-[#1a1a2e]">
               {formatCrossclimbLadder(entry)}
             </p>
+            <Link href={getCrossclimbAnswerPath(entry.number)} className={`${viewAnswerLinkClass} mt-3 w-full`}>
+              View answer
+            </Link>
           </div>
         ))}
       </div>

@@ -18,6 +18,8 @@ const monthGroups = groupCrossclimbEntriesByMonth(archiveEntries);
 const newestEntry = archiveEntries[0];
 const oldestEntry = archiveEntries[archiveEntries.length - 1];
 const archiveDescription = `Browse ${archiveEntries.length} past LinkedIn Crossclimb answers from ${oldestEntry.date} through ${newestEntry.date}, organized by month with puzzle numbers and complete word ladders.`;
+const archiveNavLinkClass =
+  "inline-flex items-center justify-center rounded-lg border border-[#854F0B]/45 bg-white px-4 py-2.5 text-[15px] font-semibold text-[#854F0B] shadow-sm transition-colors hover:border-[#854F0B] hover:bg-[#F8F6F0]";
 
 export const metadata: Metadata = {
   title: {
@@ -66,10 +68,10 @@ export default function CrossclimbArchivePage() {
       <main className="mx-auto max-w-[960px] space-y-8 px-4 py-8 md:py-10">
         <section className="space-y-3">
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-[15px] font-medium">
-            <Link href="/" className="text-[#854F0B] hover:underline">
+            <Link href="/" className={archiveNavLinkClass}>
               ← Crossclimb Today
             </Link>
-            <Link href="/answers/" className="text-[#854F0B] hover:underline">
+            <Link href="/answers/" className={archiveNavLinkClass}>
               All LinkedIn Games Answers
             </Link>
           </div>

@@ -60,6 +60,8 @@ export default function AnswersPage() {
     "inline-flex items-center justify-center rounded-lg bg-[#4A1B0C] px-4 py-3 text-[15px] font-semibold text-white transition-colors hover:bg-[#5C2310]";
   const secondaryButtonClass =
     "inline-flex items-center justify-center rounded-lg border border-[#854F0B]/45 bg-white px-4 py-3 text-[15px] font-semibold text-[#854F0B] transition-colors hover:border-[#854F0B] hover:bg-[#F8F6F0]";
+  const quickLinkClass =
+    "inline-flex items-center justify-center rounded-lg border border-[#854F0B]/45 bg-white px-4 py-2.5 text-[15px] font-semibold text-[#854F0B] shadow-sm transition-colors hover:border-[#854F0B] hover:bg-[#F8F6F0]";
 
   return (
     <div className="min-h-screen bg-[#F1EFE8]">
@@ -81,6 +83,24 @@ export default function AnswersPage() {
             Choose a game to open the latest answer page, or jump into the full archive for older LinkedIn Games
             puzzles.
           </p>
+          <div className="flex flex-wrap gap-3 pt-2">
+            {latestCrossclimb && (
+              <Link href={getCrossclimbAnswerPath(latestCrossclimb.number)} className={quickLinkClass}>
+                Latest Crossclimb
+              </Link>
+            )}
+            {latestPinpoint && (
+              <Link href={getPinpointAnswerPath(latestPinpoint.number)} className={quickLinkClass}>
+                Latest Pinpoint
+              </Link>
+            )}
+            <Link href="/crossclimb/archive/" className={quickLinkClass}>
+              Crossclimb Archive
+            </Link>
+            <Link href="/pinpoint/archive/" className={quickLinkClass}>
+              Pinpoint Archive
+            </Link>
+          </div>
         </section>
 
         <section className="grid items-stretch gap-4 md:grid-cols-2">

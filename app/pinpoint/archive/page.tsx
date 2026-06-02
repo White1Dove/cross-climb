@@ -19,6 +19,10 @@ const monthGroups = groupPinpointEntriesByMonth(archiveEntries);
 const newestEntry = archiveEntries[0];
 const oldestEntry = archiveEntries[archiveEntries.length - 1];
 const archiveDescription = `Browse ${archiveEntries.length} past LinkedIn Pinpoint answers from ${oldestEntry.date} through ${newestEntry.date}, organized by month with category answers and clue lists.`;
+const archiveNavLinkClass =
+  "inline-flex items-center justify-center rounded-lg border border-[#854F0B]/45 bg-white px-4 py-2.5 text-[15px] font-semibold text-[#854F0B] shadow-sm transition-colors hover:border-[#854F0B] hover:bg-[#F8F6F0]";
+const viewAnswerLinkClass =
+  "inline-flex items-center justify-center rounded-md border border-[#854F0B]/45 bg-white px-3 py-2 text-[13px] font-semibold text-[#854F0B] transition-colors hover:border-[#854F0B] hover:bg-[#F8F6F0]";
 
 export const metadata: Metadata = {
   title: {
@@ -67,10 +71,10 @@ export default function PinpointArchivePage() {
       <main className="mx-auto max-w-[960px] space-y-8 px-4 py-8 md:py-10">
         <section className="space-y-3">
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-[15px] font-medium">
-            <Link href="/pinpoint/" className="text-[#854F0B] hover:underline">
+            <Link href="/pinpoint/" className={archiveNavLinkClass}>
               ← Pinpoint Today
             </Link>
-            <Link href="/answers/" className="text-[#854F0B] hover:underline">
+            <Link href="/answers/" className={archiveNavLinkClass}>
               All LinkedIn Games Answers
             </Link>
           </div>
@@ -102,7 +106,7 @@ export default function PinpointArchivePage() {
                 </summary>
                 <div className="divide-y divide-[#E7E3DA]">
                   {group.entries.map((entry) => (
-                    <article key={entry.number} className="grid gap-3 px-4 py-4 md:grid-cols-[150px_120px_minmax(0,1fr)]">
+                    <article key={entry.number} className="grid gap-3 px-4 py-4 md:grid-cols-[150px_120px_minmax(0,1fr)_130px] md:items-center">
                       <p className="text-[15px] text-[#625B55]">{formatFullDate(entry.isoDate)}</p>
                       <Link href={getPinpointAnswerPath(entry.number)} className="font-medium text-[#854F0B] hover:underline">
                         #{entry.number}
@@ -111,6 +115,9 @@ export default function PinpointArchivePage() {
                         <p className="font-semibold text-[#1a1a2e]">{entry.answer}</p>
                         <p className="text-[15px] leading-relaxed text-[#625B55]">{formatPinpointClues(entry)}</p>
                       </div>
+                      <Link href={getPinpointAnswerPath(entry.number)} className={`${viewAnswerLinkClass} md:self-center`}>
+                        View answer
+                      </Link>
                     </article>
                   ))}
                 </div>
