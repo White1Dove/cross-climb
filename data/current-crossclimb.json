@@ -1,9 +1,9 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 762,
-  "puzzle_date": "June 1, 2026",
-  "puzzle_label": "Crossclimb #762",
+  "puzzle_number": 763,
+  "puzzle_date": "June 2, 2026",
+  "puzzle_label": "Crossclimb #763",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
@@ -12,50 +12,50 @@
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A compound word for the midpoint of a football game. Keep in mind: The first word may be at the bottom.",
-        "word": "HALF",
+        "clue": "The top + bottom rows = A two-word phrase for a kind of seafood you might find in a can. Keep in mind: The first word may be at the bottom.",
+        "word": "TUNA",
         "answer_length": 4
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Town ___ (building for local government offices)",
-        "word": "HALL",
+        "clue": "Adjust a musical instrument to match a particular pitch",
+        "word": "TUNE",
         "answer_length": 4
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Bit of raised ground that is not as high as a mountain",
-        "word": "HILL",
+        "clue": "A sharp prong on a fork",
+        "word": "TINE",
         "answer_length": 4
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Occupy a vacant position or top off a glass with water",
-        "word": "FILL",
+        "clue": "Drink that’s often served with cheese at social gatherings",
+        "word": "WINE",
         "answer_length": 4
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Manicurist’s tool to shape and smooth the edges of nails",
-        "word": "FILE",
+        "clue": "Having good judgment, like Solomon",
+        "word": "WISE",
         "answer_length": 4
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Piece of porcelain that may be part of a bathroom floor or wall",
-        "word": "TILE",
+        "clue": "What you make when you blow out birthday candles",
+        "word": "WISH",
         "answer_length": 4
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A compound word for the midpoint of a football game. Keep in mind: The first word may be at the bottom.",
-        "word": "TIME",
+        "clue": "The top + bottom rows = A two-word phrase for a kind of seafood you might find in a can. Keep in mind: The first word may be at the bottom.",
+        "word": "FISH",
         "answer_length": 4
       }
     ]
@@ -67,33 +67,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with H",
-      "Starts with H",
-      "Starts with H",
-      "Starts with F",
-      "Starts with F",
       "Starts with T",
-      "Starts with T"
+      "Starts with T",
+      "Starts with T",
+      "Starts with W",
+      "Starts with W",
+      "Starts with W",
+      "Starts with F"
     ]
   },
   "solution": {
-    "top_word": "HALF",
-    "bottom_word": "TIME",
+    "top_word": "TUNA",
+    "bottom_word": "FISH",
     "full_ladder": [
-      "HALF",
-      "HALL",
-      "HILL",
-      "FILL",
-      "FILE",
-      "TILE",
-      "TIME"
+      "TUNA",
+      "TUNE",
+      "TINE",
+      "WINE",
+      "WISE",
+      "WISH",
+      "FISH"
     ],
     "middle_ladder": [
-      "HALL",
-      "HILL",
-      "FILL",
-      "FILE",
-      "TILE"
+      "TUNE",
+      "TINE",
+      "WINE",
+      "WISE",
+      "WISH"
     ]
   }
 }

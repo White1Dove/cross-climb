@@ -1,5 +1,21 @@
 [
   {
+    "number": 763,
+    "date": "June 2, 2026",
+    "isoDate": "2026-06-02",
+    "start": "TUNA",
+    "end": "FISH",
+    "ladder": [
+      "TUNA",
+      "TUNE",
+      "TINE",
+      "WINE",
+      "WISE",
+      "WISH",
+      "FISH"
+    ]
+  },
+  {
     "number": 762,
     "date": "June 1, 2026",
     "isoDate": "2026-06-01",
