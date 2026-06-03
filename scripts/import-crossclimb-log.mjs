@@ -7,6 +7,7 @@ import process from "node:process";
 const ROOT = process.cwd();
 const CURRENT_PUZZLE_PATH = path.join(ROOT, "data", "current-crossclimb.json");
 const HISTORY_PATH = path.join(ROOT, "data", "crossclimb-history.json");
+const ROW_POSITIONS = new Set(["top", "middle", "bottom"]);
 
 function usage() {
   console.error("Usage: pnpm import:crossclimb <log.json | ->");
@@ -115,22 +116,31 @@ function getPosition(index, total) {
   return "middle";
 }
 
+function normalizeText(value) {
+  return String(value || "").replace(/\s+/g, " ").trim();
+}
+
+function findSourceByWord(items, word) {
+  return Array.isArray(items)
+    ? items.find((item) => normalizeWord(item?.word) === word) || {}
+    : {};
+}
+
 function buildRows(log, fullLadder) {
   const sourceRows = Array.isArray(log.normalized_puzzle?.rows) ? log.normalized_puzzle.rows : [];
   const sourceClues = Array.isArray(log.normalized_puzzle?.clues) ? log.normalized_puzzle.clues : [];
-  const finalClue = log.normalized_puzzle?.final_clue || log.raw_puzzle?.final_clue || "";
+  const finalClue = normalizeText(log.normalized_puzzle?.final_clue || log.raw_puzzle?.final_clue || "");
 
   return fullLadder.map((word, index) => {
-    const sourceRow =
-      sourceRows.find((row) => normalizeWord(row.word) === word) ||
-      sourceRows[index] ||
-      {};
-    const sourceClue =
-      sourceClues.find((clue) => normalizeWord(clue.word) === word) ||
-      sourceClues[index] ||
-      {};
-    const position = sourceRow.position || getPosition(index, fullLadder.length);
-    const clue = sourceRow.clue || sourceClue.text || sourceClue.clue || ((position === "top" || position === "bottom") ? finalClue : "");
+    const sourceRow = findSourceByWord(sourceRows, word);
+    const sourceClue = findSourceByWord(sourceClues, word);
+    const position = getPosition(index, fullLadder.length);
+    const clue = normalizeText(
+      sourceRow.clue ||
+      sourceClue.text ||
+      sourceClue.clue ||
+      ((position === "top" || position === "bottom") ? finalClue : "")
+    );
 
     return {
       index: index + 1,
@@ -160,7 +170,11 @@ function buildPuzzleData(log) {
   }
 
   if (missingClueRows.length > 0) {
-    throw new Error(`Crossclimb log is missing clues for row(s): ${missingClueRows.map((row) => row.index).join(", ")}.`);
+    console.warn(
+      `Crossclimb log is missing clues for row(s): ${missingClueRows
+        .map((row) => row.index)
+        .join(", ")}. Current data will be updated, but new history rows will be skipped; existing complete history rows for the same ladder may be preserved.`
+    );
   }
 
   return {
@@ -200,21 +214,70 @@ function readHistory() {
   return JSON.parse(fs.readFileSync(HISTORY_PATH, "utf8"));
 }
 
+function sameLadder(left, right) {
+  const leftWords = normalizeWords(left);
+  const rightWords = normalizeWords(right);
+  return leftWords.length === rightWords.length && leftWords.every((word, index) => word === rightWords[index]);
+}
+
+function getCompleteRows(rows, fullLadder) {
+  if (!Array.isArray(rows) || rows.length !== fullLadder.length) {
+    return null;
+  }
+
+  const normalizedRows = rows.map((row, index) => {
+    const word = normalizeWord(row?.word);
+    const clue = normalizeText(row?.clue);
+    const position = String(row?.position || "").trim().toLowerCase();
+    const answerLength = Number(row?.answer_length);
+    const expectedPosition = getPosition(index, fullLadder.length);
+
+    if (
+      Number(row?.index) !== index + 1 ||
+      !ROW_POSITIONS.has(position) ||
+      position !== expectedPosition ||
+      word !== fullLadder[index] ||
+      !clue ||
+      !Number.isFinite(answerLength) ||
+      answerLength !== word.length
+    ) {
+      return null;
+    }
+
+    return {
+      index: index + 1,
+      position,
+      clue,
+      word,
+      answer_length: word.length
+    };
+  });
+
+  return normalizedRows.every(Boolean) ? normalizedRows : null;
+}
+
 function updateHistory(puzzle, sourceDate) {
   const history = readHistory();
   const fullLadder = puzzle.solution.full_ladder;
+  const existing = history.find((item) => Number(item.number) === Number(puzzle.puzzle_number));
+  const rowsForHistory =
+    getCompleteRows(puzzle.normalized_puzzle?.rows, fullLadder) ||
+    (existing && sameLadder(existing.ladder, fullLadder)
+      ? getCompleteRows(existing.rows, fullLadder)
+      : null);
   const entry = {
     number: puzzle.puzzle_number,
     date: formatDisplayDate(sourceDate || puzzle.puzzle_date),
     isoDate: formatIsoDate(sourceDate || puzzle.puzzle_date),
     start: fullLadder[0],
     end: fullLadder.at(-1),
-    ladder: fullLadder
+    ladder: fullLadder,
+    ...(rowsForHistory ? { rows: rowsForHistory } : {})
   };
 
   const next = [entry, ...history.filter((item) => Number(item.number) !== Number(entry.number))]
     .filter((item) => Number.isFinite(Number(item.number)) && item.number > 0)
-    .sort((a, b) => Number(b.number) - Number(a.number))
+    .sort((a, b) => Number(b.number) - Number(a.number));
 
   fs.writeFileSync(HISTORY_PATH, `${JSON.stringify(next, null, 2)}\n`);
 }
