@@ -1,9 +1,9 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 763,
-  "puzzle_date": "June 2, 2026",
-  "puzzle_label": "Crossclimb #763",
+  "puzzle_number": 764,
+  "puzzle_date": "June 3, 2026",
+  "puzzle_label": "Crossclimb #764",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
@@ -12,50 +12,50 @@
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A two-word phrase for a kind of seafood you might find in a can. Keep in mind: The first word may be at the bottom.",
-        "word": "TUNA",
+        "clue": "The top + bottom rows = Two long, flowing garments.",
+        "word": "ROBE",
         "answer_length": 4
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Adjust a musical instrument to match a particular pitch",
-        "word": "TUNE",
+        "clue": "Traveled by vehicle and not by foot",
+        "word": "RODE",
         "answer_length": 4
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "A sharp prong on a fork",
-        "word": "TINE",
+        "clue": "Long poles used for fishing",
+        "word": "RODS",
         "answer_length": 4
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Drink that’s often served with cheese at social gatherings",
-        "word": "WINE",
+        "clue": "Uses an oar in a boat",
+        "word": "ROWS",
         "answer_length": 4
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Having good judgment, like Solomon",
-        "word": "WISE",
+        "clue": "Hooks up to a truck and hauls along",
+        "word": "TOWS",
         "answer_length": 4
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "What you make when you blow out birthday candles",
-        "word": "WISH",
+        "clue": "It's typically smaller than a city and larger than a village",
+        "word": "TOWN",
         "answer_length": 4
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A two-word phrase for a kind of seafood you might find in a can. Keep in mind: The first word may be at the bottom.",
-        "word": "FISH",
+        "clue": "The top + bottom rows = Two long, flowing garments.",
+        "word": "GOWN",
         "answer_length": 4
       }
     ]
@@ -67,33 +67,33 @@
       "5 middle words"
     ],
     "medium_hints": [
+      "Starts with R",
+      "Starts with R",
+      "Starts with R",
+      "Starts with R",
       "Starts with T",
       "Starts with T",
-      "Starts with T",
-      "Starts with W",
-      "Starts with W",
-      "Starts with W",
-      "Starts with F"
+      "Starts with G"
     ]
   },
   "solution": {
-    "top_word": "TUNA",
-    "bottom_word": "FISH",
+    "top_word": "ROBE",
+    "bottom_word": "GOWN",
     "full_ladder": [
-      "TUNA",
-      "TUNE",
-      "TINE",
-      "WINE",
-      "WISE",
-      "WISH",
-      "FISH"
+      "ROBE",
+      "RODE",
+      "RODS",
+      "ROWS",
+      "TOWS",
+      "TOWN",
+      "GOWN"
     ],
     "middle_ladder": [
-      "TUNE",
-      "TINE",
-      "WINE",
-      "WISE",
-      "WISH"
+      "RODE",
+      "RODS",
+      "ROWS",
+      "TOWS",
+      "TOWN"
     ]
   }
 }
