@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 763,
-  "puzzle_date": "June 2, 2026",
-  "puzzle_label": "Pinpoint #763",
+  "puzzle_number": 764,
+  "puzzle_date": "June 3, 2026",
+  "puzzle_label": "Pinpoint #764",
   "normalized_puzzle": {
-    "category": "Things that are black",
+    "category": "Desserts (all with many layers)",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Crows"
+        "text": "Trifle"
       },
       {
         "index": 2,
-        "text": "Ebony"
+        "text": "Parfait"
       },
       {
         "index": 3,
-        "text": "Ripe olives"
+        "text": "Tiramisu"
       },
       {
         "index": 4,
-        "text": "Charcoal"
+        "text": "Baklava"
       },
       {
         "index": 5,
-        "text": "Asphalt"
+        "text": "Seven-layer cake"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Crows"
+      "First clue: Trifle"
     ]
   },
   "solution": {
-    "final_answer": "Things that are black"
+    "final_answer": "Desserts (all with many layers)"
   }
 }
