@@ -81,7 +81,7 @@ export default async function PinpointDetailPage({ params }: PinpointDetailPageP
 
   const puzzle = buildPinpointPuzzleFromHistory(entry);
   const analysis = getPinpointAnalysis(puzzle);
-  const questionItems = getPinpointQuestionItems(puzzle);
+  const questionItems = getPinpointQuestionItems(puzzle, { today: false });
   const index = history.findIndex((item) => item.number === entry.number);
   const newerEntry = index > 0 ? history[index - 1] : undefined;
   const olderEntry = index >= 0 ? history[index + 1] : undefined;

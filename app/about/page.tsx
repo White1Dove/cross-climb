@@ -46,31 +46,32 @@ export default function AboutPage() {
             About Puzzle Clues Today
           </h1>
           <p className="text-[#625B55] text-base leading-relaxed">
-            Puzzle Clues Today is an independent answer and hints site for daily puzzle games. We publish
-            clear clues, answers, and full solutions for players who want a nudge, want to check their work,
-            or want to catch up on a recent puzzle.
+            Puzzle Clues Today helps players check daily LinkedIn Games answers. We publish today pages, detail
+            pages, and answer archives for players who want a nudge, want to verify a completed puzzle, or want to
+            catch up on a recent answer.
           </p>
         </section>
 
         <section className="space-y-3">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
-            What we update
+            Games we cover
           </h2>
           <p className="text-[#625B55] text-base leading-relaxed">
-            The site currently focuses on Crossclimb Today and Pinpoint Today. Daily pages include the puzzle
-            number, date, spoiler-light clues, and answer checks. More daily puzzle pages may be added over time,
-            including other word, logic, and mini puzzle formats.
+            Current coverage is Crossclimb and Pinpoint. Crossclimb pages focus on word ladders, clue answers, and
+            one-letter changes. Pinpoint pages focus on clue lists, category answers, and short explanations of how
+            the clues connect.
           </p>
         </section>
 
         <section className="space-y-3">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
-            Update schedule
+            How answers are updated
           </h2>
           <p className="text-[#625B55] text-base leading-relaxed">
-            Crossclimb answers are updated daily after the new puzzle becomes available and checked before
-            publication. We also keep recent answer links and archive pages so returning players can find
-            earlier solutions.
+            Answers update daily when new puzzle data is available. Daily pages show the current puzzle number and
+            date, detail pages preserve each captured puzzle, and archive pages keep past answers grouped by game.
+            When clue data is available, detail pages may include clue reasoning; when it is not available, we do
+            not invent missing clue explanations.
           </p>
         </section>
 
@@ -91,8 +92,8 @@ export default function AboutPage() {
           </h2>
           <p className="text-[#625B55] text-base leading-relaxed">
             If you spot an incorrect answer, typo, broken archive link, or outdated clue, send a correction
-            request through the contact page. We review correction requests and update pages when a fix is
-            needed.
+            request through the contact page. We review correction requests and update pages when a fix is needed.
+            Please include the game name, puzzle number, and the page URL if possible.
           </p>
           <Link href="/contact" className="inline-block text-[#854F0B] hover:underline text-[15px] font-medium">
             Contact Puzzle Clues Today →

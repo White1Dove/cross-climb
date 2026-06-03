@@ -4,10 +4,12 @@ import { notFound } from "next/navigation";
 import { GameTabs } from "@/components/game-tabs";
 import { SiteBrand } from "@/components/site-brand";
 import { StructuredData } from "@/components/structured-data";
+import { formatStepLabel, getCrossclimbClueExplanations } from "@/lib/crossclimb-analysis";
 import {
   formatCrossclimbLadder,
   getCrossclimbByNumber,
   getCrossclimbHistory,
+  getCrossclimbRows,
 } from "@/lib/crossclimb-history";
 import { getGameTabs } from "@/lib/game-tabs";
 import { formatFullDate, formatShortDate } from "@/lib/puzzle-dates";
@@ -68,15 +70,6 @@ export async function generateMetadata({ params }: CrossclimbDetailPageProps): P
   };
 }
 
-function getStepLabel(currentWord: string, nextWord: string) {
-  const changes = currentWord
-    .split("")
-    .map((letter, index) => (letter !== nextWord[index] ? `${letter} → ${nextWord[index]}` : ""))
-    .filter(Boolean);
-
-  return changes.length > 0 ? changes.join(", ") : "No letter change";
-}
-
 export default async function CrossclimbDetailPage({ params }: CrossclimbDetailPageProps) {
   const { number } = await params;
   const entry = getCrossclimbByNumber(Number(number));
@@ -89,6 +82,8 @@ export default async function CrossclimbDetailPage({ params }: CrossclimbDetailP
   const newerEntry = index > 0 ? history[index - 1] : undefined;
   const olderEntry = index >= 0 ? history[index + 1] : undefined;
   const recentAnswers = history.filter((item) => item.number !== entry.number).slice(0, 7);
+  const clueRows = getCrossclimbRows(entry);
+  const clueExplanations = getCrossclimbClueExplanations(entry, clueRows);
 
   return (
     <div className="min-h-screen bg-[#F1EFE8]">
@@ -140,6 +135,28 @@ export default async function CrossclimbDetailPage({ params }: CrossclimbDetailP
           </div>
         </section>
 
+        {clueExplanations.length > 0 && (
+          <section className="space-y-4">
+            <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
+              Crossclimb Clue Reasoning
+            </h2>
+            <div className="space-y-3 rounded-lg border border-[#E7E3DA] bg-white p-5 shadow-sm">
+              {clueExplanations.map((item) => (
+                <div key={`${item.step}-${item.word}`} className="border-b border-[#E7E3DA] pb-3 last:border-b-0 last:pb-0">
+                  <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+                    <span className="font-medium text-[#854F0B]">Step {item.step}</span>
+                    <span className="font-[family-name:var(--font-lora)] font-bold text-[#1a1a2e]">{item.word}</span>
+                  </div>
+                  <p className="mt-1 text-[15px] leading-relaxed text-[#625B55]">{item.reasoningText}</p>
+                  {item.changeText && (
+                    <p className="mt-1 text-[15px] leading-relaxed text-[#625B55]">{item.changeText}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         <section className="space-y-4">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
             Crossclimb Word Ladder
@@ -158,7 +175,7 @@ export default async function CrossclimbDetailPage({ params }: CrossclimbDetailP
                     <p className="font-[family-name:var(--font-lora)] text-lg font-bold text-[#1a1a2e]">{word}</p>
                     {previousWord && (
                       <p className="text-[15px] text-[#625B55]">
-                        Changed from previous: {getStepLabel(previousWord, word)}
+                        Changed from previous: {formatStepLabel(previousWord, word)}
                       </p>
                     )}
                   </div>

@@ -56,6 +56,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.75,
     },
     {
+      url: `${baseUrl}/how-to-play-crossclimb/`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.55,
+    },
+    {
+      url: `${baseUrl}/how-to-play-pinpoint/`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.55,
+    },
+    {
       url: `${baseUrl}/about/`,
       lastModified,
       changeFrequency: "monthly",

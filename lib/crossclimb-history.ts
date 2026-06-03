@@ -1,4 +1,6 @@
 import crossclimbHistoryData from "@/data/crossclimb-history.json";
+import currentCrossclimbPuzzle from "@/data/current-crossclimb.json";
+import type { PuzzleData, PuzzleRow } from "@/types/puzzle";
 
 export type CrossclimbHistoryEntry = {
   number: number;
@@ -7,6 +9,7 @@ export type CrossclimbHistoryEntry = {
   start: string;
   end: string;
   ladder: string[];
+  rows?: PuzzleRow[];
 };
 
 export type CrossclimbMonthGroup = {
@@ -16,6 +19,7 @@ export type CrossclimbMonthGroup = {
 };
 
 const history = crossclimbHistoryData as CrossclimbHistoryEntry[];
+const currentPuzzle = currentCrossclimbPuzzle as PuzzleData;
 
 function toUtcDate(isoDate: string) {
   return new Date(`${isoDate}T12:00:00Z`);
@@ -33,6 +37,24 @@ export function getRecentCrossclimbAnswers(currentPuzzleNumber: number, limit = 
 
 export function getCrossclimbByNumber(number: number) {
   return getCrossclimbHistory().find((entry) => entry.number === number);
+}
+
+export function getCrossclimbRows(entry: CrossclimbHistoryEntry) {
+  if (entry.rows?.length === entry.ladder.length) {
+    return entry.rows;
+  }
+
+  const isCurrentPuzzle =
+    entry.number === currentPuzzle.puzzle_number &&
+    entry.start === currentPuzzle.solution.top_word &&
+    entry.end === currentPuzzle.solution.bottom_word &&
+    entry.ladder.join("|") === currentPuzzle.solution.full_ladder.join("|");
+
+  if (isCurrentPuzzle) {
+    return currentPuzzle.normalized_puzzle.rows;
+  }
+
+  return undefined;
 }
 
 export function getAvailableArchiveYears() {
