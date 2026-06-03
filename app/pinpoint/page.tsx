@@ -88,14 +88,6 @@ export default function PinpointPage() {
             Updated daily after the new puzzle is available. Clues are kept visible, and the category answer stays
             hidden until you choose to reveal it.
           </p>
-          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-[15px] font-medium">
-            <Link href="/pinpoint/archive/" className="text-[#854F0B] hover:underline">
-              Pinpoint Archive
-            </Link>
-            <Link href="/answers/" className="text-[#854F0B] hover:underline">
-              All LinkedIn Games Answers
-            </Link>
-          </div>
         </section>
 
         <section className="space-y-4">
