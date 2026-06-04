@@ -115,12 +115,6 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
             Updated daily after the new puzzle is available. Answers are checked before publication, and
             corrections can be reported through the contact page.
           </p>
-          <Link
-            href={currentAnswerPath}
-            className="inline-flex items-center justify-center rounded-lg border border-[#854F0B]/45 bg-white px-4 py-3 text-[15px] font-semibold text-[#854F0B] transition-colors hover:border-[#854F0B] hover:bg-[#F8F6F0]"
-          >
-            View Full Crossclimb #{puzzle.puzzle_number} Answer
-          </Link>
         </section>
 
         {/* The Ladder Card */}
@@ -134,6 +128,14 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
             <span className="hidden sm:inline">Today&apos;s Crossclimb Hints and Full Solution</span>
           </h2>
           <LadderCard puzzle={puzzle} />
+          <div className="flex justify-center">
+            <Link
+              href={currentAnswerPath}
+              className="inline-flex items-center justify-center rounded-lg border border-[#854F0B]/45 bg-white px-4 py-3 text-[15px] font-semibold text-[#854F0B] transition-colors hover:border-[#854F0B] hover:bg-[#F8F6F0]"
+            >
+              Read Crossclimb Today Clue Reasoning
+            </Link>
+          </div>
         </section>
 
         {/* SEO: natural keyword placement after the main answer action */}
