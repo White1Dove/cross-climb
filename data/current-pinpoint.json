@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 764,
-  "puzzle_date": "June 3, 2026",
-  "puzzle_label": "Pinpoint #764",
+  "puzzle_number": 765,
+  "puzzle_date": "June 4, 2026",
+  "puzzle_label": "Pinpoint #765",
   "normalized_puzzle": {
-    "category": "Desserts (all with many layers)",
+    "category": "Words that come before “flag”",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Trifle"
+        "text": "White"
       },
       {
         "index": 2,
-        "text": "Parfait"
+        "text": "Pirate"
       },
       {
         "index": 3,
-        "text": "Tiramisu"
+        "text": "National"
       },
       {
         "index": 4,
-        "text": "Baklava"
+        "text": "Checkered"
       },
       {
         "index": 5,
-        "text": "Seven-layer cake"
+        "text": "Capture the"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Trifle"
+      "First clue: White"
     ]
   },
   "solution": {
-    "final_answer": "Desserts (all with many layers)"
+    "final_answer": "Words that come before “flag”"
   }
 }
