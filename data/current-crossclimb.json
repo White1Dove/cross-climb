@@ -1,9 +1,9 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 764,
-  "puzzle_date": "June 3, 2026",
-  "puzzle_label": "Crossclimb #764",
+  "puzzle_number": 765,
+  "puzzle_date": "June 4, 2026",
+  "puzzle_label": "Crossclimb #765",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
@@ -12,50 +12,50 @@
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = Two long, flowing garments.",
-        "word": "ROBE",
+        "clue": "The top + bottom rows = A two-word phrase for small pegs used to raise balls off the ground prior to the first shot on a hole. Keep in mind: The first word may be at the bottom.",
+        "word": "GOLF",
         "answer_length": 4
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Traveled by vehicle and not by foot",
-        "word": "RODE",
+        "clue": "Valuable metal whose atomic symbol is Au",
+        "word": "GOLD",
         "answer_length": 4
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Long poles used for fishing",
-        "word": "RODS",
+        "clue": "Better than average, but not yet great",
+        "word": "GOOD",
         "answer_length": 4
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Uses an oar in a boat",
-        "word": "ROWS",
+        "clue": "Sticky substances",
+        "word": "GOOS",
         "answer_length": 4
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Hooks up to a truck and hauls along",
-        "word": "TOWS",
+        "clue": "“Here ___ nothing!” (take a chance on something but expect to fail)",
+        "word": "GOES",
         "answer_length": 4
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "It's typically smaller than a city and larger than a village",
-        "word": "TOWN",
+        "clue": "Parts of a footprint",
+        "word": "TOES",
         "answer_length": 4
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = Two long, flowing garments.",
-        "word": "GOWN",
+        "clue": "The top + bottom rows = A two-word phrase for small pegs used to raise balls off the ground prior to the first shot on a hole. Keep in mind: The first word may be at the bottom.",
+        "word": "TEES",
         "answer_length": 4
       }
     ]
@@ -67,33 +67,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with R",
-      "Starts with R",
-      "Starts with R",
-      "Starts with R",
+      "Starts with G",
+      "Starts with G",
+      "Starts with G",
+      "Starts with G",
+      "Starts with G",
       "Starts with T",
-      "Starts with T",
-      "Starts with G"
+      "Starts with T"
     ]
   },
   "solution": {
-    "top_word": "ROBE",
-    "bottom_word": "GOWN",
+    "top_word": "GOLF",
+    "bottom_word": "TEES",
     "full_ladder": [
-      "ROBE",
-      "RODE",
-      "RODS",
-      "ROWS",
-      "TOWS",
-      "TOWN",
-      "GOWN"
+      "GOLF",
+      "GOLD",
+      "GOOD",
+      "GOOS",
+      "GOES",
+      "TOES",
+      "TEES"
     ],
     "middle_ladder": [
-      "RODE",
-      "RODS",
-      "ROWS",
-      "TOWS",
-      "TOWN"
+      "GOLD",
+      "GOOD",
+      "GOOS",
+      "GOES",
+      "TOES"
     ]
   }
 }

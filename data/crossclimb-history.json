@@ -1,5 +1,72 @@
 [
   {
+    "number": 765,
+    "date": "June 4, 2026",
+    "isoDate": "2026-06-04",
+    "start": "GOLF",
+    "end": "TEES",
+    "ladder": [
+      "GOLF",
+      "GOLD",
+      "GOOD",
+      "GOOS",
+      "GOES",
+      "TOES",
+      "TEES"
+    ],
+    "rows": [
+      {
+        "index": 1,
+        "position": "top",
+        "clue": "The top + bottom rows = A two-word phrase for small pegs used to raise balls off the ground prior to the first shot on a hole. Keep in mind: The first word may be at the bottom.",
+        "word": "GOLF",
+        "answer_length": 4
+      },
+      {
+        "index": 2,
+        "position": "middle",
+        "clue": "Valuable metal whose atomic symbol is Au",
+        "word": "GOLD",
+        "answer_length": 4
+      },
+      {
+        "index": 3,
+        "position": "middle",
+        "clue": "Better than average, but not yet great",
+        "word": "GOOD",
+        "answer_length": 4
+      },
+      {
+        "index": 4,
+        "position": "middle",
+        "clue": "Sticky substances",
+        "word": "GOOS",
+        "answer_length": 4
+      },
+      {
+        "index": 5,
+        "position": "middle",
+        "clue": "“Here ___ nothing!” (take a chance on something but expect to fail)",
+        "word": "GOES",
+        "answer_length": 4
+      },
+      {
+        "index": 6,
+        "position": "middle",
+        "clue": "Parts of a footprint",
+        "word": "TOES",
+        "answer_length": 4
+      },
+      {
+        "index": 7,
+        "position": "bottom",
+        "clue": "The top + bottom rows = A two-word phrase for small pegs used to raise balls off the ground prior to the first shot on a hole. Keep in mind: The first word may be at the bottom.",
+        "word": "TEES",
+        "answer_length": 4
+      }
+    ]
+  },
+  {
     "number": 764,
     "date": "June 3, 2026",
     "isoDate": "2026-06-03",
