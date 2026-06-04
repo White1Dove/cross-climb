@@ -135,28 +135,6 @@ export default async function CrossclimbDetailPage({ params }: CrossclimbDetailP
           </div>
         </section>
 
-        {clueExplanations.length > 0 && (
-          <section className="space-y-4">
-            <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
-              Crossclimb Clue Reasoning
-            </h2>
-            <div className="space-y-3 rounded-lg border border-[#E7E3DA] bg-white p-5 shadow-sm">
-              {clueExplanations.map((item) => (
-                <div key={`${item.step}-${item.word}`} className="border-b border-[#E7E3DA] pb-3 last:border-b-0 last:pb-0">
-                  <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
-                    <span className="font-medium text-[#854F0B]">Step {item.step}</span>
-                    <span className="font-[family-name:var(--font-lora)] font-bold text-[#1a1a2e]">{item.word}</span>
-                  </div>
-                  <p className="mt-1 text-[15px] leading-relaxed text-[#625B55]">{item.reasoningText}</p>
-                  {item.changeText && (
-                    <p className="mt-1 text-[15px] leading-relaxed text-[#625B55]">{item.changeText}</p>
-                  )}
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
         <section className="space-y-4">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
             Crossclimb Word Ladder
@@ -184,6 +162,28 @@ export default async function CrossclimbDetailPage({ params }: CrossclimbDetailP
             })}
           </div>
         </section>
+
+        {clueExplanations.length > 0 && (
+          <section className="space-y-4">
+            <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
+              Clue-by-Clue Reasoning
+            </h2>
+            <div className="space-y-3 rounded-lg border border-[#E7E3DA] bg-white p-5 shadow-sm">
+              {clueExplanations.map((item) => (
+                <div key={`${item.step}-${item.word}`} className="border-b border-[#E7E3DA] pb-3 last:border-b-0 last:pb-0">
+                  <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+                    <span className="font-medium text-[#854F0B]">Step {item.step}</span>
+                    <span className="font-[family-name:var(--font-lora)] font-bold text-[#1a1a2e]">{item.word}</span>
+                  </div>
+                  <p className="mt-1 text-[15px] leading-relaxed text-[#625B55]">{item.reasoningText}</p>
+                  {item.changeText && (
+                    <p className="mt-1 text-[15px] leading-relaxed text-[#625B55]">{item.changeText}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         <section className="space-y-4">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">

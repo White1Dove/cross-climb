@@ -83,6 +83,7 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
   const recentAnswers = getRecentCrossclimbAnswers(puzzle.puzzle_number, 7);
   const faqItems = getCrossclimbFaqItems(puzzle);
   const displayDate = formatPuzzleDateWithWeekday(puzzle.puzzle_date);
+  const currentAnswerPath = getCrossclimbAnswerPath(puzzle.puzzle_number);
 
   return (
     <div className="min-h-screen bg-[#F1EFE8]">
@@ -114,6 +115,12 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
             Updated daily after the new puzzle is available. Answers are checked before publication, and
             corrections can be reported through the contact page.
           </p>
+          <Link
+            href={currentAnswerPath}
+            className="inline-flex items-center justify-center rounded-lg border border-[#854F0B]/45 bg-white px-4 py-3 text-[15px] font-semibold text-[#854F0B] transition-colors hover:border-[#854F0B] hover:bg-[#F8F6F0]"
+          >
+            View Full Crossclimb #{puzzle.puzzle_number} Answer
+          </Link>
         </section>
 
         {/* The Ladder Card */}
