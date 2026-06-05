@@ -1,5 +1,72 @@
 [
   {
+    "number": 766,
+    "date": "June 5, 2026",
+    "isoDate": "2026-06-05",
+    "start": "ROCK",
+    "end": "SOUL",
+    "ladder": [
+      "ROCK",
+      "ROOK",
+      "TOOK",
+      "TOOL",
+      "FOOL",
+      "FOUL",
+      "SOUL"
+    ],
+    "rows": [
+      {
+        "index": 1,
+        "position": "top",
+        "clue": "The top + bottom rows = Two music genres that first became popular in the 1950s and 60s.",
+        "word": "ROCK",
+        "answer_length": 4
+      },
+      {
+        "index": 2,
+        "position": "middle",
+        "clue": "Chess piece that only moves vertically or horizontally",
+        "word": "ROOK",
+        "answer_length": 4
+      },
+      {
+        "index": 3,
+        "position": "middle",
+        "clue": "“You ___ the words out of my mouth”",
+        "word": "TOOK",
+        "answer_length": 4
+      },
+      {
+        "index": 4,
+        "position": "middle",
+        "clue": "Hammer or screwdriver",
+        "word": "TOOL",
+        "answer_length": 4
+      },
+      {
+        "index": 5,
+        "position": "middle",
+        "clue": "Easily duped person",
+        "word": "FOOL",
+        "answer_length": 4
+      },
+      {
+        "index": 6,
+        "position": "middle",
+        "clue": "Something an Olympic basketballer cannot get six times in a game, but an NBA player might (if playing too aggressively)",
+        "word": "FOUL",
+        "answer_length": 4
+      },
+      {
+        "index": 7,
+        "position": "bottom",
+        "clue": "The top + bottom rows = Two music genres that first became popular in the 1950s and 60s.",
+        "word": "SOUL",
+        "answer_length": 4
+      }
+    ]
+  },
+  {
     "number": 765,
     "date": "June 4, 2026",
     "isoDate": "2026-06-04",

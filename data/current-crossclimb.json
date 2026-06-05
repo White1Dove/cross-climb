@@ -1,9 +1,9 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 765,
-  "puzzle_date": "June 4, 2026",
-  "puzzle_label": "Crossclimb #765",
+  "puzzle_number": 766,
+  "puzzle_date": "June 5, 2026",
+  "puzzle_label": "Crossclimb #766",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
@@ -12,50 +12,50 @@
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A two-word phrase for small pegs used to raise balls off the ground prior to the first shot on a hole. Keep in mind: The first word may be at the bottom.",
-        "word": "GOLF",
+        "clue": "The top + bottom rows = Two music genres that first became popular in the 1950s and 60s.",
+        "word": "ROCK",
         "answer_length": 4
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Valuable metal whose atomic symbol is Au",
-        "word": "GOLD",
+        "clue": "Chess piece that only moves vertically or horizontally",
+        "word": "ROOK",
         "answer_length": 4
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Better than average, but not yet great",
-        "word": "GOOD",
+        "clue": "“You ___ the words out of my mouth”",
+        "word": "TOOK",
         "answer_length": 4
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Sticky substances",
-        "word": "GOOS",
+        "clue": "Hammer or screwdriver",
+        "word": "TOOL",
         "answer_length": 4
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "“Here ___ nothing!” (take a chance on something but expect to fail)",
-        "word": "GOES",
+        "clue": "Easily duped person",
+        "word": "FOOL",
         "answer_length": 4
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Parts of a footprint",
-        "word": "TOES",
+        "clue": "Something an Olympic basketballer cannot get six times in a game, but an NBA player might (if playing too aggressively)",
+        "word": "FOUL",
         "answer_length": 4
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A two-word phrase for small pegs used to raise balls off the ground prior to the first shot on a hole. Keep in mind: The first word may be at the bottom.",
-        "word": "TEES",
+        "clue": "The top + bottom rows = Two music genres that first became popular in the 1950s and 60s.",
+        "word": "SOUL",
         "answer_length": 4
       }
     ]
@@ -67,33 +67,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with G",
-      "Starts with G",
-      "Starts with G",
-      "Starts with G",
-      "Starts with G",
+      "Starts with R",
+      "Starts with R",
       "Starts with T",
-      "Starts with T"
+      "Starts with T",
+      "Starts with F",
+      "Starts with F",
+      "Starts with S"
     ]
   },
   "solution": {
-    "top_word": "GOLF",
-    "bottom_word": "TEES",
+    "top_word": "ROCK",
+    "bottom_word": "SOUL",
     "full_ladder": [
-      "GOLF",
-      "GOLD",
-      "GOOD",
-      "GOOS",
-      "GOES",
-      "TOES",
-      "TEES"
+      "ROCK",
+      "ROOK",
+      "TOOK",
+      "TOOL",
+      "FOOL",
+      "FOUL",
+      "SOUL"
     ],
     "middle_ladder": [
-      "GOLD",
-      "GOOD",
-      "GOOS",
-      "GOES",
-      "TOES"
+      "ROOK",
+      "TOOK",
+      "TOOL",
+      "FOOL",
+      "FOUL"
     ]
   }
 }
