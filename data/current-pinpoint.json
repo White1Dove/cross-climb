@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 765,
-  "puzzle_date": "June 4, 2026",
-  "puzzle_label": "Pinpoint #765",
+  "puzzle_number": 766,
+  "puzzle_date": "June 5, 2026",
+  "puzzle_label": "Pinpoint #766",
   "normalized_puzzle": {
-    "category": "Words that come before “flag”",
+    "category": "Things associated with Germany 🇩🇪",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "White"
+        "text": "Pretzels"
       },
       {
         "index": 2,
-        "text": "Pirate"
+        "text": "The Black Forest"
       },
       {
         "index": 3,
-        "text": "National"
+        "text": "The Autobahn"
       },
       {
         "index": 4,
-        "text": "Checkered"
+        "text": "Oktoberfest"
       },
       {
         "index": 5,
-        "text": "Capture the"
+        "text": "The Berlin Wall"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: White"
+      "First clue: Pretzels"
     ]
   },
   "solution": {
-    "final_answer": "Words that come before “flag”"
+    "final_answer": "Things associated with Germany 🇩🇪"
   }
 }
