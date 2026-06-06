@@ -1,5 +1,72 @@
 [
   {
+    "number": 767,
+    "date": "June 6, 2026",
+    "isoDate": "2026-06-06",
+    "start": "VENT",
+    "end": "HOLE",
+    "ladder": [
+      "VENT",
+      "VEST",
+      "PEST",
+      "POST",
+      "HOST",
+      "HOSE",
+      "HOLE"
+    ],
+    "rows": [
+      {
+        "index": 1,
+        "position": "top",
+        "clue": "The top + bottom rows = Two different words for an opening in an object that can allow air to pass through.",
+        "word": "VENT",
+        "answer_length": 4
+      },
+      {
+        "index": 2,
+        "position": "middle",
+        "clue": "Sleeveless garment",
+        "word": "VEST",
+        "answer_length": 4
+      },
+      {
+        "index": 3,
+        "position": "middle",
+        "clue": "Organism that might cause property damage, like a termite or mouse",
+        "word": "PEST",
+        "answer_length": 4
+      },
+      {
+        "index": 4,
+        "position": "middle",
+        "clue": "Vertical support that is driven into the ground to help hold up a fence",
+        "word": "POST",
+        "answer_length": 4
+      },
+      {
+        "index": 5,
+        "position": "middle",
+        "clue": "Emcee of a television show",
+        "word": "HOST",
+        "answer_length": 4
+      },
+      {
+        "index": 6,
+        "position": "middle",
+        "clue": "Fire truck fixture",
+        "word": "HOSE",
+        "answer_length": 4
+      },
+      {
+        "index": 7,
+        "position": "bottom",
+        "clue": "The top + bottom rows = Two different words for an opening in an object that can allow air to pass through.",
+        "word": "HOLE",
+        "answer_length": 4
+      }
+    ]
+  },
+  {
     "number": 766,
     "date": "June 5, 2026",
     "isoDate": "2026-06-05",

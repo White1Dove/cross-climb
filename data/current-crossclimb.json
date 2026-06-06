@@ -1,9 +1,9 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 766,
-  "puzzle_date": "June 5, 2026",
-  "puzzle_label": "Crossclimb #766",
+  "puzzle_number": 767,
+  "puzzle_date": "June 6, 2026",
+  "puzzle_label": "Crossclimb #767",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
@@ -12,50 +12,50 @@
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = Two music genres that first became popular in the 1950s and 60s.",
-        "word": "ROCK",
+        "clue": "The top + bottom rows = Two different words for an opening in an object that can allow air to pass through.",
+        "word": "VENT",
         "answer_length": 4
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Chess piece that only moves vertically or horizontally",
-        "word": "ROOK",
+        "clue": "Sleeveless garment",
+        "word": "VEST",
         "answer_length": 4
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "“You ___ the words out of my mouth”",
-        "word": "TOOK",
+        "clue": "Organism that might cause property damage, like a termite or mouse",
+        "word": "PEST",
         "answer_length": 4
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Hammer or screwdriver",
-        "word": "TOOL",
+        "clue": "Vertical support that is driven into the ground to help hold up a fence",
+        "word": "POST",
         "answer_length": 4
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Easily duped person",
-        "word": "FOOL",
+        "clue": "Emcee of a television show",
+        "word": "HOST",
         "answer_length": 4
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Something an Olympic basketballer cannot get six times in a game, but an NBA player might (if playing too aggressively)",
-        "word": "FOUL",
+        "clue": "Fire truck fixture",
+        "word": "HOSE",
         "answer_length": 4
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = Two music genres that first became popular in the 1950s and 60s.",
-        "word": "SOUL",
+        "clue": "The top + bottom rows = Two different words for an opening in an object that can allow air to pass through.",
+        "word": "HOLE",
         "answer_length": 4
       }
     ]
@@ -67,33 +67,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with R",
-      "Starts with R",
-      "Starts with T",
-      "Starts with T",
-      "Starts with F",
-      "Starts with F",
-      "Starts with S"
+      "Starts with V",
+      "Starts with V",
+      "Starts with P",
+      "Starts with P",
+      "Starts with H",
+      "Starts with H",
+      "Starts with H"
     ]
   },
   "solution": {
-    "top_word": "ROCK",
-    "bottom_word": "SOUL",
+    "top_word": "VENT",
+    "bottom_word": "HOLE",
     "full_ladder": [
-      "ROCK",
-      "ROOK",
-      "TOOK",
-      "TOOL",
-      "FOOL",
-      "FOUL",
-      "SOUL"
+      "VENT",
+      "VEST",
+      "PEST",
+      "POST",
+      "HOST",
+      "HOSE",
+      "HOLE"
     ],
     "middle_ladder": [
-      "ROOK",
-      "TOOK",
-      "TOOL",
-      "FOOL",
-      "FOUL"
+      "VEST",
+      "PEST",
+      "POST",
+      "HOST",
+      "HOSE"
     ]
   }
 }
