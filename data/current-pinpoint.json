@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 766,
-  "puzzle_date": "June 5, 2026",
-  "puzzle_label": "Pinpoint #766",
+  "puzzle_number": 767,
+  "puzzle_date": "June 6, 2026",
+  "puzzle_label": "Pinpoint #767",
   "normalized_puzzle": {
-    "category": "Things associated with Germany 🇩🇪",
+    "category": "Words that come before \"station\"",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Pretzels"
+        "text": "Space"
       },
       {
         "index": 2,
-        "text": "The Black Forest"
+        "text": "Power"
       },
       {
         "index": 3,
-        "text": "The Autobahn"
+        "text": "Police"
       },
       {
         "index": 4,
-        "text": "Oktoberfest"
+        "text": "TV"
       },
       {
         "index": 5,
-        "text": "The Berlin Wall"
+        "text": "Bus"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Pretzels"
+      "First clue: Space"
     ]
   },
   "solution": {
-    "final_answer": "Things associated with Germany 🇩🇪"
+    "final_answer": "Words that come before \"station\""
   }
 }
