@@ -1,99 +1,99 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 767,
-  "puzzle_date": "June 6, 2026",
-  "puzzle_label": "Crossclimb #767",
+  "puzzle_number": 768,
+  "puzzle_date": "June 7, 2026",
+  "puzzle_label": "Crossclimb #768",
   "normalized_puzzle": {
     "word_count": 7,
-    "word_length": 4,
+    "word_length": 5,
     "middle_word_count": 5,
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = Two different words for an opening in an object that can allow air to pass through.",
-        "word": "VENT",
-        "answer_length": 4
+        "clue": "The top + bottom rows = A two-word phrase for coated sheets that are moisture-proof, grease-proof and used in cooking. Keep in mind: The first word may be at the bottom.",
+        "word": "WAXED",
+        "answer_length": 5
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Sleeveless garment",
-        "word": "VEST",
-        "answer_length": 4
+        "clue": "Greeted someone from a distance",
+        "word": "WAVED",
+        "answer_length": 5
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Organism that might cause property damage, like a termite or mouse",
-        "word": "PEST",
-        "answer_length": 4
+        "clue": "Wobble uncertainly",
+        "word": "WAVER",
+        "answer_length": 5
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Vertical support that is driven into the ground to help hold up a fence",
-        "word": "POST",
-        "answer_length": 4
+        "clue": "Drink that might be free in a restaurant",
+        "word": "WATER",
+        "answer_length": 5
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Emcee of a television show",
-        "word": "HOST",
-        "answer_length": 4
+        "clue": "Provide food for a large banquet",
+        "word": "CATER",
+        "answer_length": 5
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Fire truck fixture",
-        "word": "HOSE",
-        "answer_length": 4
+        "clue": "Playful prank or criminal plan",
+        "word": "CAPER",
+        "answer_length": 5
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = Two different words for an opening in an object that can allow air to pass through.",
-        "word": "HOLE",
-        "answer_length": 4
+        "clue": "The top + bottom rows = A two-word phrase for coated sheets that are moisture-proof, grease-proof and used in cooking. Keep in mind: The first word may be at the bottom.",
+        "word": "PAPER",
+        "answer_length": 5
       }
     ]
   },
   "hints": {
     "no_spoiler_hints": [
       "7 rows",
-      "4 letters each",
+      "5 letters each",
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with V",
-      "Starts with V",
-      "Starts with P",
-      "Starts with P",
-      "Starts with H",
-      "Starts with H",
-      "Starts with H"
+      "Starts with W",
+      "Starts with W",
+      "Starts with W",
+      "Starts with W",
+      "Starts with C",
+      "Starts with C",
+      "Starts with P"
     ]
   },
   "solution": {
-    "top_word": "VENT",
-    "bottom_word": "HOLE",
+    "top_word": "WAXED",
+    "bottom_word": "PAPER",
     "full_ladder": [
-      "VENT",
-      "VEST",
-      "PEST",
-      "POST",
-      "HOST",
-      "HOSE",
-      "HOLE"
+      "WAXED",
+      "WAVED",
+      "WAVER",
+      "WATER",
+      "CATER",
+      "CAPER",
+      "PAPER"
     ],
     "middle_ladder": [
-      "VEST",
-      "PEST",
-      "POST",
-      "HOST",
-      "HOSE"
+      "WAVED",
+      "WAVER",
+      "WATER",
+      "CATER",
+      "CAPER"
     ]
   }
 }
