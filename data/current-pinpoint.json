@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 767,
-  "puzzle_date": "June 6, 2026",
-  "puzzle_label": "Pinpoint #767",
+  "puzzle_number": 768,
+  "puzzle_date": "June 7, 2026",
+  "puzzle_label": "Pinpoint #768",
   "normalized_puzzle": {
-    "category": "Words that come before \"station\"",
+    "category": "Words that come before \"class\"",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Space"
+        "text": "First"
       },
       {
         "index": 2,
-        "text": "Power"
+        "text": "Weight"
       },
       {
         "index": 3,
-        "text": "Police"
+        "text": "Fitness"
       },
       {
         "index": 4,
-        "text": "TV"
+        "text": "Business"
       },
       {
         "index": 5,
-        "text": "Bus"
+        "text": "World- (the very best)"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Space"
+      "First clue: First"
     ]
   },
   "solution": {
-    "final_answer": "Words that come before \"station\""
+    "final_answer": "Words that come before \"class\""
   }
 }
