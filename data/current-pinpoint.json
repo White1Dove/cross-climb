@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 768,
-  "puzzle_date": "June 7, 2026",
-  "puzzle_label": "Pinpoint #768",
+  "puzzle_number": 769,
+  "puzzle_date": "June 8, 2026",
+  "puzzle_label": "Pinpoint #769",
   "normalized_puzzle": {
-    "category": "Words that come before \"class\"",
+    "category": "Things that come in eights (including games on LinkedIn after tomorrow's debut!)",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "First"
+        "text": "Bits in a byte"
       },
       {
         "index": 2,
-        "text": "Weight"
+        "text": "Planets in our solar system"
       },
       {
         "index": 3,
-        "text": "Fitness"
+        "text": "Legs on a spider"
       },
       {
         "index": 4,
-        "text": "Business"
+        "text": "Corners of a cube"
       },
       {
         "index": 5,
-        "text": "World- (the very best)"
+        "text": "Sides of (most) stop signs"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: First"
+      "First clue: Bits in a byte"
     ]
   },
   "solution": {
-    "final_answer": "Words that come before \"class\""
+    "final_answer": "Things that come in eights (including games on LinkedIn after tomorrow's debut!)"
   }
 }
