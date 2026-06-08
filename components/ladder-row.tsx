@@ -3,15 +3,17 @@
 import { useState } from "react";
 import { PuzzleRow } from "@/types/puzzle";
 import { ChevronDown } from "lucide-react";
+import { trackEvent } from "@/lib/analytics";
 
 interface LadderRowProps {
   row: PuzzleRow;
   hint: string;
   revealed: boolean;
   previousWord?: string;
+  puzzleNumber?: number;
 }
 
-export function LadderRow({ row, hint, revealed, previousWord }: LadderRowProps) {
+export function LadderRow({ row, hint, revealed, previousWord, puzzleNumber }: LadderRowProps) {
   const [hintOpen, setHintOpen] = useState(false);
 
   const positionLabel = {
@@ -38,6 +40,14 @@ export function LadderRow({ row, hint, revealed, previousWord }: LadderRowProps)
   };
 
   const letterChange = findLetterChange();
+  const toggleHint = () => {
+    const nextOpen = !hintOpen;
+    setHintOpen(nextOpen);
+    trackEvent(nextOpen ? "crossclimb_hint_open" : "crossclimb_hint_close", {
+      puzzle_number: puzzleNumber || 0,
+      step: row.index,
+    });
+  };
 
   return (
     <div className="space-y-1.5">
@@ -78,7 +88,7 @@ export function LadderRow({ row, hint, revealed, previousWord }: LadderRowProps)
           {/* Hint toggle button — only when NOT revealed */}
           {!revealed && (
             <button
-              onClick={() => setHintOpen(!hintOpen)}
+              onClick={toggleHint}
               className="text-[13px] text-[#854F0B] hover:text-[#6B3F09] flex items-center gap-0.5 transition-colors shrink-0"
               aria-expanded={hintOpen}
             >

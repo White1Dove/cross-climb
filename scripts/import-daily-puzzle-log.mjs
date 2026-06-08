@@ -46,6 +46,18 @@ function normalizeText(value) {
   return String(value || "").replace(/\s+/g, " ").trim();
 }
 
+function getCrossclimbExplanation(...sources) {
+  return sources
+    .flatMap((source) => [
+      source?.explanation,
+      source?.why_it_fits,
+      source?.reasoning,
+      source?.analysis,
+    ])
+    .map((value) => (typeof value === "string" ? normalizeText(value) : ""))
+    .find(Boolean);
+}
+
 function formatDisplayDate(value) {
   const text = String(value || "").trim();
   const isoMatch = text.match(/^(\d{4})-(\d{2})-(\d{2})$/);
@@ -154,13 +166,16 @@ function buildCrossclimbRows(log, fullLadder) {
       ((position === "top" || position === "bottom") ? finalClue : "")
     );
 
-    return {
+    const explanation = getCrossclimbExplanation(sourceRow, sourceClue);
+    const row = {
       index: index + 1,
       position,
       clue,
       word,
       answer_length: word.length,
     };
+
+    return explanation ? { ...row, explanation } : row;
   });
 }
 
@@ -175,6 +190,13 @@ function buildCrossclimbData(log) {
   const middleLadder = fullLadder.slice(1, -1);
   const puzzleNumber = getPuzzleNumber(log);
   const puzzleDate = formatDisplayDate(log.puzzle_date);
+  const finalClue = normalizeText(
+    log.normalized_puzzle?.final_clue ||
+      log.raw_puzzle?.final_clue ||
+      rows.find((row) => row.position === "top")?.clue ||
+      rows.find((row) => row.position === "bottom")?.clue ||
+      ""
+  );
   const missingClueRows = rows.filter((row) => !row.clue);
 
   if (!puzzleNumber) {
@@ -199,6 +221,7 @@ function buildCrossclimbData(log) {
       word_count: fullLadder.length,
       word_length: wordLength,
       middle_word_count: middleLadder.length,
+      ...(finalClue ? { final_clue: finalClue } : {}),
       rows,
     },
     hints: {
@@ -256,12 +279,15 @@ function getCompleteCrossclimbRows(rows, fullLadder) {
       return null;
     }
 
+    const explanation = getCrossclimbExplanation(row);
+
     return {
       index: index + 1,
       position,
       clue,
       word,
       answer_length: word.length,
+      ...(explanation ? { explanation } : {}),
     };
   });
 

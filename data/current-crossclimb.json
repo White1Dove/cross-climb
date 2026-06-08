@@ -8,55 +8,63 @@
     "word_count": 7,
     "word_length": 5,
     "middle_word_count": 5,
+    "final_clue": "The top + bottom rows = A two-word phrase for coated sheets that are moisture-proof, grease-proof and used in cooking. Keep in mind: The first word may be at the bottom.",
     "rows": [
       {
         "index": 1,
         "position": "top",
         "clue": "The top + bottom rows = A two-word phrase for coated sheets that are moisture-proof, grease-proof and used in cooking. Keep in mind: The first word may be at the bottom.",
         "word": "WAXED",
-        "answer_length": 5
+        "answer_length": 5,
+        "explanation": "WAXED is the first half of \"waxed paper\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase for coated sheets that are moisture-proof, grease-proof and used in cooking. Keep in mind: The first word may be at the bottom\"."
       },
       {
         "index": 2,
         "position": "middle",
         "clue": "Greeted someone from a distance",
         "word": "WAVED",
-        "answer_length": 5
+        "answer_length": 5,
+        "explanation": "To greet someone from a distance, you might make a motion with your hand, as in WAVED."
       },
       {
         "index": 3,
         "position": "middle",
         "clue": "Wobble uncertainly",
         "word": "WAVER",
-        "answer_length": 5
+        "answer_length": 5,
+        "explanation": "To waver means to wobble uncertainly or hesitate in one's decision."
       },
       {
         "index": 4,
         "position": "middle",
         "clue": "Drink that might be free in a restaurant",
         "word": "WATER",
-        "answer_length": 5
+        "answer_length": 5,
+        "explanation": "Water is a common complimentary beverage offered at dining establishments."
       },
       {
         "index": 5,
         "position": "middle",
         "clue": "Provide food for a large banquet",
         "word": "CATER",
-        "answer_length": 5
+        "answer_length": 5,
+        "explanation": "To cater is to provide food and drink, especially for a large event like a banquet."
       },
       {
         "index": 6,
         "position": "middle",
         "clue": "Playful prank or criminal plan",
         "word": "CAPER",
-        "answer_length": 5
+        "answer_length": 5,
+        "explanation": "A caper is a playful prank or a criminal plan."
       },
       {
         "index": 7,
         "position": "bottom",
         "clue": "The top + bottom rows = A two-word phrase for coated sheets that are moisture-proof, grease-proof and used in cooking. Keep in mind: The first word may be at the bottom.",
         "word": "PAPER",
-        "answer_length": 5
+        "answer_length": 5,
+        "explanation": "PAPER completes \"waxed paper\", so the top and bottom rows answer the shared final clue together."
       }
     ]
   },

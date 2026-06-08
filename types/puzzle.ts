@@ -4,6 +4,9 @@ export interface PuzzleRow {
   clue: string;
   word: string;
   answer_length: number;
+  explanation?: string;
+  why_it_fits?: string;
+  reasoning?: string;
 }
 
 export interface PuzzleData {
@@ -16,6 +19,7 @@ export interface PuzzleData {
     word_count: number;
     word_length: number;
     middle_word_count: number;
+    final_clue?: string;
     rows: PuzzleRow[];
   };
   hints: {

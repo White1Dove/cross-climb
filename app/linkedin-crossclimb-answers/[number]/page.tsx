@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { CrossclimbClueAnswers } from "@/components/crossclimb-clue-answers";
 import { GameTabs } from "@/components/game-tabs";
 import { SiteBrand } from "@/components/site-brand";
 import { StructuredData } from "@/components/structured-data";
@@ -39,15 +40,15 @@ export async function generateMetadata({ params }: CrossclimbDetailPageProps): P
 
   return {
     title: {
-      absolute: `LinkedIn Crossclimb #${entry.number} Answer (${entry.date}) | Puzzle Clues Today`,
+      absolute: `LinkedIn Crossclimb #${entry.number} Answers, Clues and Word Ladder | Puzzle Clues Today`,
     },
-    description: `LinkedIn Crossclimb #${entry.number} answer for ${entry.date}. See the full word ladder from ${entry.start} to ${entry.end}.`,
+    description: `LinkedIn Crossclimb #${entry.number} answers for ${entry.date}. See the shared final clue, middle clue answers, the full word ladder from ${entry.start} to ${entry.end}, and every one-letter change.`,
     alternates: {
       canonical: `https://puzzleclues.today${getCrossclimbAnswerPath(entry.number)}`,
     },
     openGraph: {
       title: `LinkedIn Crossclimb #${entry.number} Answer | Puzzle Clues Today`,
-      description: `Crossclimb #${entry.number} full word ladder from ${entry.start} to ${entry.end}.`,
+      description: `Crossclimb #${entry.number} clue answers and full word ladder from ${entry.start} to ${entry.end}.`,
       url: `https://puzzleclues.today${getCrossclimbAnswerPath(entry.number)}`,
       siteName: "Puzzle Clues Today",
       locale: "en_US",
@@ -63,8 +64,8 @@ export async function generateMetadata({ params }: CrossclimbDetailPageProps): P
     },
     twitter: {
       card: "summary_large_image",
-      title: `LinkedIn Crossclimb #${entry.number} Answer`,
-      description: `Crossclimb answer and full word ladder for ${entry.date}.`,
+      title: `LinkedIn Crossclimb #${entry.number} Answers and Clues`,
+      description: `Crossclimb clue answers and full word ladder for ${entry.date}.`,
       images: ["https://puzzleclues.today/og-image.png"],
     },
   };
@@ -117,7 +118,7 @@ export default async function CrossclimbDetailPage({ params }: CrossclimbDetailP
             <span className="[font-family:Arial,Helvetica,sans-serif] text-[0.86em] font-extrabold tracking-normal tabular-nums">
               #{entry.number}
             </span>{" "}
-            Answer
+            Answers, Clues and Word Ladder
           </h1>
           <p className="text-lg text-[#625B55]">{formatFullDate(entry.isoDate)}</p>
         </section>
@@ -135,9 +136,16 @@ export default async function CrossclimbDetailPage({ params }: CrossclimbDetailP
           </div>
         </section>
 
+        <CrossclimbClueAnswers
+          items={clueExplanations}
+          puzzleNumber={entry.number}
+          heading={`Crossclimb #${entry.number} Clue Answers`}
+          intro={`Use the shared final clue and five middle clue answers for Crossclimb #${entry.number} before checking the full ladder from ${entry.start} to ${entry.end}.`}
+        />
+
         <section className="space-y-4">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
-            Crossclimb Word Ladder
+            Crossclimb #{entry.number} Word Ladder
           </h2>
           <div className="overflow-hidden rounded-lg border border-[#E7E3DA] bg-white shadow-sm">
             {entry.ladder.map((word, wordIndex) => {
@@ -162,28 +170,6 @@ export default async function CrossclimbDetailPage({ params }: CrossclimbDetailP
             })}
           </div>
         </section>
-
-        {clueExplanations.length > 0 && (
-          <section className="space-y-4">
-            <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
-              Clue-by-Clue Reasoning
-            </h2>
-            <div className="space-y-3 rounded-lg border border-[#E7E3DA] bg-white p-5 shadow-sm">
-              {clueExplanations.map((item) => (
-                <div key={`${item.step}-${item.word}`} className="border-b border-[#E7E3DA] pb-3 last:border-b-0 last:pb-0">
-                  <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
-                    <span className="font-medium text-[#854F0B]">Step {item.step}</span>
-                    <span className="font-[family-name:var(--font-lora)] font-bold text-[#1a1a2e]">{item.word}</span>
-                  </div>
-                  <p className="mt-1 text-[15px] leading-relaxed text-[#625B55]">{item.reasoningText}</p>
-                  {item.changeText && (
-                    <p className="mt-1 text-[15px] leading-relaxed text-[#625B55]">{item.changeText}</p>
-                  )}
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
 
         <section className="space-y-4">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">

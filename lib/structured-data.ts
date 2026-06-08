@@ -1,7 +1,7 @@
 import type { CrossclimbHistoryEntry } from "@/lib/crossclimb-history";
 import type { PinpointHistoryEntry } from "@/lib/pinpoint-history";
 import { getCrossclimbAnswerPath, getPinpointAnswerPath } from "@/lib/routes";
-import type { PinpointData, PuzzleData } from "@/types/puzzle";
+import type { PinpointData, PuzzleData, PuzzleRow } from "@/types/puzzle";
 
 const baseUrl = "https://puzzleclues.today";
 const organizationId = `${baseUrl}/#organization`;
@@ -19,6 +19,19 @@ function toIsoDate(dateLabel: string) {
   }
 
   return parsed.toISOString().slice(0, 10);
+}
+
+function cleanFinalClue(clue: string) {
+  return clue.replace(/^The top \+ bottom rows\s*=\s*/i, "").trim() || clue;
+}
+
+function getCrossclimbRowDescription(row: PuzzleRow, rows: PuzzleRow[]) {
+  const topClue = rows.find((item) => item.position === "top")?.clue.trim().toLowerCase();
+  const bottomClue = rows.find((item) => item.position === "bottom")?.clue.trim().toLowerCase();
+  const isSharedFinalRow =
+    (row.position === "top" || row.position === "bottom") && Boolean(topClue && bottomClue && topClue === bottomClue);
+
+  return isSharedFinalRow ? `Shared final clue: ${cleanFinalClue(row.clue)}` : row.clue;
 }
 
 function baseStructuredData() {
@@ -101,7 +114,7 @@ export function getHomeStructuredData(puzzle: PuzzleData) {
           "@type": "ListItem",
           position: row.index,
           name: row.word,
-          description: row.clue,
+          description: getCrossclimbRowDescription(row, puzzle.normalized_puzzle.rows),
         })),
       },
       articleBody: `The full ladder is ${ladder}.`,

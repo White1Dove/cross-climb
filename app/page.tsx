@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { CrossclimbClueAnswers } from "@/components/crossclimb-clue-answers";
 import { GameTabs } from "@/components/game-tabs";
 import { LadderCard } from "@/components/ladder-card";
 import { CountdownTimer } from "@/components/countdown-timer";
 import { StructuredData } from "@/components/structured-data";
 import { SiteBrand } from "@/components/site-brand";
 import currentCrossclimbPuzzle from "@/data/current-crossclimb.json";
+import { buildCrossclimbEntryFromPuzzle, getCrossclimbClueExplanations } from "@/lib/crossclimb-analysis";
 import { getCrossclimbFaqItems } from "@/lib/crossclimb-faq";
 import {
   formatCrossclimbLadder,
@@ -80,6 +82,8 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPageProps) {
+  const currentEntry = buildCrossclimbEntryFromPuzzle(puzzle);
+  const clueExplanations = getCrossclimbClueExplanations(currentEntry, puzzle.normalized_puzzle.rows);
   const recentAnswers = getRecentCrossclimbAnswers(puzzle.puzzle_number, 7);
   const faqItems = getCrossclimbFaqItems(puzzle);
   const displayDate = formatPuzzleDateWithWeekday(puzzle.puzzle_date);
@@ -105,7 +109,7 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
         <section className="text-center space-y-3">
           <div>
             <h1 className="mx-auto max-w-[330px] font-[family-name:var(--font-playfair)] text-2xl font-bold text-[#1a1a2e] sm:max-w-none sm:text-3xl md:text-4xl">
-              LinkedIn Crossclimb Answer Today
+              Crossclimb Today: Answer, Clues and Full Solution
             </h1>
           </div>
           <p className="text-[#625B55] text-lg">
@@ -121,11 +125,11 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
         <section className="space-y-4">
           <h2 className="mx-auto max-w-[330px] font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e] text-center sm:max-w-none">
             <span className="sm:hidden">
-              Today&apos;s Crossclimb Hints
+              Today&apos;s Crossclimb Answer
               <br />
-              and Full Solution
+              and Word Ladder
             </span>
-            <span className="hidden sm:inline">Today&apos;s Crossclimb Hints and Full Solution</span>
+            <span className="hidden sm:inline">Today&apos;s Crossclimb Answer and Word Ladder</span>
           </h2>
           <LadderCard puzzle={puzzle} />
           <div className="flex justify-center">
@@ -138,6 +142,12 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
           </div>
         </section>
 
+        <CrossclimbClueAnswers
+          items={clueExplanations}
+          puzzleNumber={puzzle.puzzle_number}
+          intro="The five middle rows each have their own clue. The top and bottom rows work together as one shared final clue."
+        />
+
         {/* SEO: natural keyword placement after the main answer action */}
         <section className="space-y-3">
           <h2 className="font-[family-name:var(--font-playfair)] text-xl font-bold text-[#1a1a2e]">
@@ -145,7 +155,7 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
           </h2>
           <p className="text-base leading-relaxed text-[#625B55]">
             Looking for <strong className="text-[#1a1a2e]">Crossclimb today</strong>? This page has today&apos;s
-            clues, answer, and full word ladder for the latest{" "}
+            middle clues, top + bottom answer, and full word ladder for the latest{" "}
             <strong className="text-[#1a1a2e]">LinkedIn Games</strong>{" "}puzzle. Use the hints if you want a
             nudge first, or reveal the full solution when you&apos;re ready to check every rung. Each word is{" "}
             {puzzle.normalized_puzzle.word_length} letters long, and each step changes one letter as you climb
@@ -160,8 +170,8 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
           </h2>
           <ul className="space-y-3 text-base leading-relaxed text-[#625B55]">
             <li>
-              <span className="font-semibold text-[#1a1a2e]">1.</span> Read each clue and fill in the missing
-              words in the ladder.
+              <span className="font-semibold text-[#1a1a2e]">1.</span> Read the middle clues and fill in the
+              missing words in the ladder.
             </li>
             <li>
               <span className="font-semibold text-[#1a1a2e]">2.</span> Arrange the words so each neighboring
@@ -169,7 +179,7 @@ export default function CrossClimbPage({ puzzle = currentPuzzle }: CrossClimbPag
             </li>
             <li>
               <span className="font-semibold text-[#1a1a2e]">3.</span> Use the top and bottom entries together
-              to solve the final phrase clue.
+              to solve the shared final clue.
             </li>
             <li>
               <span className="font-semibold text-[#1a1a2e]">4.</span> Check back daily after midnight Pacific

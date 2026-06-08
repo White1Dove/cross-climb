@@ -51,9 +51,8 @@ export default function HowToPlayCrossclimbPage() {
             How to Play Crossclimb on LinkedIn
           </h1>
           <p className="max-w-prose text-base leading-relaxed text-[#625B55]">
-            Crossclimb is a word ladder puzzle. You solve a stack of clues, then arrange the answers so each
-            neighboring word changes by one letter. The top and bottom words also work together to answer a final
-            clue.
+            Crossclimb is a word ladder puzzle. You solve the middle clues, arrange the answers so each neighboring
+            word changes by one letter, then use the top and bottom words together to answer the shared final clue.
           </p>
           <div className="flex flex-wrap gap-3 pt-1">
             <Link href="/" className={guideLinkClass}>
@@ -73,10 +72,10 @@ export default function HowToPlayCrossclimbPage() {
             The basic rules
           </h2>
           <ul className="space-y-3 text-base leading-relaxed text-[#625B55]">
-            <li>Every rung is a word answer to one clue.</li>
+            <li>The middle rungs each answer their own clue.</li>
             <li>Neighboring rungs must stay the same length and change exactly one letter.</li>
-            <li>The top and bottom rungs combine to solve the final clue.</li>
-            <li>The puzzle is finished only when the clue answers and the ladder order both work.</li>
+            <li>The top and bottom rungs combine to solve one shared final clue.</li>
+            <li>The puzzle is finished only when the middle clues, shared final clue, and ladder order all work.</li>
           </ul>
         </section>
 
