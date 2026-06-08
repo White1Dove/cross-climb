@@ -1,5 +1,79 @@
 [
   {
+    "number": 769,
+    "date": "June 8, 2026",
+    "isoDate": "2026-06-08",
+    "start": "COLD",
+    "end": "WAVE",
+    "ladder": [
+      "COLD",
+      "CORD",
+      "CARD",
+      "HARD",
+      "HARE",
+      "HAVE",
+      "WAVE"
+    ],
+    "rows": [
+      {
+        "index": 1,
+        "position": "top",
+        "clue": "The top + bottom rows = A two-word phrase for a sudden period of frigid temperatures. Keep in mind: The first word may be at the bottom.",
+        "word": "COLD",
+        "answer_length": 4,
+        "explanation": "COLD is the first half of \"cold wave\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase for a sudden period of frigid temperatures. Keep in mind: The first word may be at the bottom\"."
+      },
+      {
+        "index": 2,
+        "position": "middle",
+        "clue": "It can charge your phone",
+        "word": "CORD",
+        "answer_length": 4,
+        "explanation": "A cord is a cable used to connect electronic devices for charging."
+      },
+      {
+        "index": 3,
+        "position": "middle",
+        "clue": "Jack, queen, king, or joker",
+        "word": "CARD",
+        "answer_length": 4,
+        "explanation": "A card can be a playing card like a jack, queen, king, or joker."
+      },
+      {
+        "index": 4,
+        "position": "middle",
+        "clue": "Challenging, as a task",
+        "word": "HARD",
+        "answer_length": 4,
+        "explanation": "The word HARD describes a task that is difficult to accomplish."
+      },
+      {
+        "index": 5,
+        "position": "middle",
+        "clue": "Critter like a rabbit",
+        "word": "HARE",
+        "answer_length": 4,
+        "explanation": "A hare is a large, swift mammal that resembles a rabbit."
+      },
+      {
+        "index": 6,
+        "position": "middle",
+        "clue": "“We ___ it under control” (the situation is being managed)",
+        "word": "HAVE",
+        "answer_length": 4,
+        "explanation": "The word HAVE fits the clue because it completes the common idiom \"have it under control\" meaning to manage a situation."
+      },
+      {
+        "index": 7,
+        "position": "bottom",
+        "clue": "The top + bottom rows = A two-word phrase for a sudden period of frigid temperatures. Keep in mind: The first word may be at the bottom.",
+        "word": "WAVE",
+        "answer_length": 4,
+        "explanation": "WAVE completes \"cold wave\", so the top and bottom rows answer the shared final clue together."
+      }
+    ]
+  },
+  {
     "number": 768,
     "date": "June 7, 2026",
     "isoDate": "2026-06-07",
