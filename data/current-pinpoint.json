@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 769,
-  "puzzle_date": "June 8, 2026",
-  "puzzle_label": "Pinpoint #769",
+  "puzzle_number": 770,
+  "puzzle_date": "June 9, 2026",
+  "puzzle_label": "Pinpoint #770",
   "normalized_puzzle": {
-    "category": "Things that come in eights (including games on LinkedIn after tomorrow's debut!)",
+    "category": "Things you can “keep”",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Bits in a byte"
+        "text": "Score"
       },
       {
         "index": 2,
-        "text": "Planets in our solar system"
+        "text": "A secret"
       },
       {
         "index": 3,
-        "text": "Legs on a spider"
+        "text": "The peace"
       },
       {
         "index": 4,
-        "text": "Corners of a cube"
+        "text": "One's distance"
       },
       {
         "index": 5,
-        "text": "Sides of (most) stop signs"
+        "text": "An open mind"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Bits in a byte"
+      "First clue: Score"
     ]
   },
   "solution": {
-    "final_answer": "Things that come in eights (including games on LinkedIn after tomorrow's debut!)"
+    "final_answer": "Things you can “keep”"
   }
 }
