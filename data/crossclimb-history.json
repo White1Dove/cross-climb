@@ -1,5 +1,79 @@
 [
   {
+    "number": 770,
+    "date": "June 9, 2026",
+    "isoDate": "2026-06-09",
+    "start": "HEAD",
+    "end": "REST",
+    "ladder": [
+      "HEAD",
+      "DEAD",
+      "DEAR",
+      "NEAR",
+      "NEAT",
+      "NEST",
+      "REST"
+    ],
+    "rows": [
+      {
+        "index": 1,
+        "position": "top",
+        "clue": "The top + bottom rows = A compound word for a support found at the top of a seat, particularly when traveling. Keep in mind: the first word may be at the bottom.",
+        "word": "HEAD",
+        "answer_length": 4,
+        "explanation": "HEAD is the first half of \"head rest\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A compound word for a support found at the top of a seat, particularly when traveling. Keep in mind: the first word may be at the bottom\"."
+      },
+      {
+        "index": 2,
+        "position": "middle",
+        "clue": "Without any power, as a battery",
+        "word": "DEAD",
+        "answer_length": 4,
+        "explanation": "A battery that is dead has no power left."
+      },
+      {
+        "index": 3,
+        "position": "middle",
+        "clue": "Opening word of many letters and emails",
+        "word": "DEAR",
+        "answer_length": 4,
+        "explanation": "Dear\" is a common salutation used to begin letters and emails."
+      },
+      {
+        "index": 4,
+        "position": "middle",
+        "clue": "Opposite of far",
+        "word": "NEAR",
+        "answer_length": 4,
+        "explanation": "NEAR is the opposite of far, indicating proximity or closeness."
+      },
+      {
+        "index": 5,
+        "position": "middle",
+        "clue": "Clean and in good order",
+        "word": "NEAT",
+        "answer_length": 4,
+        "explanation": "Neat describes something that is clean and tidy."
+      },
+      {
+        "index": 6,
+        "position": "middle",
+        "clue": "Place for a bird's eggs to hatch",
+        "word": "NEST",
+        "answer_length": 4,
+        "explanation": "A nest is a place where birds lay their eggs and hatch them."
+      },
+      {
+        "index": 7,
+        "position": "bottom",
+        "clue": "The top + bottom rows = A compound word for a support found at the top of a seat, particularly when traveling. Keep in mind: the first word may be at the bottom.",
+        "word": "REST",
+        "answer_length": 4,
+        "explanation": "REST completes \"head rest\", so the top and bottom rows answer the shared final clue together."
+      }
+    ]
+  },
+  {
     "number": 769,
     "date": "June 8, 2026",
     "isoDate": "2026-06-08",

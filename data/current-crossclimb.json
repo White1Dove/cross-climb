@@ -1,70 +1,70 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 769,
-  "puzzle_date": "June 8, 2026",
-  "puzzle_label": "Crossclimb #769",
+  "puzzle_number": 770,
+  "puzzle_date": "June 9, 2026",
+  "puzzle_label": "Crossclimb #770",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
     "middle_word_count": 5,
-    "final_clue": "The top + bottom rows = A two-word phrase for a sudden period of frigid temperatures. Keep in mind: The first word may be at the bottom.",
+    "final_clue": "The top + bottom rows = A compound word for a support found at the top of a seat, particularly when traveling. Keep in mind: the first word may be at the bottom.",
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A two-word phrase for a sudden period of frigid temperatures. Keep in mind: The first word may be at the bottom.",
-        "word": "COLD",
+        "clue": "The top + bottom rows = A compound word for a support found at the top of a seat, particularly when traveling. Keep in mind: the first word may be at the bottom.",
+        "word": "HEAD",
         "answer_length": 4,
-        "explanation": "COLD is the first half of \"cold wave\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase for a sudden period of frigid temperatures. Keep in mind: The first word may be at the bottom\"."
+        "explanation": "HEAD is the first half of \"head rest\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A compound word for a support found at the top of a seat, particularly when traveling. Keep in mind: the first word may be at the bottom\"."
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "It can charge your phone",
-        "word": "CORD",
+        "clue": "Without any power, as a battery",
+        "word": "DEAD",
         "answer_length": 4,
-        "explanation": "A cord is a cable used to connect electronic devices for charging."
+        "explanation": "A battery that is dead has no power left."
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Jack, queen, king, or joker",
-        "word": "CARD",
+        "clue": "Opening word of many letters and emails",
+        "word": "DEAR",
         "answer_length": 4,
-        "explanation": "A card can be a playing card like a jack, queen, king, or joker."
+        "explanation": "Dear\" is a common salutation used to begin letters and emails."
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Challenging, as a task",
-        "word": "HARD",
+        "clue": "Opposite of far",
+        "word": "NEAR",
         "answer_length": 4,
-        "explanation": "The word HARD describes a task that is difficult to accomplish."
+        "explanation": "NEAR is the opposite of far, indicating proximity or closeness."
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Critter like a rabbit",
-        "word": "HARE",
+        "clue": "Clean and in good order",
+        "word": "NEAT",
         "answer_length": 4,
-        "explanation": "A hare is a large, swift mammal that resembles a rabbit."
+        "explanation": "Neat describes something that is clean and tidy."
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "“We ___ it under control” (the situation is being managed)",
-        "word": "HAVE",
+        "clue": "Place for a bird's eggs to hatch",
+        "word": "NEST",
         "answer_length": 4,
-        "explanation": "The word HAVE fits the clue because it completes the common idiom \"have it under control\" meaning to manage a situation."
+        "explanation": "A nest is a place where birds lay their eggs and hatch them."
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A two-word phrase for a sudden period of frigid temperatures. Keep in mind: The first word may be at the bottom.",
-        "word": "WAVE",
+        "clue": "The top + bottom rows = A compound word for a support found at the top of a seat, particularly when traveling. Keep in mind: the first word may be at the bottom.",
+        "word": "REST",
         "answer_length": 4,
-        "explanation": "WAVE completes \"cold wave\", so the top and bottom rows answer the shared final clue together."
+        "explanation": "REST completes \"head rest\", so the top and bottom rows answer the shared final clue together."
       }
     ]
   },
@@ -75,33 +75,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with C",
-      "Starts with C",
-      "Starts with C",
       "Starts with H",
-      "Starts with H",
-      "Starts with H",
-      "Starts with W"
+      "Starts with D",
+      "Starts with D",
+      "Starts with N",
+      "Starts with N",
+      "Starts with N",
+      "Starts with R"
     ]
   },
   "solution": {
-    "top_word": "COLD",
-    "bottom_word": "WAVE",
+    "top_word": "HEAD",
+    "bottom_word": "REST",
     "full_ladder": [
-      "COLD",
-      "CORD",
-      "CARD",
-      "HARD",
-      "HARE",
-      "HAVE",
-      "WAVE"
+      "HEAD",
+      "DEAD",
+      "DEAR",
+      "NEAR",
+      "NEAT",
+      "NEST",
+      "REST"
     ],
     "middle_ladder": [
-      "CORD",
-      "CARD",
-      "HARD",
-      "HARE",
-      "HAVE"
+      "DEAD",
+      "DEAR",
+      "NEAR",
+      "NEAT",
+      "NEST"
     ]
   }
 }
