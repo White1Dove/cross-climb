@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 770,
-  "puzzle_date": "June 9, 2026",
-  "puzzle_label": "Pinpoint #770",
+  "puzzle_number": 771,
+  "puzzle_date": "June 10, 2026",
+  "puzzle_label": "Pinpoint #771",
   "normalized_puzzle": {
-    "category": "Things you can “keep”",
+    "category": "Terms for wind conditions (varying duration and intensity)",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Score"
+        "text": "Blast"
       },
       {
         "index": 2,
-        "text": "A secret"
+        "text": "Zephyr"
       },
       {
         "index": 3,
-        "text": "The peace"
+        "text": "Gale"
       },
       {
         "index": 4,
-        "text": "One's distance"
+        "text": "Gust"
       },
       {
         "index": 5,
-        "text": "An open mind"
+        "text": "Breeze"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Score"
+      "First clue: Blast"
     ]
   },
   "solution": {
-    "final_answer": "Things you can “keep”"
+    "final_answer": "Terms for wind conditions (varying duration and intensity)"
   }
 }
