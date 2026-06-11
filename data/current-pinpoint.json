@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 771,
-  "puzzle_date": "June 10, 2026",
-  "puzzle_label": "Pinpoint #771",
+  "puzzle_number": 772,
+  "puzzle_date": "June 11, 2026",
+  "puzzle_label": "Pinpoint #772",
   "normalized_puzzle": {
-    "category": "Terms for wind conditions (varying duration and intensity)",
+    "category": "Things found in a wallet or purse",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Blast"
+        "text": "Photos"
       },
       {
         "index": 2,
-        "text": "Zephyr"
+        "text": "Receipts"
       },
       {
         "index": 3,
-        "text": "Gale"
+        "text": "Cash"
       },
       {
         "index": 4,
-        "text": "Gust"
+        "text": "Emergency contact info"
       },
       {
         "index": 5,
-        "text": "Breeze"
+        "text": "Identification card"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Blast"
+      "First clue: Photos"
     ]
   },
   "solution": {
-    "final_answer": "Terms for wind conditions (varying duration and intensity)"
+    "final_answer": "Things found in a wallet or purse"
   }
 }
