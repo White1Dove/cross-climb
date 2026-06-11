@@ -1,70 +1,70 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 771,
-  "puzzle_date": "June 10, 2026",
-  "puzzle_label": "Crossclimb #771",
+  "puzzle_number": 772,
+  "puzzle_date": "June 11, 2026",
+  "puzzle_label": "Crossclimb #772",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
     "middle_word_count": 5,
-    "final_clue": "The top + bottom rows = A compound word for a vehicle in a sci-fi movie. Keep in mind: The first word may be at the bottom.",
+    "final_clue": "The top + bottom rows = A two-word phrase meaning to go on a break for a few minutes. Keep in mind: The first word may be at the bottom.",
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A compound word for a vehicle in a sci-fi movie. Keep in mind: The first word may be at the bottom.",
-        "word": "STAR",
+        "clue": "The top + bottom rows = A two-word phrase meaning to go on a break for a few minutes. Keep in mind: The first word may be at the bottom.",
+        "word": "TAKE",
         "answer_length": 4,
-        "explanation": "STAR is the first half of \"star ship\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A compound word for a vehicle in a sci-fi movie. Keep in mind: The first word may be at the bottom\"."
+        "explanation": "TAKE is the first half of \"take five\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase meaning to go on a break for a few minutes. Keep in mind: The first word may be at the bottom\"."
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "What a boxer may do to practice",
-        "word": "SPAR",
+        "clue": "Opposite of wild",
+        "word": "TAME",
         "answer_length": 4,
-        "explanation": "A boxer may spar to practice their punches and footwork."
+        "explanation": "Tame describes an animal that is no longer wild and has been domesticated."
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Length, as of a bridge or time",
-        "word": "SPAN",
+        "clue": "What a clock measures",
+        "word": "TIME",
         "answer_length": 4,
-        "explanation": "A span is the length of a bridge or a period of time."
+        "explanation": "A clock's primary function is to measure the passage of time."
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Turn around and around",
-        "word": "SPIN",
+        "clue": "Tart green fruit",
+        "word": "LIME",
         "answer_length": 4,
-        "explanation": "SPIN describes the action of turning around and around rapidly."
+        "explanation": "LIME is a tart green citrus fruit often used for flavoring."
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Largest organ of the human body",
-        "word": "SKIN",
+        "clue": "Shortest distance between two points",
+        "word": "LINE",
         "answer_length": 4,
-        "explanation": "The skin is the largest organ of the human body, covering its exterior."
+        "explanation": "A line represents the shortest distance between two points in geometry."
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Pass over, like a step in a list",
-        "word": "SKIP",
+        "clue": "Thin, like some hair",
+        "word": "FINE",
         "answer_length": 4,
-        "explanation": "To skip is to pass over something, like a step in a list."
+        "explanation": "FINE describes something delicate or thin, such as fine hair."
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A compound word for a vehicle in a sci-fi movie. Keep in mind: The first word may be at the bottom.",
-        "word": "SHIP",
+        "clue": "The top + bottom rows = A two-word phrase meaning to go on a break for a few minutes. Keep in mind: The first word may be at the bottom.",
+        "word": "FIVE",
         "answer_length": 4,
-        "explanation": "SHIP completes \"star ship\", so the top and bottom rows answer the shared final clue together."
+        "explanation": "FIVE completes \"take five\", so the top and bottom rows answer the shared final clue together."
       }
     ]
   },
@@ -75,33 +75,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with S",
-      "Starts with S",
-      "Starts with S",
-      "Starts with S",
-      "Starts with S",
-      "Starts with S",
-      "Starts with S"
+      "Starts with T",
+      "Starts with T",
+      "Starts with T",
+      "Starts with L",
+      "Starts with L",
+      "Starts with F",
+      "Starts with F"
     ]
   },
   "solution": {
-    "top_word": "STAR",
-    "bottom_word": "SHIP",
+    "top_word": "TAKE",
+    "bottom_word": "FIVE",
     "full_ladder": [
-      "STAR",
-      "SPAR",
-      "SPAN",
-      "SPIN",
-      "SKIN",
-      "SKIP",
-      "SHIP"
+      "TAKE",
+      "TAME",
+      "TIME",
+      "LIME",
+      "LINE",
+      "FINE",
+      "FIVE"
     ],
     "middle_ladder": [
-      "SPAR",
-      "SPAN",
-      "SPIN",
-      "SKIN",
-      "SKIP"
+      "TAME",
+      "TIME",
+      "LIME",
+      "LINE",
+      "FINE"
     ]
   }
 }
