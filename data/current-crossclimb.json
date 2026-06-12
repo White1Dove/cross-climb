@@ -1,70 +1,70 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 772,
-  "puzzle_date": "June 11, 2026",
-  "puzzle_label": "Crossclimb #772",
+  "puzzle_number": 773,
+  "puzzle_date": "June 12, 2026",
+  "puzzle_label": "Crossclimb #773",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
     "middle_word_count": 5,
-    "final_clue": "The top + bottom rows = A two-word phrase meaning to go on a break for a few minutes. Keep in mind: The first word may be at the bottom.",
+    "final_clue": "The top + bottom rows = A two-word phrase for a device that imitates the sound made by a waterfowl. Keep in mind: The first word may be at the bottom.",
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A two-word phrase meaning to go on a break for a few minutes. Keep in mind: The first word may be at the bottom.",
-        "word": "TAKE",
+        "clue": "The top + bottom rows = A two-word phrase for a device that imitates the sound made by a waterfowl. Keep in mind: The first word may be at the bottom.",
+        "word": "DUCK",
         "answer_length": 4,
-        "explanation": "TAKE is the first half of \"take five\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase meaning to go on a break for a few minutes. Keep in mind: The first word may be at the bottom\"."
+        "explanation": "DUCK is the first half of \"duck call\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase for a device that imitates the sound made by a waterfowl. Keep in mind: The first word may be at the bottom\"."
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Opposite of wild",
-        "word": "TAME",
+        "clue": "Male deer",
+        "word": "BUCK",
         "answer_length": 4,
-        "explanation": "Tame describes an animal that is no longer wild and has been domesticated."
+        "explanation": "A buck is a common term for an adult male deer."
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "What a clock measures",
-        "word": "TIME",
+        "clue": "Where your shoulder blades are",
+        "word": "BACK",
         "answer_length": 4,
-        "explanation": "A clock's primary function is to measure the passage of time."
+        "explanation": "Your shoulder blades are located on your back."
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Tart green fruit",
-        "word": "LIME",
+        "clue": "Show reluctance to act",
+        "word": "BALK",
         "answer_length": 4,
-        "explanation": "LIME is a tart green citrus fruit often used for flavoring."
+        "explanation": "To balk is to show reluctance or hesitation to proceed."
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Shortest distance between two points",
-        "word": "LINE",
+        "clue": "Daily exercise for a dog owner",
+        "word": "WALK",
         "answer_length": 4,
-        "explanation": "A line represents the shortest distance between two points in geometry."
+        "explanation": "A dog owner might take their pet for a walk as a daily exercise."
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Thin, like some hair",
-        "word": "FINE",
+        "clue": "Great ___ of China",
+        "word": "WALL",
         "answer_length": 4,
-        "explanation": "FINE describes something delicate or thin, such as fine hair."
+        "explanation": "The Great Wall of China is a famous historical fortification."
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A two-word phrase meaning to go on a break for a few minutes. Keep in mind: The first word may be at the bottom.",
-        "word": "FIVE",
+        "clue": "The top + bottom rows = A two-word phrase for a device that imitates the sound made by a waterfowl. Keep in mind: The first word may be at the bottom.",
+        "word": "CALL",
         "answer_length": 4,
-        "explanation": "FIVE completes \"take five\", so the top and bottom rows answer the shared final clue together."
+        "explanation": "CALL completes \"duck call\", so the top and bottom rows answer the shared final clue together."
       }
     ]
   },
@@ -75,33 +75,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with T",
-      "Starts with T",
-      "Starts with T",
-      "Starts with L",
-      "Starts with L",
-      "Starts with F",
-      "Starts with F"
+      "Starts with D",
+      "Starts with B",
+      "Starts with B",
+      "Starts with B",
+      "Starts with W",
+      "Starts with W",
+      "Starts with C"
     ]
   },
   "solution": {
-    "top_word": "TAKE",
-    "bottom_word": "FIVE",
+    "top_word": "DUCK",
+    "bottom_word": "CALL",
     "full_ladder": [
-      "TAKE",
-      "TAME",
-      "TIME",
-      "LIME",
-      "LINE",
-      "FINE",
-      "FIVE"
+      "DUCK",
+      "BUCK",
+      "BACK",
+      "BALK",
+      "WALK",
+      "WALL",
+      "CALL"
     ],
     "middle_ladder": [
-      "TAME",
-      "TIME",
-      "LIME",
-      "LINE",
-      "FINE"
+      "BUCK",
+      "BACK",
+      "BALK",
+      "WALK",
+      "WALL"
     ]
   }
 }

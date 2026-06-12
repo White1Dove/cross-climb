@@ -1,5 +1,79 @@
 [
   {
+    "number": 773,
+    "date": "June 12, 2026",
+    "isoDate": "2026-06-12",
+    "start": "DUCK",
+    "end": "CALL",
+    "ladder": [
+      "DUCK",
+      "BUCK",
+      "BACK",
+      "BALK",
+      "WALK",
+      "WALL",
+      "CALL"
+    ],
+    "rows": [
+      {
+        "index": 1,
+        "position": "top",
+        "clue": "The top + bottom rows = A two-word phrase for a device that imitates the sound made by a waterfowl. Keep in mind: The first word may be at the bottom.",
+        "word": "DUCK",
+        "answer_length": 4,
+        "explanation": "DUCK is the first half of \"duck call\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase for a device that imitates the sound made by a waterfowl. Keep in mind: The first word may be at the bottom\"."
+      },
+      {
+        "index": 2,
+        "position": "middle",
+        "clue": "Male deer",
+        "word": "BUCK",
+        "answer_length": 4,
+        "explanation": "A buck is a common term for an adult male deer."
+      },
+      {
+        "index": 3,
+        "position": "middle",
+        "clue": "Where your shoulder blades are",
+        "word": "BACK",
+        "answer_length": 4,
+        "explanation": "Your shoulder blades are located on your back."
+      },
+      {
+        "index": 4,
+        "position": "middle",
+        "clue": "Show reluctance to act",
+        "word": "BALK",
+        "answer_length": 4,
+        "explanation": "To balk is to show reluctance or hesitation to proceed."
+      },
+      {
+        "index": 5,
+        "position": "middle",
+        "clue": "Daily exercise for a dog owner",
+        "word": "WALK",
+        "answer_length": 4,
+        "explanation": "A dog owner might take their pet for a walk as a daily exercise."
+      },
+      {
+        "index": 6,
+        "position": "middle",
+        "clue": "Great ___ of China",
+        "word": "WALL",
+        "answer_length": 4,
+        "explanation": "The Great Wall of China is a famous historical fortification."
+      },
+      {
+        "index": 7,
+        "position": "bottom",
+        "clue": "The top + bottom rows = A two-word phrase for a device that imitates the sound made by a waterfowl. Keep in mind: The first word may be at the bottom.",
+        "word": "CALL",
+        "answer_length": 4,
+        "explanation": "CALL completes \"duck call\", so the top and bottom rows answer the shared final clue together."
+      }
+    ]
+  },
+  {
     "number": 772,
     "date": "June 11, 2026",
     "isoDate": "2026-06-11",
