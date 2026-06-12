@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 772,
-  "puzzle_date": "June 11, 2026",
-  "puzzle_label": "Pinpoint #772",
+  "puzzle_number": 773,
+  "puzzle_date": "June 12, 2026",
+  "puzzle_label": "Pinpoint #773",
   "normalized_puzzle": {
-    "category": "Things found in a wallet or purse",
+    "category": "Words that come before \"order\"",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Photos"
+        "text": "Natural"
       },
       {
         "index": 2,
-        "text": "Receipts"
+        "text": "Standing"
       },
       {
         "index": 3,
-        "text": "Cash"
+        "text": "Purchase"
       },
       {
         "index": 4,
-        "text": "Emergency contact info"
+        "text": "Pecking"
       },
       {
         "index": 5,
-        "text": "Identification card"
+        "text": "Out of"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Photos"
+      "First clue: Natural"
     ]
   },
   "solution": {
-    "final_answer": "Things found in a wallet or purse"
+    "final_answer": "Words that come before \"order\""
   }
 }
