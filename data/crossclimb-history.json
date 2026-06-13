@@ -1,5 +1,79 @@
 [
   {
+    "number": 774,
+    "date": "June 13, 2026",
+    "isoDate": "2026-06-13",
+    "start": "DRAW",
+    "end": "LOTS",
+    "ladder": [
+      "DRAW",
+      "DRAT",
+      "BRAT",
+      "BOAT",
+      "BOAS",
+      "BOTS",
+      "LOTS"
+    ],
+    "rows": [
+      {
+        "index": 1,
+        "position": "top",
+        "clue": "The top + bottom rows = A two-word phrase for how you might determine things randomly. Keep in mind: The first word may be at the bottom.",
+        "word": "DRAW",
+        "answer_length": 4,
+        "explanation": "DRAW is the first half of \"draw lots\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase for how you might determine things randomly. Keep in mind: The first word may be at the bottom\"."
+      },
+      {
+        "index": 2,
+        "position": "middle",
+        "clue": "“Phooey!”",
+        "word": "DRAT",
+        "answer_length": 4,
+        "explanation": "Drat\" is an exclamation of annoyance or frustration, fitting the clue \"Phooey!\"."
+      },
+      {
+        "index": 3,
+        "position": "middle",
+        "clue": "Misbehaving child",
+        "word": "BRAT",
+        "answer_length": 4,
+        "explanation": "A brat is a common term for a misbehaving child."
+      },
+      {
+        "index": 4,
+        "position": "middle",
+        "clue": "Vessel with life vests",
+        "word": "BOAT",
+        "answer_length": 4,
+        "explanation": "A boat is a vessel that can carry life vests for safety."
+      },
+      {
+        "index": 5,
+        "position": "middle",
+        "clue": "Large, slithery hunters that constrict their prey",
+        "word": "BOAS",
+        "answer_length": 4,
+        "explanation": "Boas are large, slithery snakes known for constricting their prey."
+      },
+      {
+        "index": 6,
+        "position": "middle",
+        "clue": "Programs that might be used to chat",
+        "word": "BOTS",
+        "answer_length": 4,
+        "explanation": "Bots are automated programs often used for online chat interactions."
+      },
+      {
+        "index": 7,
+        "position": "bottom",
+        "clue": "The top + bottom rows = A two-word phrase for how you might determine things randomly. Keep in mind: The first word may be at the bottom.",
+        "word": "LOTS",
+        "answer_length": 4,
+        "explanation": "LOTS completes \"draw lots\", so the top and bottom rows answer the shared final clue together."
+      }
+    ]
+  },
+  {
     "number": 773,
     "date": "June 12, 2026",
     "isoDate": "2026-06-12",

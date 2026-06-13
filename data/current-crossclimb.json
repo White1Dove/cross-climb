@@ -1,70 +1,70 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 773,
-  "puzzle_date": "June 12, 2026",
-  "puzzle_label": "Crossclimb #773",
+  "puzzle_number": 774,
+  "puzzle_date": "June 13, 2026",
+  "puzzle_label": "Crossclimb #774",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
     "middle_word_count": 5,
-    "final_clue": "The top + bottom rows = A two-word phrase for a device that imitates the sound made by a waterfowl. Keep in mind: The first word may be at the bottom.",
+    "final_clue": "The top + bottom rows = A two-word phrase for how you might determine things randomly. Keep in mind: The first word may be at the bottom.",
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A two-word phrase for a device that imitates the sound made by a waterfowl. Keep in mind: The first word may be at the bottom.",
-        "word": "DUCK",
+        "clue": "The top + bottom rows = A two-word phrase for how you might determine things randomly. Keep in mind: The first word may be at the bottom.",
+        "word": "DRAW",
         "answer_length": 4,
-        "explanation": "DUCK is the first half of \"duck call\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase for a device that imitates the sound made by a waterfowl. Keep in mind: The first word may be at the bottom\"."
+        "explanation": "DRAW is the first half of \"draw lots\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase for how you might determine things randomly. Keep in mind: The first word may be at the bottom\"."
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Male deer",
-        "word": "BUCK",
+        "clue": "“Phooey!”",
+        "word": "DRAT",
         "answer_length": 4,
-        "explanation": "A buck is a common term for an adult male deer."
+        "explanation": "Drat\" is an exclamation of annoyance or frustration, fitting the clue \"Phooey!\"."
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Where your shoulder blades are",
-        "word": "BACK",
+        "clue": "Misbehaving child",
+        "word": "BRAT",
         "answer_length": 4,
-        "explanation": "Your shoulder blades are located on your back."
+        "explanation": "A brat is a common term for a misbehaving child."
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Show reluctance to act",
-        "word": "BALK",
+        "clue": "Vessel with life vests",
+        "word": "BOAT",
         "answer_length": 4,
-        "explanation": "To balk is to show reluctance or hesitation to proceed."
+        "explanation": "A boat is a vessel that can carry life vests for safety."
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Daily exercise for a dog owner",
-        "word": "WALK",
+        "clue": "Large, slithery hunters that constrict their prey",
+        "word": "BOAS",
         "answer_length": 4,
-        "explanation": "A dog owner might take their pet for a walk as a daily exercise."
+        "explanation": "Boas are large, slithery snakes known for constricting their prey."
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Great ___ of China",
-        "word": "WALL",
+        "clue": "Programs that might be used to chat",
+        "word": "BOTS",
         "answer_length": 4,
-        "explanation": "The Great Wall of China is a famous historical fortification."
+        "explanation": "Bots are automated programs often used for online chat interactions."
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A two-word phrase for a device that imitates the sound made by a waterfowl. Keep in mind: The first word may be at the bottom.",
-        "word": "CALL",
+        "clue": "The top + bottom rows = A two-word phrase for how you might determine things randomly. Keep in mind: The first word may be at the bottom.",
+        "word": "LOTS",
         "answer_length": 4,
-        "explanation": "CALL completes \"duck call\", so the top and bottom rows answer the shared final clue together."
+        "explanation": "LOTS completes \"draw lots\", so the top and bottom rows answer the shared final clue together."
       }
     ]
   },
@@ -76,32 +76,32 @@
     ],
     "medium_hints": [
       "Starts with D",
+      "Starts with D",
       "Starts with B",
       "Starts with B",
       "Starts with B",
-      "Starts with W",
-      "Starts with W",
-      "Starts with C"
+      "Starts with B",
+      "Starts with L"
     ]
   },
   "solution": {
-    "top_word": "DUCK",
-    "bottom_word": "CALL",
+    "top_word": "DRAW",
+    "bottom_word": "LOTS",
     "full_ladder": [
-      "DUCK",
-      "BUCK",
-      "BACK",
-      "BALK",
-      "WALK",
-      "WALL",
-      "CALL"
+      "DRAW",
+      "DRAT",
+      "BRAT",
+      "BOAT",
+      "BOAS",
+      "BOTS",
+      "LOTS"
     ],
     "middle_ladder": [
-      "BUCK",
-      "BACK",
-      "BALK",
-      "WALK",
-      "WALL"
+      "DRAT",
+      "BRAT",
+      "BOAT",
+      "BOAS",
+      "BOTS"
     ]
   }
 }
