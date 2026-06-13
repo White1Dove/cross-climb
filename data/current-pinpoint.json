@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 773,
-  "puzzle_date": "June 12, 2026",
-  "puzzle_label": "Pinpoint #773",
+  "puzzle_number": 774,
+  "puzzle_date": "June 13, 2026",
+  "puzzle_label": "Pinpoint #774",
   "normalized_puzzle": {
-    "category": "Words that come before \"order\"",
+    "category": "Things that block sunlight",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Natural"
+        "text": "Clouds"
       },
       {
         "index": 2,
-        "text": "Standing"
+        "text": "Parasols"
       },
       {
         "index": 3,
-        "text": "Purchase"
+        "text": "Tinted glass"
       },
       {
         "index": 4,
-        "text": "Pecking"
+        "text": "Dark curtains"
       },
       {
         "index": 5,
-        "text": "Out of"
+        "text": "The Moon during some eclipses"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Natural"
+      "First clue: Clouds"
     ]
   },
   "solution": {
-    "final_answer": "Words that come before \"order\""
+    "final_answer": "Things that block sunlight"
   }
 }
