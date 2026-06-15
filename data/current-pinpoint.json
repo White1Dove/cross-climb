@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 774,
-  "puzzle_date": "June 13, 2026",
-  "puzzle_label": "Pinpoint #774",
+  "puzzle_number": 776,
+  "puzzle_date": "June 15, 2026",
+  "puzzle_label": "Pinpoint #776",
   "normalized_puzzle": {
-    "category": "Things that block sunlight",
+    "category": "Names of chemical elements",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Clouds"
+        "text": "Lead"
       },
       {
         "index": 2,
-        "text": "Parasols"
+        "text": "Iron"
       },
       {
         "index": 3,
-        "text": "Tinted glass"
+        "text": "Silicon"
       },
       {
         "index": 4,
-        "text": "Dark curtains"
+        "text": "Carbon"
       },
       {
         "index": 5,
-        "text": "The Moon during some eclipses"
+        "text": "Oxygen"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Clouds"
+      "First clue: Lead"
     ]
   },
   "solution": {
-    "final_answer": "Things that block sunlight"
+    "final_answer": "Names of chemical elements"
   }
 }
