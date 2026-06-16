@@ -1,70 +1,70 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 776,
-  "puzzle_date": "June 15, 2026",
-  "puzzle_label": "Crossclimb #776",
+  "puzzle_number": 777,
+  "puzzle_date": "June 16, 2026",
+  "puzzle_label": "Crossclimb #777",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
     "middle_word_count": 5,
-    "final_clue": "The top + bottom rows = A two-word phrase for speedy vehicles in a competition. Keep in mind: The first word may be at the bottom.",
+    "final_clue": "The top + bottom rows = A compound word for a flow of air directly behind a boat or plane that increases its speed. Keep in mind: The first word may be at the bottom.",
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A two-word phrase for speedy vehicles in a competition. Keep in mind: The first word may be at the bottom.",
-        "word": "RACE",
+        "clue": "The top + bottom rows = A compound word for a flow of air directly behind a boat or plane that increases its speed. Keep in mind: The first word may be at the bottom.",
+        "word": "TAIL",
         "answer_length": 4,
-        "explanation": "RACE is the first half of \"race cars\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase for speedy vehicles in a competition. Keep in mind: The first word may be at the bottom\"."
+        "explanation": "TAIL is the first half of \"tail wind\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A compound word for a flow of air directly behind a boat or plane that increases its speed. Keep in mind: The first word may be at the bottom\"."
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Object on which spice jars are arranged",
-        "word": "RACK",
+        "clue": "Large piece of fabric used to propel a boat",
+        "word": "SAIL",
         "answer_length": 4,
-        "explanation": "A rack is a shelf or structure used to hold and organize items like spice jars."
+        "explanation": "A sail is a large piece of fabric that catches the wind to propel a boat."
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "What the stripes on an officer's shoulder or upper sleeve identify",
-        "word": "RANK",
+        "clue": "“Easier ___ than done”",
+        "word": "SAID",
         "answer_length": 4,
-        "explanation": "A police officer's rank is shown by the stripes on their uniform."
+        "explanation": "The word SAID completes the common idiom meaning something is simpler in theory than in practice."
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Business that typically has a vault",
-        "word": "BANK",
+        "clue": "It might come back with you after a trip to the beach",
+        "word": "SAND",
         "answer_length": 4,
-        "explanation": "A bank is a financial institution commonly associated with a vault for storing valuables."
+        "explanation": "Sand is the granular material found on beaches that you might carry home on your shoes."
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Prohibits a specific activity",
-        "word": "BANS",
+        "clue": "Button pressed after writing an email",
+        "word": "SEND",
         "answer_length": 4,
-        "explanation": "The word BANS means to prohibit or forbid a specific activity."
+        "explanation": "SEND is the action taken after composing an email before it is transmitted."
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Metal containers for soup and other pantry items",
-        "word": "CANS",
+        "clue": "Proceed slowly by an indirect route, or the newest word game on LinkedIn",
+        "word": "WEND",
         "answer_length": 4,
-        "explanation": "CANS are common metal containers found in pantries for storing food items."
+        "explanation": "WEND means to proceed slowly by an indirect route, fitting the clue's definition."
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A two-word phrase for speedy vehicles in a competition. Keep in mind: The first word may be at the bottom.",
-        "word": "CARS",
+        "clue": "The top + bottom rows = A compound word for a flow of air directly behind a boat or plane that increases its speed. Keep in mind: The first word may be at the bottom.",
+        "word": "WIND",
         "answer_length": 4,
-        "explanation": "CARS completes \"race cars\", so the top and bottom rows answer the shared final clue together."
+        "explanation": "WIND completes \"tail wind\", so the top and bottom rows answer the shared final clue together."
       }
     ]
   },
@@ -75,33 +75,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with R",
-      "Starts with R",
-      "Starts with R",
-      "Starts with B",
-      "Starts with B",
-      "Starts with C",
-      "Starts with C"
+      "Starts with T",
+      "Starts with S",
+      "Starts with S",
+      "Starts with S",
+      "Starts with S",
+      "Starts with W",
+      "Starts with W"
     ]
   },
   "solution": {
-    "top_word": "RACE",
-    "bottom_word": "CARS",
+    "top_word": "TAIL",
+    "bottom_word": "WIND",
     "full_ladder": [
-      "RACE",
-      "RACK",
-      "RANK",
-      "BANK",
-      "BANS",
-      "CANS",
-      "CARS"
+      "TAIL",
+      "SAIL",
+      "SAID",
+      "SAND",
+      "SEND",
+      "WEND",
+      "WIND"
     ],
     "middle_ladder": [
-      "RACK",
-      "RANK",
-      "BANK",
-      "BANS",
-      "CANS"
+      "SAIL",
+      "SAID",
+      "SAND",
+      "SEND",
+      "WEND"
     ]
   }
 }

@@ -1,5 +1,79 @@
 [
   {
+    "number": 777,
+    "date": "June 16, 2026",
+    "isoDate": "2026-06-16",
+    "start": "TAIL",
+    "end": "WIND",
+    "ladder": [
+      "TAIL",
+      "SAIL",
+      "SAID",
+      "SAND",
+      "SEND",
+      "WEND",
+      "WIND"
+    ],
+    "rows": [
+      {
+        "index": 1,
+        "position": "top",
+        "clue": "The top + bottom rows = A compound word for a flow of air directly behind a boat or plane that increases its speed. Keep in mind: The first word may be at the bottom.",
+        "word": "TAIL",
+        "answer_length": 4,
+        "explanation": "TAIL is the first half of \"tail wind\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A compound word for a flow of air directly behind a boat or plane that increases its speed. Keep in mind: The first word may be at the bottom\"."
+      },
+      {
+        "index": 2,
+        "position": "middle",
+        "clue": "Large piece of fabric used to propel a boat",
+        "word": "SAIL",
+        "answer_length": 4,
+        "explanation": "A sail is a large piece of fabric that catches the wind to propel a boat."
+      },
+      {
+        "index": 3,
+        "position": "middle",
+        "clue": "“Easier ___ than done”",
+        "word": "SAID",
+        "answer_length": 4,
+        "explanation": "The word SAID completes the common idiom meaning something is simpler in theory than in practice."
+      },
+      {
+        "index": 4,
+        "position": "middle",
+        "clue": "It might come back with you after a trip to the beach",
+        "word": "SAND",
+        "answer_length": 4,
+        "explanation": "Sand is the granular material found on beaches that you might carry home on your shoes."
+      },
+      {
+        "index": 5,
+        "position": "middle",
+        "clue": "Button pressed after writing an email",
+        "word": "SEND",
+        "answer_length": 4,
+        "explanation": "SEND is the action taken after composing an email before it is transmitted."
+      },
+      {
+        "index": 6,
+        "position": "middle",
+        "clue": "Proceed slowly by an indirect route, or the newest word game on LinkedIn",
+        "word": "WEND",
+        "answer_length": 4,
+        "explanation": "WEND means to proceed slowly by an indirect route, fitting the clue's definition."
+      },
+      {
+        "index": 7,
+        "position": "bottom",
+        "clue": "The top + bottom rows = A compound word for a flow of air directly behind a boat or plane that increases its speed. Keep in mind: The first word may be at the bottom.",
+        "word": "WIND",
+        "answer_length": 4,
+        "explanation": "WIND completes \"tail wind\", so the top and bottom rows answer the shared final clue together."
+      }
+    ]
+  },
+  {
     "number": 776,
     "date": "June 15, 2026",
     "isoDate": "2026-06-15",
