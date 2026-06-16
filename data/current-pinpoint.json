@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 776,
-  "puzzle_date": "June 15, 2026",
-  "puzzle_label": "Pinpoint #776",
+  "puzzle_number": 777,
+  "puzzle_date": "June 16, 2026",
+  "puzzle_label": "Pinpoint #777",
   "normalized_puzzle": {
-    "category": "Names of chemical elements",
+    "category": "Terms associated with football",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Lead"
+        "text": "Wall"
       },
       {
         "index": 2,
-        "text": "Iron"
+        "text": "Volley"
       },
       {
         "index": 3,
-        "text": "Silicon"
+        "text": "Offside"
       },
       {
         "index": 4,
-        "text": "Carbon"
+        "text": "Yellow card"
       },
       {
         "index": 5,
-        "text": "Oxygen"
+        "text": "Bicycle kick"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Lead"
+      "First clue: Wall"
     ]
   },
   "solution": {
-    "final_answer": "Names of chemical elements"
+    "final_answer": "Terms associated with football"
   }
 }
