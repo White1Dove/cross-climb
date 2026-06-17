@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 777,
-  "puzzle_date": "June 16, 2026",
-  "puzzle_label": "Pinpoint #777",
+  "puzzle_number": 778,
+  "puzzle_date": "June 17, 2026",
+  "puzzle_label": "Pinpoint #778",
   "normalized_puzzle": {
-    "category": "Terms associated with football",
+    "category": "Foods named for cities",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Wall"
+        "text": "Gouda"
       },
       {
         "index": 2,
-        "text": "Volley"
+        "text": "Frankfurters"
       },
       {
         "index": 3,
-        "text": "Offside"
+        "text": "Peking Duck"
       },
       {
         "index": 4,
-        "text": "Yellow card"
+        "text": "Brussels sprouts"
       },
       {
         "index": 5,
-        "text": "Bicycle kick"
+        "text": "New York Cheesecake"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Wall"
+      "First clue: Gouda"
     ]
   },
   "solution": {
-    "final_answer": "Terms associated with football"
+    "final_answer": "Foods named for cities"
   }
 }
