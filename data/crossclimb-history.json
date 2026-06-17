@@ -1,5 +1,79 @@
 [
   {
+    "number": 778,
+    "date": "June 17, 2026",
+    "isoDate": "2026-06-17",
+    "start": "CALL",
+    "end": "FOLD",
+    "ladder": [
+      "CALL",
+      "CELL",
+      "BELL",
+      "BELT",
+      "BOLT",
+      "BOLD",
+      "FOLD"
+    ],
+    "rows": [
+      {
+        "index": 1,
+        "position": "top",
+        "clue": "The top + bottom rows = Two options when someone raises you in poker.",
+        "word": "CALL",
+        "answer_length": 4,
+        "explanation": "CALL is the first half of \"call fold\", the top + bottom answer for the shared final clue: \"The top + bottom rows = Two options when someone raises you in poker\"."
+      },
+      {
+        "index": 2,
+        "position": "middle",
+        "clue": "Basic building block of life (all organisms have at least one)",
+        "word": "CELL",
+        "answer_length": 4,
+        "explanation": "A cell is the fundamental unit of all living organisms."
+      },
+      {
+        "index": 3,
+        "position": "middle",
+        "clue": "What one might ring on someone's porch to get them to the door",
+        "word": "BELL",
+        "answer_length": 4,
+        "explanation": "A bell is a common device used to signal arrival at a home's entrance."
+      },
+      {
+        "index": 4,
+        "position": "middle",
+        "clue": "Leather strip worn around the waist",
+        "word": "BELT",
+        "answer_length": 4,
+        "explanation": "A belt is a leather strip commonly worn around the waist for support or decoration."
+      },
+      {
+        "index": 5,
+        "position": "middle",
+        "clue": "Run away suddenly, or last name of retired sprinter Usain",
+        "word": "BOLT",
+        "answer_length": 4,
+        "explanation": "BOLT can mean to run away suddenly or is the surname of the famous sprinter."
+      },
+      {
+        "index": 6,
+        "position": "middle",
+        "clue": "Font style to draw attention",
+        "word": "BOLD",
+        "answer_length": 4,
+        "explanation": "BOLD is a font style used to make text stand out and draw attention."
+      },
+      {
+        "index": 7,
+        "position": "bottom",
+        "clue": "The top + bottom rows = Two options when someone raises you in poker.",
+        "word": "FOLD",
+        "answer_length": 4,
+        "explanation": "FOLD completes \"call fold\", so the top and bottom rows answer the shared final clue together."
+      }
+    ]
+  },
+  {
     "number": 777,
     "date": "June 16, 2026",
     "isoDate": "2026-06-16",

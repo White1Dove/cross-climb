@@ -1,70 +1,70 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 777,
-  "puzzle_date": "June 16, 2026",
-  "puzzle_label": "Crossclimb #777",
+  "puzzle_number": 778,
+  "puzzle_date": "June 17, 2026",
+  "puzzle_label": "Crossclimb #778",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
     "middle_word_count": 5,
-    "final_clue": "The top + bottom rows = A compound word for a flow of air directly behind a boat or plane that increases its speed. Keep in mind: The first word may be at the bottom.",
+    "final_clue": "The top + bottom rows = Two options when someone raises you in poker.",
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A compound word for a flow of air directly behind a boat or plane that increases its speed. Keep in mind: The first word may be at the bottom.",
-        "word": "TAIL",
+        "clue": "The top + bottom rows = Two options when someone raises you in poker.",
+        "word": "CALL",
         "answer_length": 4,
-        "explanation": "TAIL is the first half of \"tail wind\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A compound word for a flow of air directly behind a boat or plane that increases its speed. Keep in mind: The first word may be at the bottom\"."
+        "explanation": "CALL is the first half of \"call fold\", the top + bottom answer for the shared final clue: \"The top + bottom rows = Two options when someone raises you in poker\"."
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Large piece of fabric used to propel a boat",
-        "word": "SAIL",
+        "clue": "Basic building block of life (all organisms have at least one)",
+        "word": "CELL",
         "answer_length": 4,
-        "explanation": "A sail is a large piece of fabric that catches the wind to propel a boat."
+        "explanation": "A cell is the fundamental unit of all living organisms."
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "“Easier ___ than done”",
-        "word": "SAID",
+        "clue": "What one might ring on someone's porch to get them to the door",
+        "word": "BELL",
         "answer_length": 4,
-        "explanation": "The word SAID completes the common idiom meaning something is simpler in theory than in practice."
+        "explanation": "A bell is a common device used to signal arrival at a home's entrance."
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "It might come back with you after a trip to the beach",
-        "word": "SAND",
+        "clue": "Leather strip worn around the waist",
+        "word": "BELT",
         "answer_length": 4,
-        "explanation": "Sand is the granular material found on beaches that you might carry home on your shoes."
+        "explanation": "A belt is a leather strip commonly worn around the waist for support or decoration."
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Button pressed after writing an email",
-        "word": "SEND",
+        "clue": "Run away suddenly, or last name of retired sprinter Usain",
+        "word": "BOLT",
         "answer_length": 4,
-        "explanation": "SEND is the action taken after composing an email before it is transmitted."
+        "explanation": "BOLT can mean to run away suddenly or is the surname of the famous sprinter."
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Proceed slowly by an indirect route, or the newest word game on LinkedIn",
-        "word": "WEND",
+        "clue": "Font style to draw attention",
+        "word": "BOLD",
         "answer_length": 4,
-        "explanation": "WEND means to proceed slowly by an indirect route, fitting the clue's definition."
+        "explanation": "BOLD is a font style used to make text stand out and draw attention."
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A compound word for a flow of air directly behind a boat or plane that increases its speed. Keep in mind: The first word may be at the bottom.",
-        "word": "WIND",
+        "clue": "The top + bottom rows = Two options when someone raises you in poker.",
+        "word": "FOLD",
         "answer_length": 4,
-        "explanation": "WIND completes \"tail wind\", so the top and bottom rows answer the shared final clue together."
+        "explanation": "FOLD completes \"call fold\", so the top and bottom rows answer the shared final clue together."
       }
     ]
   },
@@ -75,33 +75,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with T",
-      "Starts with S",
-      "Starts with S",
-      "Starts with S",
-      "Starts with S",
-      "Starts with W",
-      "Starts with W"
+      "Starts with C",
+      "Starts with C",
+      "Starts with B",
+      "Starts with B",
+      "Starts with B",
+      "Starts with B",
+      "Starts with F"
     ]
   },
   "solution": {
-    "top_word": "TAIL",
-    "bottom_word": "WIND",
+    "top_word": "CALL",
+    "bottom_word": "FOLD",
     "full_ladder": [
-      "TAIL",
-      "SAIL",
-      "SAID",
-      "SAND",
-      "SEND",
-      "WEND",
-      "WIND"
+      "CALL",
+      "CELL",
+      "BELL",
+      "BELT",
+      "BOLT",
+      "BOLD",
+      "FOLD"
     ],
     "middle_ladder": [
-      "SAIL",
-      "SAID",
-      "SAND",
-      "SEND",
-      "WEND"
+      "CELL",
+      "BELL",
+      "BELT",
+      "BOLT",
+      "BOLD"
     ]
   }
 }
