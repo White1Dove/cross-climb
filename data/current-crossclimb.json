@@ -1,70 +1,70 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 778,
-  "puzzle_date": "June 17, 2026",
-  "puzzle_label": "Crossclimb #778",
+  "puzzle_number": 779,
+  "puzzle_date": "June 18, 2026",
+  "puzzle_label": "Crossclimb #779",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
     "middle_word_count": 5,
-    "final_clue": "The top + bottom rows = Two options when someone raises you in poker.",
+    "final_clue": "The top + bottom rows = A two-word phrase for a glass vessel used to hold or mix substances for a scientific experiment. Keep in mind: The first word may be at the bottom.",
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = Two options when someone raises you in poker.",
-        "word": "CALL",
+        "clue": "The top + bottom rows = A two-word phrase for a glass vessel used to hold or mix substances for a scientific experiment. Keep in mind: The first word may be at the bottom.",
+        "word": "TEST",
         "answer_length": 4,
-        "explanation": "CALL is the first half of \"call fold\", the top + bottom answer for the shared final clue: \"The top + bottom rows = Two options when someone raises you in poker\"."
+        "explanation": "TEST is the first half of \"test tube\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase for a glass vessel used to hold or mix substances for a scientific experiment. Keep in mind: The first word may be at the bottom\"."
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Basic building block of life (all organisms have at least one)",
-        "word": "CELL",
+        "clue": "Shelter set up when camping",
+        "word": "TENT",
         "answer_length": 4,
-        "explanation": "A cell is the fundamental unit of all living organisms."
+        "explanation": "A tent is a portable shelter commonly set up for camping."
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "What one might ring on someone's porch to get them to the door",
-        "word": "BELL",
+        "clue": "Column to the left of the “ones”, in whole numbers",
+        "word": "TENS",
         "answer_length": 4,
-        "explanation": "A bell is a common device used to signal arrival at a home's entrance."
+        "explanation": "The word TENS represents the place value column immediately to the left of the ones column."
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Leather strip worn around the waist",
-        "word": "BELT",
+        "clue": "Metal containers for food named for a chemical element",
+        "word": "TINS",
         "answer_length": 4,
-        "explanation": "A belt is a leather strip commonly worn around the waist for support or decoration."
+        "explanation": "Tins are metal containers often used for food and are named for the chemical element tin."
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Run away suddenly, or last name of retired sprinter Usain",
-        "word": "BOLT",
+        "clue": "Prong on a fork",
+        "word": "TINE",
         "answer_length": 4,
-        "explanation": "BOLT can mean to run away suddenly or is the surname of the famous sprinter."
+        "explanation": "A TINE is a prong, like those found on a fork."
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "Font style to draw attention",
-        "word": "BOLD",
+        "clue": "What a whistler might whistle",
+        "word": "TUNE",
         "answer_length": 4,
-        "explanation": "BOLD is a font style used to make text stand out and draw attention."
+        "explanation": "A tune is a melody that a whistler might produce."
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = Two options when someone raises you in poker.",
-        "word": "FOLD",
+        "clue": "The top + bottom rows = A two-word phrase for a glass vessel used to hold or mix substances for a scientific experiment. Keep in mind: The first word may be at the bottom.",
+        "word": "TUBE",
         "answer_length": 4,
-        "explanation": "FOLD completes \"call fold\", so the top and bottom rows answer the shared final clue together."
+        "explanation": "TUBE completes \"test tube\", so the top and bottom rows answer the shared final clue together."
       }
     ]
   },
@@ -75,33 +75,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with C",
-      "Starts with C",
-      "Starts with B",
-      "Starts with B",
-      "Starts with B",
-      "Starts with B",
-      "Starts with F"
+      "Starts with T",
+      "Starts with T",
+      "Starts with T",
+      "Starts with T",
+      "Starts with T",
+      "Starts with T",
+      "Starts with T"
     ]
   },
   "solution": {
-    "top_word": "CALL",
-    "bottom_word": "FOLD",
+    "top_word": "TEST",
+    "bottom_word": "TUBE",
     "full_ladder": [
-      "CALL",
-      "CELL",
-      "BELL",
-      "BELT",
-      "BOLT",
-      "BOLD",
-      "FOLD"
+      "TEST",
+      "TENT",
+      "TENS",
+      "TINS",
+      "TINE",
+      "TUNE",
+      "TUBE"
     ],
     "middle_ladder": [
-      "CELL",
-      "BELL",
-      "BELT",
-      "BOLT",
-      "BOLD"
+      "TENT",
+      "TENS",
+      "TINS",
+      "TINE",
+      "TUNE"
     ]
   }
 }
