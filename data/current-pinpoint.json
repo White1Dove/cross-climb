@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 778,
-  "puzzle_date": "June 17, 2026",
-  "puzzle_label": "Pinpoint #778",
+  "puzzle_number": 779,
+  "puzzle_date": "June 18, 2026",
+  "puzzle_label": "Pinpoint #779",
   "normalized_puzzle": {
-    "category": "Foods named for cities",
+    "category": "Things that are the tallest of their kind",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Gouda"
+        "text": "Angel Falls (in Venezuela)"
       },
       {
         "index": 2,
-        "text": "Frankfurters"
+        "text": "Hyperion (redwood tree in US)"
       },
       {
         "index": 3,
-        "text": "Peking Duck"
+        "text": "Giraffe (among all land animals)"
       },
       {
         "index": 4,
-        "text": "Brussels sprouts"
+        "text": "Mauna Kea (base to peak)"
       },
       {
         "index": 5,
-        "text": "New York Cheesecake"
+        "text": "Burj Khalifa (Dubai skyscraper)"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Gouda"
+      "First clue: Angel Falls (in Venezuela)"
     ]
   },
   "solution": {
-    "final_answer": "Foods named for cities"
+    "final_answer": "Things that are the tallest of their kind"
   }
 }
