@@ -1,5 +1,79 @@
 [
   {
+    "number": 780,
+    "date": "June 19, 2026",
+    "isoDate": "2026-06-19",
+    "start": "HUGE",
+    "end": "VAST",
+    "ladder": [
+      "HUGE",
+      "HUGS",
+      "PUGS",
+      "PUSS",
+      "PASS",
+      "PAST",
+      "VAST"
+    ],
+    "rows": [
+      {
+        "index": 1,
+        "position": "top",
+        "clue": "The top + bottom rows = Two words to describe something of extremely great size or scope.",
+        "word": "HUGE",
+        "answer_length": 4,
+        "explanation": "HUGE is the first half of \"huge vast\", the top + bottom answer for the shared final clue: \"The top + bottom rows = Two words to describe something of extremely great size or scope\"."
+      },
+      {
+        "index": 2,
+        "position": "middle",
+        "clue": "Embraces in one’s arms",
+        "word": "HUGS",
+        "answer_length": 4,
+        "explanation": "Hugs are a way to embrace someone tightly in your arms."
+      },
+      {
+        "index": 3,
+        "position": "middle",
+        "clue": "Dogs with wrinkly, flat faces",
+        "word": "PUGS",
+        "answer_length": 4,
+        "explanation": "Pugs are a dog breed known for their distinctive wrinkly, flat faces."
+      },
+      {
+        "index": 4,
+        "position": "middle",
+        "clue": "“___ in Boots” (fairy tale with an anthropomorphic cat)",
+        "word": "PUSS",
+        "answer_length": 4,
+        "explanation": "PUSS is the feline character in the classic fairy tale \"Puss in Boots."
+      },
+      {
+        "index": 5,
+        "position": "middle",
+        "clue": "Do well enough to clear an examination in school",
+        "word": "PASS",
+        "answer_length": 4,
+        "explanation": "To pass an examination means to achieve a satisfactory standard to be successful."
+      },
+      {
+        "index": 6,
+        "position": "middle",
+        "clue": "Future’s opposite",
+        "word": "PAST",
+        "answer_length": 4,
+        "explanation": "PAST represents the time that has already occurred, the opposite of the future."
+      },
+      {
+        "index": 7,
+        "position": "bottom",
+        "clue": "The top + bottom rows = Two words to describe something of extremely great size or scope.",
+        "word": "VAST",
+        "answer_length": 4,
+        "explanation": "VAST completes \"huge vast\", so the top and bottom rows answer the shared final clue together."
+      }
+    ]
+  },
+  {
     "number": 779,
     "date": "June 18, 2026",
     "isoDate": "2026-06-18",

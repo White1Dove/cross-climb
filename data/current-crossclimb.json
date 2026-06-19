@@ -1,70 +1,70 @@
 {
   "game_id": "crossclimb",
   "game_name": "Crossclimb",
-  "puzzle_number": 779,
-  "puzzle_date": "June 18, 2026",
-  "puzzle_label": "Crossclimb #779",
+  "puzzle_number": 780,
+  "puzzle_date": "June 19, 2026",
+  "puzzle_label": "Crossclimb #780",
   "normalized_puzzle": {
     "word_count": 7,
     "word_length": 4,
     "middle_word_count": 5,
-    "final_clue": "The top + bottom rows = A two-word phrase for a glass vessel used to hold or mix substances for a scientific experiment. Keep in mind: The first word may be at the bottom.",
+    "final_clue": "The top + bottom rows = Two words to describe something of extremely great size or scope.",
     "rows": [
       {
         "index": 1,
         "position": "top",
-        "clue": "The top + bottom rows = A two-word phrase for a glass vessel used to hold or mix substances for a scientific experiment. Keep in mind: The first word may be at the bottom.",
-        "word": "TEST",
+        "clue": "The top + bottom rows = Two words to describe something of extremely great size or scope.",
+        "word": "HUGE",
         "answer_length": 4,
-        "explanation": "TEST is the first half of \"test tube\", the top + bottom answer for the shared final clue: \"The top + bottom rows = A two-word phrase for a glass vessel used to hold or mix substances for a scientific experiment. Keep in mind: The first word may be at the bottom\"."
+        "explanation": "HUGE is the first half of \"huge vast\", the top + bottom answer for the shared final clue: \"The top + bottom rows = Two words to describe something of extremely great size or scope\"."
       },
       {
         "index": 2,
         "position": "middle",
-        "clue": "Shelter set up when camping",
-        "word": "TENT",
+        "clue": "Embraces in one’s arms",
+        "word": "HUGS",
         "answer_length": 4,
-        "explanation": "A tent is a portable shelter commonly set up for camping."
+        "explanation": "Hugs are a way to embrace someone tightly in your arms."
       },
       {
         "index": 3,
         "position": "middle",
-        "clue": "Column to the left of the “ones”, in whole numbers",
-        "word": "TENS",
+        "clue": "Dogs with wrinkly, flat faces",
+        "word": "PUGS",
         "answer_length": 4,
-        "explanation": "The word TENS refers to the place value column immediately to the left of the ones column."
+        "explanation": "Pugs are a dog breed known for their distinctive wrinkly, flat faces."
       },
       {
         "index": 4,
         "position": "middle",
-        "clue": "Metal containers for food named for a chemical element",
-        "word": "TINS",
+        "clue": "“___ in Boots” (fairy tale with an anthropomorphic cat)",
+        "word": "PUSS",
         "answer_length": 4,
-        "explanation": "Tins are metal containers often used for food and are named after the chemical element tin."
+        "explanation": "PUSS is the feline character in the classic fairy tale \"Puss in Boots."
       },
       {
         "index": 5,
         "position": "middle",
-        "clue": "Prong on a fork",
-        "word": "TINE",
+        "clue": "Do well enough to clear an examination in school",
+        "word": "PASS",
         "answer_length": 4,
-        "explanation": "A TINE is a prong found on a fork, like those used for eating."
+        "explanation": "To pass an examination means to achieve a satisfactory standard to be successful."
       },
       {
         "index": 6,
         "position": "middle",
-        "clue": "What a whistler might whistle",
-        "word": "TUNE",
+        "clue": "Future’s opposite",
+        "word": "PAST",
         "answer_length": 4,
-        "explanation": "A whistler might produce a melody or tune by whistling."
+        "explanation": "PAST represents the time that has already occurred, the opposite of the future."
       },
       {
         "index": 7,
         "position": "bottom",
-        "clue": "The top + bottom rows = A two-word phrase for a glass vessel used to hold or mix substances for a scientific experiment. Keep in mind: The first word may be at the bottom.",
-        "word": "TUBE",
+        "clue": "The top + bottom rows = Two words to describe something of extremely great size or scope.",
+        "word": "VAST",
         "answer_length": 4,
-        "explanation": "TUBE completes \"test tube\", so the top and bottom rows answer the shared final clue together."
+        "explanation": "VAST completes \"huge vast\", so the top and bottom rows answer the shared final clue together."
       }
     ]
   },
@@ -75,33 +75,33 @@
       "5 middle words"
     ],
     "medium_hints": [
-      "Starts with T",
-      "Starts with T",
-      "Starts with T",
-      "Starts with T",
-      "Starts with T",
-      "Starts with T",
-      "Starts with T"
+      "Starts with H",
+      "Starts with H",
+      "Starts with P",
+      "Starts with P",
+      "Starts with P",
+      "Starts with P",
+      "Starts with V"
     ]
   },
   "solution": {
-    "top_word": "TEST",
-    "bottom_word": "TUBE",
+    "top_word": "HUGE",
+    "bottom_word": "VAST",
     "full_ladder": [
-      "TEST",
-      "TENT",
-      "TENS",
-      "TINS",
-      "TINE",
-      "TUNE",
-      "TUBE"
+      "HUGE",
+      "HUGS",
+      "PUGS",
+      "PUSS",
+      "PASS",
+      "PAST",
+      "VAST"
     ],
     "middle_ladder": [
-      "TENT",
-      "TENS",
-      "TINS",
-      "TINE",
-      "TUNE"
+      "HUGS",
+      "PUGS",
+      "PUSS",
+      "PASS",
+      "PAST"
     ]
   }
 }
