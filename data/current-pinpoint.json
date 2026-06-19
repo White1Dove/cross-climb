@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 779,
-  "puzzle_date": "June 18, 2026",
-  "puzzle_label": "Pinpoint #779",
+  "puzzle_number": 780,
+  "puzzle_date": "June 19, 2026",
+  "puzzle_label": "Pinpoint #780",
   "normalized_puzzle": {
-    "category": "Things that are the tallest of their kind",
+    "category": "Words that come before “spot”",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Angel Falls (in Venezuela)"
+        "text": "Bright"
       },
       {
         "index": 2,
-        "text": "Hyperion (redwood tree in US)"
+        "text": "Blind"
       },
       {
         "index": 3,
-        "text": "Giraffe (among all land animals)"
+        "text": "Sweet"
       },
       {
         "index": 4,
-        "text": "Mauna Kea (base to peak)"
+        "text": "Hits the"
       },
       {
         "index": 5,
-        "text": "Burj Khalifa (Dubai skyscraper)"
+        "text": "X marks the"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Angel Falls (in Venezuela)"
+      "First clue: Bright"
     ]
   },
   "solution": {
-    "final_answer": "Things that are the tallest of their kind"
+    "final_answer": "Words that come before “spot”"
   }
 }
