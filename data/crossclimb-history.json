@@ -37,7 +37,7 @@
         "clue": "Column to the left of the “ones”, in whole numbers",
         "word": "TENS",
         "answer_length": 4,
-        "explanation": "The word TENS represents the place value column immediately to the left of the ones column."
+        "explanation": "The word TENS refers to the place value column immediately to the left of the ones column."
       },
       {
         "index": 4,
@@ -45,7 +45,7 @@
         "clue": "Metal containers for food named for a chemical element",
         "word": "TINS",
         "answer_length": 4,
-        "explanation": "Tins are metal containers often used for food and are named for the chemical element tin."
+        "explanation": "Tins are metal containers often used for food and are named after the chemical element tin."
       },
       {
         "index": 5,
@@ -53,7 +53,7 @@
         "clue": "Prong on a fork",
         "word": "TINE",
         "answer_length": 4,
-        "explanation": "A TINE is a prong, like those found on a fork."
+        "explanation": "A TINE is a prong found on a fork, like those used for eating."
       },
       {
         "index": 6,
@@ -61,7 +61,7 @@
         "clue": "What a whistler might whistle",
         "word": "TUNE",
         "answer_length": 4,
-        "explanation": "A tune is a melody that a whistler might produce."
+        "explanation": "A whistler might produce a melody or tune by whistling."
       },
       {
         "index": 7,
