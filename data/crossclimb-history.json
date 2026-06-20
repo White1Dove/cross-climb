@@ -1,5 +1,79 @@
 [
   {
+    "number": 781,
+    "date": "June 20, 2026",
+    "isoDate": "2026-06-20",
+    "start": "MASK",
+    "end": "PUCK",
+    "ladder": [
+      "MASK",
+      "TASK",
+      "TACK",
+      "LACK",
+      "LICK",
+      "PICK",
+      "PUCK"
+    ],
+    "rows": [
+      {
+        "index": 1,
+        "position": "top",
+        "clue": "The top + bottom rows = Something an ice hockey goalie wears, and something an ice hockey goalie tries to block. Keep in mind: the first word may be on the bottom.",
+        "word": "MASK",
+        "answer_length": 4,
+        "explanation": "MASK is the first half of \"mask puck\", the top + bottom answer for the shared final clue: \"The top + bottom rows = Something an ice hockey goalie wears, and something an ice hockey goalie tries to block. Keep in mind: the first word may be on the bottom\"."
+      },
+      {
+        "index": 2,
+        "position": "middle",
+        "clue": "Element of a project that must be completed",
+        "word": "TASK",
+        "answer_length": 4,
+        "explanation": "A task is a piece of work that needs to be done as part of a larger project."
+      },
+      {
+        "index": 3,
+        "position": "middle",
+        "clue": "Affix to the wall with a small pin",
+        "word": "TACK",
+        "answer_length": 4,
+        "explanation": "A tack is a small, sharp-pointed pin used for fastening things."
+      },
+      {
+        "index": 4,
+        "position": "middle",
+        "clue": "Complete absence, as of a quality",
+        "word": "LACK",
+        "answer_length": 4,
+        "explanation": "LACK signifies a complete absence or deficiency of something."
+      },
+      {
+        "index": 5,
+        "position": "middle",
+        "clue": "Small taste of an ice cream cone",
+        "word": "LICK",
+        "answer_length": 4,
+        "explanation": "A lick is a small taste, often enjoyed from an ice cream cone."
+      },
+      {
+        "index": 6,
+        "position": "middle",
+        "clue": "Choose among options",
+        "word": "PICK",
+        "answer_length": 4,
+        "explanation": "To pick is to choose among available options."
+      },
+      {
+        "index": 7,
+        "position": "bottom",
+        "clue": "The top + bottom rows = Something an ice hockey goalie wears, and something an ice hockey goalie tries to block. Keep in mind: the first word may be on the bottom.",
+        "word": "PUCK",
+        "answer_length": 4,
+        "explanation": "PUCK completes \"mask puck\", so the top and bottom rows answer the shared final clue together."
+      }
+    ]
+  },
+  {
     "number": 780,
     "date": "June 19, 2026",
     "isoDate": "2026-06-19",
