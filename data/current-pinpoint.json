@@ -1,32 +1,32 @@
 {
   "game_id": "pinpoint",
   "game_name": "Pinpoint",
-  "puzzle_number": 780,
-  "puzzle_date": "June 19, 2026",
-  "puzzle_label": "Pinpoint #780",
+  "puzzle_number": 781,
+  "puzzle_date": "June 20, 2026",
+  "puzzle_label": "Pinpoint #781",
   "normalized_puzzle": {
-    "category": "Words that come before “spot”",
+    "category": "Things people can climb",
     "clue_count": 5,
     "clues": [
       {
         "index": 1,
-        "text": "Bright"
+        "text": "Stairs"
       },
       {
         "index": 2,
-        "text": "Blind"
+        "text": "Trees"
       },
       {
         "index": 3,
-        "text": "Sweet"
+        "text": "Mountains"
       },
       {
         "index": 4,
-        "text": "Hits the"
+        "text": "The career ladder"
       },
       {
         "index": 5,
-        "text": "X marks the"
+        "text": "Indoor rock walls"
       }
     ]
   },
@@ -35,10 +35,10 @@
       "Today's Pinpoint has 5 clues."
     ],
     "medium_hints": [
-      "First clue: Bright"
+      "First clue: Stairs"
     ]
   },
   "solution": {
-    "final_answer": "Words that come before “spot”"
+    "final_answer": "Things people can climb"
   }
 }
