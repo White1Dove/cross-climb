@@ -24,7 +24,7 @@
         "clue": "Element of a project that must be completed",
         "word": "TASK",
         "answer_length": 4,
-        "explanation": "A task is a piece of work that needs to be done as part of a larger project."
+        "explanation": "A task is a specific piece of work that is part of a larger project."
       },
       {
         "index": 3,
@@ -48,7 +48,7 @@
         "clue": "Small taste of an ice cream cone",
         "word": "LICK",
         "answer_length": 4,
-        "explanation": "A lick is a small taste, often enjoyed from an ice cream cone."
+        "explanation": "A lick is a small taste of something, like an ice cream cone."
       },
       {
         "index": 6,
